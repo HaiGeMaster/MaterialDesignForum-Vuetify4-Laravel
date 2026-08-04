@@ -53,12 +53,12 @@ pnpm build
 
 构建产物默认输出到 `../MaterialDesignForum-Laravel/public/themes/MaterialDesignForum-Vuetify4/`，配合 Laravel 后端部署。
 
-> **工作区目录结构**：三个前端项目共享同一个 Laravel 后端，Web 构建产物统一输出到 `MaterialDesignForum-Laravel/public/themes/` 目录下：
+> **工作区目录结构**：多个前端项目共享同一个 Laravel 后端，Web 构建产物统一输出到 `MaterialDesignForum-Laravel/public/themes/` 目录下：
 > ```
 > Vue/                                  # 工作区根目录
 > ├── MaterialDesignForum-Laravel/       # Laravel 后端（共享）
 > │   └── public/themes/
-> │       ├── MaterialDesignForum-MCUI/       # MCUI 主题构建产物
+> │       ├── XXX/                            # 主题构建产物
 > │       ├── MaterialDesignForum-MDUI2/      # MDUI2 主题构建产物
 > │       └── MaterialDesignForum-Vuetify4/  # Vuetify4 主题构建产物
 > ├── MaterialDesignForum-MDUI2-Laravel/ # MDUI2 前端项目
