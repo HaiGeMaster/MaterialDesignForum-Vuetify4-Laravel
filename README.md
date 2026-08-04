@@ -58,7 +58,7 @@ pnpm build
 > Vue/                                  # 工作区根目录
 > ├── MaterialDesignForum-Laravel/       # Laravel 后端（共享）
 > │   └── public/themes/
-> │       ├── XXX/                            # 主题构建产物
+> │       ├── MaterialDesignForum-MCUI/        # MCUI 主题构建产物
 > │       ├── MaterialDesignForum-MDUI2/      # MDUI2 主题构建产物
 > │       └── MaterialDesignForum-Vuetify4/  # Vuetify4 主题构建产物
 > ├── MaterialDesignForum-MDUI2-Laravel/ # MDUI2 前端项目
