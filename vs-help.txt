@@ -1,0 +1,92 @@
+
+
+npx tauri icon 源图.png
+npx tauri icon 源图.png
+npx tauri icon tauri_app_icon1.png
+
+删除// /*类注释
+\/\*[\s\S]*\*\/|\/\/.*
+
+html注释： <-- -->包括换行
+<!--([\s\S|\r]*?)-->
+
+删除空白 格 行
+^\s*(?=\r?$)\n
+
+/*!
+ * Material Design Forum
+ * (c) 2023 HaiGeMaster
+ * QQ:2652549974
+ */
+
+
+ vite --host
+
+
+推荐使用的 // 类型的正则表达式（不会删除//www网址）
+//(?!.*\..*\.).*\n
+
+多行注释： /** */ 类型的正则表达式
+/\*(.|\r\n|\n)*?\*/
+
+location / {
+  try_files $uri $uri/ /index.php;
+}
+
+折叠所有代码块：Ctrl + K，然后按下Ctrl + 0（零）
+展开所有代码块：Ctrl + K，然后按下Ctrl + J
+折叠当前代码块：Ctrl + Shift + [（左方括号）
+展开当前代码块：Ctrl + Shift + ]（右方括号）
+
+tree /F /A 生成文件目录树状图
+
+/target/  // 忽略这个target 目录
+log/*     // 忽略log下的所有文件
+css/*.css // 忽略css目录下的.css文件
+
+将 \$t\('([^']*)'\) 替换为 t('')
+
+npx jsdoc global.js
+
+
+
+package.json:// "parser": "@babel/eslint-parser","parser": "espree"
+
+
+
+
+/**
+ * @typedef {Object} BaseAnswerModel
+ * @property {string} id - 回答ID
+ * @property {string} content - 回答内容
+ * @property {number} votes - 点赞数
+ */
+
+/**
+ * @typedef {Object} MinimalAnswerModel
+ * @property {string} id - 回答ID
+ */
+
+/**
+ * @description 获取仅包含 ID 的回答
+ * @returns {Promise<{ is_add: boolean, answer: MinimalAnswerModel }>}
+ */
+export async function GetAnswerWithIdOnly() {
+  return {
+    is_add: true,
+    answer: {
+      id: "123" // 只返回 id
+    }
+  };
+}
+
+在需要扩展的地方，用 @typedef 继承并新增属性​​：
+/**
+ * @typedef {BaseAnswerModel & { votes: number }} AnswerModelWithVotes
+ * @property {number} votes - 点赞数（新增属性）
+ */
+
+/**
+ * @typedef {BaseAnswerModel & { comments: CommentModel[] }} AnswerModelWithComments
+ * @property {CommentModel[]} comments - 评论列表（新增属性）
+ */

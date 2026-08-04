@@ -1,0 +1,1 @@
+export default {"Message":{"langInfo":{"bcp47":"ru","flagicon":"ru","hello":"Привет, мир!","langcode":"ru_RU","langname":"Русский (Россия)","LanguageMaker":"Автор языка: HaiGeMaster","show":true,"usability":true,"vuetifyLangcode":"ru"}}};

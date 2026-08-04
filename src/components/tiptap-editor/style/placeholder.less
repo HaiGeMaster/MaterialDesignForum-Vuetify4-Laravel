@@ -1,0 +1,16 @@
+// .tiptap p.is-editor-empty:first-child::before {
+//   color: #adb5bd80;
+//   content: attr(data-placeholder);
+//   float: left;
+//   height: 0;
+//   pointer-events: none;
+// }
+
+// 在每行新上显示占位符。
+.tiptap p.is-empty::before {
+  color: #adb5bd80;
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}

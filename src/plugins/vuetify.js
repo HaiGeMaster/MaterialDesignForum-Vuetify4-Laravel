@@ -1,0 +1,615 @@
+/**
+ * plugins/vuetify.js
+ *
+ * Framework documentation: https://vuetifyjs.com`
+ */
+
+// Styles
+import '@mdi/font/css/materialdesignicons.css'
+import 'vuetify/styles'
+import colors from 'vuetify/util/colors'
+// import '@/styles/settings.scss'
+// Translations provided by Vuetify
+import {
+  // pl,
+  zhHans,
+  en,
+  zhHant,
+  ru,
+  fr,
+  de,
+  ja,
+  ko,
+} from 'vuetify/locale'
+
+// Your own translation file
+// import sv from './i18n/vuetify/sv'
+
+// Composables
+import { createVuetify } from 'vuetify'
+// import { md1,md2,md3 } from 'vuetify/blueprints'
+// https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
+
+// import * as components from 'vuetify/components'
+// import * as labsComponents from 'vuetify/labs/components'
+
+//对象颜色值：
+export const MD_OBJECT_COLORS = {
+  topic: colors.orange.base,
+  question: colors.deepPurple.base,
+  answer: colors.purple.base,
+  article: colors.teal.base,
+  comment: colors.green.base,
+  reply: colors.lightGreen.base,
+  user_group: colors.red.base,
+  user: colors.blue.base,
+  report: colors.blueGrey.base,
+}
+
+const VuetifyThemes = {
+  // light: {
+  //   colors: {
+  //     background: '#eeefe6',
+  //     surface: '#f9faf1',
+  //     'surface-dim': '#dadbd2',
+  //     'surface-bright': '#f9faf1',
+  //     'surface-container-lowest': '#ffffff',
+  //     'surface-container-low': '#f3f4ec',
+  //     'surface-container': '#eeefe6',
+  //     'surface-container-high': '#e8e9e0',
+  //     'surface-container-highest': '#e2e3db',
+  //     'on-surface': '#1a1c17',
+  //     'inverse-surface': '#2f312c',
+  //     'inverse-on-surface': '#f1f1e9',
+  //     outline: '#73796c',
+  //     'outline-variant': '#c3c9ba',
+  //     primary: '#40682c',
+  //     'on-primary': '#ffffff',
+  //     'primary-container': '#c0f0a4',
+  //     'on-primary-container': '#072100',
+  //     'inverse-primary': '#a5d48a',
+  //     secondary: '#646104',
+  //     'on-secondary': '#ffffff',
+  //     'secondary-container': '#ece681',
+  //     'on-secondary-container': '#1e1c00',
+  //     tertiary: '#026c50',
+  //     'on-tertiary': '#ffffff',
+  //     'tertiary-container': '#9ef4d0',
+  //     'on-tertiary-container': '#002116',
+  //     error: '#ba1a1a',
+  //     'on-error': '#ffffff',
+  //     'error-container': '#ffdad6',
+  //     'on-error-container': '#410002',
+  //     'primary-fixed': '#c0f0a4',
+  //     'primary-fixed-dim': '#a5d48a',
+  //     'on-primary-fixed': '#072100',
+  //     'on-primary-fixed-variant': '#285016',
+  //     'secondary-fixed': '#ece681',
+  //     'secondary-fixed-dim': '#cfca69',
+  //     'on-secondary-fixed': '#1e1c00',
+  //     'on-secondary-fixed-variant': '#4c4900',
+  //     'tertiary-fixed': '#9ef4d0',
+  //     'tertiary-fixed-dim': '#82d7b4',
+  //     'on-tertiary-fixed': '#002116',
+  //     'on-tertiary-fixed-variant': '#00513b',
+  //     'surface-light': '#e8e9e0',
+  //   },
+  //   dark: false,
+  //   variables: {
+  //     'overlay-background': '#181d14',
+  //   },
+  // },
+  // dark: {
+  //   colors: {
+  //     background: '#1e201b',
+  //     surface: '#12140f',
+  //     'surface-dim': '#12140f',
+  //     'surface-bright': '#383a34',
+  //     'surface-container-lowest': '#0c0f0a',
+  //     'surface-container-low': '#1a1c17',
+  //     'surface-container': '#1e201b',
+  //     'surface-container-high': '#282b25',
+  //     'surface-container-highest': '#333630',
+  //     'on-surface': '#e2e3db',
+  //     'inverse-surface': '#e2e3db',
+  //     'inverse-on-surface': '#2f312c',
+  //     outline: '#8d9385',
+  //     'outline-variant': '#43493d',
+  //     primary: '#a5d48a',
+  //     'on-primary': '#113801',
+  //     'primary-container': '#285016',
+  //     'on-primary-container': '#c0f0a4',
+  //     'inverse-primary': '#40682c',
+  //     secondary: '#cfca69',
+  //     'on-secondary': '#343200',
+  //     'secondary-container': '#4c4900',
+  //     'on-secondary-container': '#ece681',
+  //     tertiary: '#82d7b4',
+  //     'on-tertiary': '#003828',
+  //     'tertiary-container': '#00513b',
+  //     'on-tertiary-container': '#9ef4d0',
+  //     error: '#ffb4ab',
+  //     'on-error': '#690005',
+  //     'error-container': '#93000a',
+  //     'on-error-container': '#ffb4ab',
+  //     'primary-fixed': '#c0f0a4',
+  //     'primary-fixed-dim': '#a5d48a',
+  //     'on-primary-fixed': '#072100',
+  //     'on-primary-fixed-variant': '#285016',
+  //     'secondary-fixed': '#ece681',
+  //     'secondary-fixed-dim': '#cfca69',
+  //     'on-secondary-fixed': '#1e1c00',
+  //     'on-secondary-fixed-variant': '#4c4900',
+  //     'tertiary-fixed': '#9ef4d0',
+  //     'tertiary-fixed-dim': '#82d7b4',
+  //     'on-tertiary-fixed': '#002116',
+  //     'on-tertiary-fixed-variant': '#00513b',
+  //     'surface-light': '#383a34',
+  //   },
+  //   dark: true,
+  //   variables: {
+  //     'overlay-background': '#181d14',
+  //   },
+  // },
+
+  // light: {
+  //   colors: {
+  //     background: '#ebeef6',
+  //     surface: '#f8f9ff',
+  //     'surface-dim': '#d7dae2',
+  //     'surface-bright': '#f8f9ff',
+  //     'surface-container-lowest': '#ffffff',
+  //     'surface-container-low': '#f0f4fc',
+  //     'surface-container': '#ebeef6',
+  //     'surface-container-high': '#e5e8f0',
+  //     'surface-container-highest': '#dfe2ea',
+  //     'on-surface': '#181c22',
+  //     'inverse-surface': '#2c3137',
+  //     'inverse-on-surface': '#eef1f9',
+  //     outline: '#707883',
+  //     'outline-variant': '#bfc7d3',
+  //     primary: '#0061a4',
+  //     'on-primary': '#ffffff',
+  //     'primary-container': '#d1e4ff',
+  //     'on-primary-container': '#001d36',
+  //     'inverse-primary': '#9ecaff',
+  //     secondary: '#00677f',
+  //     'on-secondary': '#ffffff',
+  //     'secondary-container': '#b7eaff',
+  //     'on-secondary-container': '#001f28',
+  //     tertiary: '#4c50c3',
+  //     'on-tertiary': '#ffffff',
+  //     'tertiary-container': '#e1e0ff',
+  //     'on-tertiary-container': '#04006d',
+  //     error: '#ba1a1a',
+  //     'on-error': '#ffffff',
+  //     'error-container': '#ffdad6',
+  //     'on-error-container': '#410002',
+  //     'primary-fixed': '#d1e4ff',
+  //     'primary-fixed-dim': '#9ecaff',
+  //     'on-primary-fixed': '#001d36',
+  //     'on-primary-fixed-variant': '#00497d',
+  //     'secondary-fixed': '#b7eaff',
+  //     'secondary-fixed-dim': '#75d3f3',
+  //     'on-secondary-fixed': '#001f28',
+  //     'on-secondary-fixed-variant': '#004e61',
+  //     'tertiary-fixed': '#e1e0ff',
+  //     'tertiary-fixed-dim': '#c0c1ff',
+  //     'on-tertiary-fixed': '#04006d',
+  //     'on-tertiary-fixed-variant': '#3336ab',
+  //     'surface-light': '#e5e8f0',
+  //   },
+  //   dark: false,
+  //   variables: {
+  //     'overlay-background': '#141c25',
+  //   },
+  // },
+  // dark: {
+  //   colors: {
+  //     background: '#1c2026',
+  //     surface: '#0f1419',
+  //     'surface-dim': '#0f1419',
+  //     'surface-bright': '#353940',
+  //     'surface-container-lowest': '#0a0f14',
+  //     'surface-container-low': '#181c22',
+  //     'surface-container': '#1c2026',
+  //     'surface-container-high': '#262a30',
+  //     'surface-container-highest': '#31353b',
+  //     'on-surface': '#dfe2ea',
+  //     'inverse-surface': '#dfe2ea',
+  //     'inverse-on-surface': '#2c3137',
+  //     outline: '#89919d',
+  //     'outline-variant': '#404751',
+  //     primary: '#9ecaff',
+  //     'on-primary': '#003258',
+  //     'primary-container': '#00497d',
+  //     'on-primary-container': '#d1e4ff',
+  //     'inverse-primary': '#0061a4',
+  //     secondary: '#75d3f3',
+  //     'on-secondary': '#003543',
+  //     'secondary-container': '#004e61',
+  //     'on-secondary-container': '#b7eaff',
+  //     tertiary: '#c0c1ff',
+  //     'on-tertiary': '#181895',
+  //     'tertiary-container': '#3336ab',
+  //     'on-tertiary-container': '#e1e0ff',
+  //     error: '#ffb4ab',
+  //     'on-error': '#690005',
+  //     'error-container': '#93000a',
+  //     'on-error-container': '#ffb4ab',
+  //     'primary-fixed': '#d1e4ff',
+  //     'primary-fixed-dim': '#9ecaff',
+  //     'on-primary-fixed': '#001d36',
+  //     'on-primary-fixed-variant': '#00497d',
+  //     'secondary-fixed': '#b7eaff',
+  //     'secondary-fixed-dim': '#75d3f3',
+  //     'on-secondary-fixed': '#001f28',
+  //     'on-secondary-fixed-variant': '#004e61',
+  //     'tertiary-fixed': '#e1e0ff',
+  //     'tertiary-fixed-dim': '#c0c1ff',
+  //     'on-tertiary-fixed': '#04006d',
+  //     'on-tertiary-fixed-variant': '#3336ab',
+  //     'surface-light': '#353940',
+  //   },
+  //   dark: true,
+  //   variables: {
+  //     'overlay-background': '#141c25',
+  //   },
+  // },
+
+
+
+  light: {
+    dark: false,
+    colors: {
+      background: "#FFFFFF",
+      surface: "#FFFFFF",
+      "surface-bright": "#FFFFFF",
+      "surface-light": "#EEEEEE",
+      "surface-variant": "#424242",
+      "on-surface-variant": "#EEEEEE",
+      primary: "#1867C0",
+      "primary-darken-1": "#1F5592",
+      secondary: "#48A9A6",
+      "secondary-darken-1": "#018786",
+      error: "#B00020",
+      info: "#2196F3",
+      success: "#4CAF50",
+      warning: "#FB8C00"
+    },
+    variables: {
+      "border-color": "#000000",
+      "border-opacity": .12,
+      "shadow-color": "#000000",
+      "high-emphasis-opacity": .87,
+      "medium-emphasis-opacity": .6,
+      "disabled-opacity": .38,
+      "idle-opacity": .04,
+      "hover-opacity": .04,
+      "focus-opacity": .12,
+      "selected-opacity": .08,
+      "activated-opacity": .12,
+      "pressed-opacity": .12,
+      "dragged-opacity": .08,
+      "theme-kbd": "#EEEEEE",
+      "theme-on-kbd": "#000000",
+      "theme-code": "#F5F5F5",
+      "theme-on-code": "#000000",
+      "theme-on-dark": "#FFF",
+      "theme-on-light": "#000",
+      "elevation-overlay-color": "black",
+      "elevation-overlay-opacity-step": "2%"
+    }
+  },
+  dark: {
+    dark: true,
+    colors: {
+      background: "#121212",
+      surface: "#212121",
+      "surface-bright": "#ccbfd6",
+      "surface-light": "#424242",
+      "surface-variant": "#c8c8c8",
+      "on-surface-variant": "#000000",
+      primary: "#2196F3",
+      "primary-darken-1": "#277CC1",
+      secondary: "#54B6B2",
+      "secondary-darken-1": "#48A9A6",
+      error: "#CF6679",
+      info: "#2196F3",
+      success: "#4CAF50",
+      warning: "#FB8C00"
+    },
+    variables: {
+      "border-color": "#FFFFFF",
+      "border-opacity": .12,
+      "shadow-color": "#000000",
+      "high-emphasis-opacity": 1,
+      "medium-emphasis-opacity": .7,
+      "disabled-opacity": .5,
+      "idle-opacity": .1,
+      "hover-opacity": .04,
+      "focus-opacity": .12,
+      "selected-opacity": .08,
+      "activated-opacity": .12,
+      "pressed-opacity": .16,
+      "dragged-opacity": .08,
+      "theme-kbd": "#424242",
+      "theme-on-kbd": "#FFFFFF",
+      "theme-code": "#343434",
+      "theme-on-code": "#CCCCCC",
+      "theme-on-dark": "#FFF",
+      "theme-on-light": "#000",
+      "elevation-overlay-color": "white",
+      "elevation-overlay-opacity-step": "2%"
+    }
+  },
+  asphalt9: {
+    dark: true,
+    colors: {
+      background: "#0a0e17",        // 深蓝黑背景（模拟夜赛）
+      primary: "#ff3e00",           // 火焰橙（赛车经典色）
+      surface: "#1a2238",           // 金属蓝灰（车身质感）
+      info: "#00e5ff",              // 电子蓝（科技感）
+      accent: "#ff00aa",             // 霓虹粉（速度线效果）
+      success: "#39ff14",            // 荧光绿（氮气加速）
+      "surface-light": "#2d3a5c",    // 浅金属蓝
+      "surface-bright": "#4a5a8a",   // 高光蓝
+      "surface-variant": "#ff3e00",  // 火焰橙变体
+      "on-surface-variant": "#000",  // 深色文字
+      "primary-darken-1": "#e03800", // 深火焰橙
+      secondary: "#00e5ff",          // 电子蓝
+      "secondary-darken-1": "#00b8d4",
+      error: "#ff1744",              // 警报红
+      warning: "#ffea00",            // 警示黄
+      // 新增赛道元素色
+      track: "#2a3a5a",              // 赛道灰
+      nitro: "#39ff14",              // 氮气绿
+      speedline: "#ff00aa"           // 速度线粉
+    },
+    variables: {
+      "border-color": "#ff3e00",     // 火焰橙边框
+      "border-opacity": 0.3,
+      "high-emphasis-opacity": 0.9,
+      "medium-emphasis-opacity": 0.7,
+      "disabled-opacity": 0.3,
+      "idle-opacity": 0.05,
+      "hover-opacity": 0.1,
+      "focus-opacity": 0.2,
+      "selected-opacity": 0.25,
+      "activated-opacity": 0.3,
+      "pressed-opacity": 0.35,
+      "dragged-opacity": 0.15,
+      "theme-kbd": "#ff3e00",         // 键盘火焰橙
+      "theme-on-kbd": "#000",
+      "theme-code": "#1a2238",        // 代码金属蓝
+      "theme-on-code": "#00e5ff",     // 代码电子蓝
+      "theme-on-dark": "#FFF",
+      // 新增动态效果变量
+      "speed-blur": "0 0 10px #ff00aa",
+      "nitro-glow": "0 0 15px #39ff14"
+    }
+  },
+  blackguard: {
+    dark: true,
+    colors: {
+      background: "#0f0c24",
+      primary: "#e7810d",
+      surface: "#1e184a",
+      info: "#9c27b0",
+      accent: "#FF4081",
+      success: "#84b38a",
+      "surface-light": "#362b89",
+      "surface-bright": "#564f8a",
+      "surface-variant": "#6458b4",
+      "on-surface-variant": "#FFFFFF",
+      "primary-darken-1": "#c56e0b",
+      secondary: "#8A2BE2",
+      "secondary-darken-1": "#7919cb",
+      error: "#FF5555",
+      warning: "#ffa726"
+    },
+    variables: {
+      "border-color": "#FFFFFF",
+      "border-opacity": .12,
+      "high-emphasis-opacity": .87,
+      "medium-emphasis-opacity": .6,
+      "disabled-opacity": .38,
+      "idle-opacity": .1,
+      "hover-opacity": .08,
+      "focus-opacity": .12,
+      "selected-opacity": .12,
+      "activated-opacity": .12,
+      "pressed-opacity": .16,
+      "dragged-opacity": .08,
+      "theme-kbd": "#212529",
+      "theme-on-kbd": "#FFFFFF",
+      "theme-code": "#343434",
+      "theme-on-code": "#CCCCCC",
+      "theme-on-dark": "#FFF",
+    }
+  },
+  polaris: {
+    dark: true,
+    colors: {
+      background: "#1f0a0d",
+      primary: "#972800",
+      surface: "#29110e",
+      info: "#e7810d",
+      accent: "#b35000",
+      success: "#486a2b",
+      "surface-light": "#773421",
+      "surface-bright": "#ffa752",
+      "surface-variant": "#924d2c",
+      "on-surface-variant": "#FFFFFF",
+      "primary-darken-1": "#c33100",
+      secondary: "#ac1900",
+      "secondary-darken-1": "#8a1600",
+      error: "#ff5555",
+      warning: "#ffa726"
+    },
+    variables: {
+      "border-color": "#ffffff",
+      "border-opacity": .12,
+      "high-emphasis-opacity": .87,
+      "medium-emphasis-opacity": .6,
+      "disabled-opacity": .38,
+      "idle-opacity": .1,
+      "hover-opacity": .08,
+      "focus-opacity": .12,
+      "selected-opacity": .12,
+      "activated-opacity": .12,
+      "pressed-opacity": .16,
+      "dragged-opacity": .08,
+      "theme-kbd": "#212529",
+      "theme-on-kbd": "#ffffff",
+      "theme-code": "#343434",
+      "theme-on-code": "#cccccc",
+      "theme-on-dark": "#FFF",
+    }
+  },
+  nebula: {
+    dark: true,
+    colors: {
+      background: "#0f172a",
+      primary: "#3462e3",
+      surface: "#1e293b",
+      info: "#64748b",
+      accent: "#0ea5e9",
+      success: "#14b8a6",
+      "surface-light": "#2e3d59",
+      "surface-bright": "#87a7ff",
+      "surface-variant": "#334155",
+      "on-surface-variant": "#FFFFFF",
+      "primary-darken-1": "#1c2d60",
+      secondary: "#0284c7",
+      "secondary-darken-1": "#0369a1",
+      error: "#ef4444",
+      warning: "#f97316"
+    },
+    variables: {
+      "border-color": "#ffffff",
+      "border-opacity": .2,
+      "high-emphasis-opacity": .87,
+      "medium-emphasis-opacity": .6,
+      "disabled-opacity": .38,
+      "idle-opacity": .1,
+      "hover-opacity": .08,
+      "focus-opacity": .12,
+      "selected-opacity": .12,
+      "activated-opacity": .12,
+      "pressed-opacity": .16,
+      "dragged-opacity": .08,
+      "theme-kbd": "#1e40af",
+      "theme-on-kbd": "#dbeafe",
+      "theme-code": "#0f172a",
+      "theme-on-code": "#93c5fd",
+      "theme-on-dark": "#FFF",
+    }
+  },
+  odyssey: {
+    dark: false,
+    colors: {
+      background: "#fffbe6",
+      primary: "#356859",
+      surface: "#fffbe6",
+      info: "#37966f",
+      accent: "#b9e4c9",
+      success: "#5bb49a",
+      "surface-light": "#95b3a0",
+      "surface-bright": "#ffffff",
+      "surface-variant": "#37966f",
+      "primary-darken-1": "#00CC00",
+      secondary: "#FD5523",
+      "secondary-darken-1": "#CC3700",
+      error: "#FF5555",
+      warning: "#ecb85b"
+    },
+    variables: {
+      "border-color": "#000000",
+      "border-opacity": .24,
+      "high-emphasis-opacity": 1,
+      "medium-emphasis-opacity": .87,
+      "disabled-opacity": .5,
+      "idle-opacity": .1,
+      "hover-opacity": .2,
+      "focus-opacity": .3,
+      "selected-opacity": .3,
+      "activated-opacity": .3,
+      "pressed-opacity": .4,
+      "dragged-opacity": .2,
+      "theme-kbd": "#000000",
+      "theme-on-kbd": "#ffffff",
+      "theme-code": "#000000",
+      "theme-on-code": "#ffffff",
+      "theme-on-dark": "#FFF",
+    }
+  },
+  highContrast: {
+    dark: true,
+    colors: {
+      background: "#000000",
+      surface: "#121212",
+      primary: "#ffD700",
+      "primary-darken-1": "#e6c300",
+      secondary: "#00ccdd",
+      "secondary-darken-1": "#00e600",
+      accent: "#ff00ff",
+      info: "#31aaff",
+      warning: "#ffaa00",
+      error: "#ff0000",
+      success: "#00ff00",
+      "on-surface-variant": "#ffffff",
+      "surface-light": "#222222",
+      "surface-bright": "#000000",
+      "surface-variant": "#333333"
+    },
+    variables: {
+      "border-color": "#ffffff",
+      "border-opacity": .87,
+      "high-emphasis-opacity": 1,
+      "medium-emphasis-opacity": .87,
+      "disabled-opacity": .5,
+      "idle-opacity": .1,
+      "hover-opacity": .2,
+      "focus-opacity": .3,
+      "selected-opacity": .3,
+      "activated-opacity": .3,
+      "pressed-opacity": .4,
+      "dragged-opacity": .2,
+      "theme-kbd": "#000000",
+      "theme-on-kbd": "#ffffff",
+      "theme-code": "#000000",
+      "theme-on-code": "#ffffff",
+      "theme-on-dark": "#FFF",
+    }
+  }
+}
+
+export default createVuetify({
+  // components: {
+  //   ...components,
+  //   ...labsComponents,
+  // },
+  locale: {
+    locale: 'zhHans',
+    fallback: 'en',
+    messages: {
+      zhHans,
+      en,
+      zhHant,
+      ru,
+      fr,
+      de,
+      ja,
+      ko,
+      // pl,
+      // sv
+    },
+  },
+  // blueprint: md3,
+  theme: {
+    // layers: false,
+    defaultTheme: 'system',
+    themes: VuetifyThemes,
+  },
+})

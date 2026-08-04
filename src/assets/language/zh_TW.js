@@ -1,0 +1,1 @@
+export default {"Message":{"langInfo":{"bcp47":"zh-TW","flagicon":"tw","hello":"您好世界！","langcode":"zh_TW","langname":"繁體中文(中国台灣)","LanguageMaker":"語言製作者:HaiGeMaster","show":true,"usability":true,"vuetifyLangcode":"zhHant"}}};

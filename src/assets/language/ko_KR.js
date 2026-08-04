@@ -1,0 +1,1 @@
+export default {"Message":{"langInfo":{"bcp47":"ko","flagicon":"kr","hello":"안녕하세요 세계!","langcode":"ko_KR","langname":"한국어 (대한민국)","LanguageMaker":"언어 생성자: HaiGeMaster","show":true,"usability":true,"vuetifyLangcode":"ko"}}};

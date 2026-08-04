@@ -1,0 +1,4112 @@
+{
+  "src\\App.vue": [
+    {
+      "key": "Message.App.Just",
+      "fullMatch": "$t('Message.App.Just'"
+    },
+    {
+      "key": "Message.App.NMinutesAgo",
+      "fullMatch": "$t('Message.App.NMinutesAgo'"
+    },
+    {
+      "key": "Message.App.Yesterday",
+      "fullMatch": "$t('Message.App.Yesterday'"
+    },
+    {
+      "key": "Message.App.LastYear",
+      "fullMatch": "$t('Message.App.LastYear'"
+    }
+  ],
+  "src\\components\\account\\components\\field-captcha.vue": [
+    {
+      "key": "Message.Components.Account.ImageCode",
+      "fullMatch": "$t('Message.Components.Account.ImageCode'"
+    },
+    {
+      "key": "Message.Components.Account.WeSuspectYouAreABot",
+      "fullMatch": "$t('Message.Components.Account.WeSuspectYouAreABot'"
+    },
+    {
+      "key": "Message.Components.Account.CannotBeEmpty",
+      "fullMatch": "$t('Message.Components.Account.CannotBeEmpty'"
+    },
+    {
+      "key": "Message.Components.Account.MaxLengthExceeded",
+      "fullMatch": "$t('Message.Components.Account.MaxLengthExceeded'"
+    },
+    {
+      "key": "Message.Components.Account.RefreshImageCode",
+      "fullMatch": "$t('Message.Components.Account.RefreshImageCode'"
+    }
+  ],
+  "src\\components\\account\\components\\field-email-code.vue": [
+    {
+      "key": "Message.Components.Account.EMailCode",
+      "fullMatch": "$t('Message.Components.Account.EMailCode'"
+    },
+    {
+      "key": "Message.Components.Account.CannotBeEmpty",
+      "fullMatch": "$t('Message.Components.Account.CannotBeEmpty'"
+    },
+    {
+      "key": "Message.Components.Account.MaxLengthExceeded",
+      "fullMatch": "$t('Message.Components.Account.MaxLengthExceeded'"
+    },
+    {
+      "key": "Message.Components.Account.SendEMailCode",
+      "fullMatch": "$t('Message.Components.Account.SendEMailCode'"
+    }
+  ],
+  "src\\components\\account\\components\\field-email.vue": [
+    {
+      "key": "Message.Components.Account.EMail",
+      "fullMatch": "$t('Message.Components.Account.EMail'"
+    },
+    {
+      "key": "Message.Components.Account.CannotBeEmpty",
+      "fullMatch": "$t('Message.Components.Account.CannotBeEmpty'"
+    },
+    {
+      "key": "Message.Components.Account.EMailError",
+      "fullMatch": "$t('Message.Components.Account.EMailError'"
+    },
+    {
+      "key": "Message.Components.Account.MaxLengthExceeded",
+      "fullMatch": "$t('Message.Components.Account.MaxLengthExceeded'"
+    }
+  ],
+  "src\\components\\account\\components\\field-more.vue": [
+    {
+      "key": "Message.Components.Account.MoreOption",
+      "fullMatch": "$t('Message.Components.Account.MoreOption'"
+    }
+  ],
+  "src\\components\\account\\components\\field-name.vue": [
+    {
+      "key": "Message.Components.Account.EMail",
+      "fullMatch": "$t('Message.Components.Account.EMail'"
+    },
+    {
+      "key": "Message.Components.Account.CannotBeEmpty",
+      "fullMatch": "$t('Message.Components.Account.CannotBeEmpty'"
+    },
+    {
+      "key": "Message.Components.Account.MaxLengthExceeded",
+      "fullMatch": "$t('Message.Components.Account.MaxLengthExceeded'"
+    }
+  ],
+  "src\\components\\account\\components\\field-password.vue": [
+    {
+      "key": "Message.Components.Account.Password",
+      "fullMatch": "$t('Message.Components.Account.Password'"
+    },
+    {
+      "key": "Message.Components.Account.CannotBeEmpty",
+      "fullMatch": "$t('Message.Components.Account.CannotBeEmpty'"
+    },
+    {
+      "key": "Message.Components.Account.MaxLengthExceeded",
+      "fullMatch": "$t('Message.Components.Account.MaxLengthExceeded'"
+    }
+  ],
+  "src\\components\\account\\components\\oauth\\github-button.vue": [
+    {
+      "key": "Message.App.TheCurrentEnvironmentIsUnavailable",
+      "fullMatch": "$t('Message.App.TheCurrentEnvironmentIsUnavailable'"
+    },
+    {
+      "key": "Message.Components.Account.LoginWithGithub",
+      "fullMatch": "$t('Message.Components.Account.LoginWithGithub'"
+    }
+  ],
+  "src\\components\\account\\components\\oauth\\google-button.vue": [
+    {
+      "key": "Message.App.TheCurrentEnvironmentIsUnavailable",
+      "fullMatch": "$t('Message.App.TheCurrentEnvironmentIsUnavailable'"
+    },
+    {
+      "key": "Message.Components.Account.LoginWithGoogle",
+      "fullMatch": "$t('Message.Components.Account.LoginWithGoogle'"
+    }
+  ],
+  "src\\components\\account\\components\\oauth\\microsoft-button.vue": [
+    {
+      "key": "Message.App.TheCurrentEnvironmentIsUnavailable",
+      "fullMatch": "$t('Message.App.TheCurrentEnvironmentIsUnavailable'"
+    },
+    {
+      "key": "Message.Components.Account.LoginWithMicrosoft",
+      "fullMatch": "$t('Message.Components.Account.LoginWithMicrosoft'"
+    }
+  ],
+  "src\\components\\account\\components\\oauth\\sso-button.vue": [
+    {
+      "key": "Message.App.TheCurrentEnvironmentIsUnavailable",
+      "fullMatch": "$t('Message.App.TheCurrentEnvironmentIsUnavailable'"
+    },
+    {
+      "key": "Message.Components.Account.LoginWithSSO",
+      "fullMatch": "$t('Message.Components.Account.LoginWithSSO'"
+    }
+  ],
+  "src\\components\\account\\components\\submit.vue": [
+    {
+      "key": "Message.Components.Account.Login",
+      "fullMatch": "$t('Message.Components.Account.Login'"
+    }
+  ],
+  "src\\components\\account\\components\\title.vue": [
+    {
+      "key": "Message.Components.Account.Login",
+      "fullMatch": "$t('Message.Components.Account.Login'"
+    }
+  ],
+  "src\\components\\account\\login.vue": [
+    {
+      "key": "Message.Components.Account.Login",
+      "fullMatch": "$t('Message.Components.Account.Login'"
+    },
+    {
+      "key": "Message.Components.Account.UserNameOrEMail",
+      "fullMatch": "$t('Message.Components.Account.UserNameOrEMail'"
+    },
+    {
+      "key": "Message.Components.Account.Password",
+      "fullMatch": "$t('Message.Components.Account.Password'"
+    },
+    {
+      "key": "Message.Components.Account.ImageCode",
+      "fullMatch": "$t('Message.Components.Account.ImageCode'"
+    },
+    {
+      "key": "Message.Components.Account.AgreeToUseCookieToKeepLoggedIn",
+      "fullMatch": "$t('Message.Components.Account.AgreeToUseCookieToKeepLoggedIn'"
+    },
+    {
+      "key": "Message.Components.Account.XWelcomeBack",
+      "fullMatch": "$t('Message.Components.Account.XWelcomeBack'"
+    },
+    {
+      "key": "Message.Components.Account.ForgetPassword",
+      "fullMatch": "\"Message.Components.Account.ForgetPassword\""
+    },
+    {
+      "key": "Message.Components.Account.Register",
+      "fullMatch": "\"Message.Components.Account.Register\""
+    }
+  ],
+  "src\\components\\account\\register.vue": [
+    {
+      "key": "Message.Components.Account.Register",
+      "fullMatch": "$t('Message.Components.Account.Register'"
+    },
+    {
+      "key": "Message.Components.Account.EMail",
+      "fullMatch": "$t('Message.Components.Account.EMail'"
+    },
+    {
+      "key": "Message.Components.Account.Password",
+      "fullMatch": "$t('Message.Components.Account.Password'"
+    },
+    {
+      "key": "Message.Components.Account.EMailCode",
+      "fullMatch": "$t('Message.Components.Account.EMailCode'"
+    },
+    {
+      "key": "Message.Components.Account.UserName",
+      "fullMatch": "$t('Message.Components.Account.UserName'"
+    },
+    {
+      "key": "Message.Components.Account.NextStep",
+      "fullMatch": "$t('Message.Components.Account.NextStep'"
+    },
+    {
+      "key": "Message.Components.Account.BackStep",
+      "fullMatch": "$t('Message.Components.Account.BackStep'"
+    },
+    {
+      "key": "Message.Components.Account.ForgetPassword",
+      "fullMatch": "\"Message.Components.Account.ForgetPassword\""
+    },
+    {
+      "key": "Message.Components.Account.Login",
+      "fullMatch": "\"Message.Components.Account.Login\""
+    }
+  ],
+  "src\\components\\account\\reset.vue": [
+    {
+      "key": "Message.Components.Account.ForgetPassword",
+      "fullMatch": "$t('Message.Components.Account.ForgetPassword'"
+    },
+    {
+      "key": "Message.Components.Account.EMail",
+      "fullMatch": "$t('Message.Components.Account.EMail'"
+    },
+    {
+      "key": "Message.Components.Account.EMailCode",
+      "fullMatch": "$t('Message.Components.Account.EMailCode'"
+    },
+    {
+      "key": "Message.Components.Account.Password",
+      "fullMatch": "$t('Message.Components.Account.Password'"
+    },
+    {
+      "key": "Message.Components.Account.NextStep",
+      "fullMatch": "$t('Message.Components.Account.NextStep'"
+    },
+    {
+      "key": "Message.Components.Account.BackStep",
+      "fullMatch": "$t('Message.Components.Account.BackStep'"
+    },
+    {
+      "key": "Message.Components.Account.Reset",
+      "fullMatch": "$t('Message.Components.Account.Reset'"
+    },
+    {
+      "key": "Message.Components.Account.Login",
+      "fullMatch": "\"Message.Components.Account.Login\""
+    },
+    {
+      "key": "Message.Components.Account.Register",
+      "fullMatch": "\"Message.Components.Account.Register\""
+    }
+  ],
+  "src\\components\\add-fab-button\\index.vue": [
+    {
+      "key": "Message.Admin.UserGroups.CreateNewUserGroup",
+      "fullMatch": "$t('Message.Admin.UserGroups.CreateNewUserGroup'"
+    },
+    {
+      "key": "Message.Components.AddFabButton.NewTopic",
+      "fullMatch": "$t('Message.Components.AddFabButton.NewTopic'"
+    },
+    {
+      "key": "Message.Components.AddFabButton.WriteAskAQuestion",
+      "fullMatch": "$t('Message.Components.AddFabButton.WriteAskAQuestion'"
+    },
+    {
+      "key": "Message.Components.Editor.NewQuestions",
+      "fullMatch": "$t('Message.Components.Editor.NewQuestions'"
+    },
+    {
+      "key": "Message.Components.Editor.Release",
+      "fullMatch": "$t('Message.Components.Editor.Release'"
+    },
+    {
+      "key": "Message.Components.AddFabButton.WriteAnArticle",
+      "fullMatch": "$t('Message.Components.AddFabButton.WriteAnArticle'"
+    },
+    {
+      "key": "Message.Components.Editor.NewArticles",
+      "fullMatch": "$t('Message.Components.Editor.NewArticles'"
+    },
+    {
+      "key": "Message.Components.AddFabButton.WriteAnAnswer",
+      "fullMatch": "$t('Message.Components.AddFabButton.WriteAnAnswer'"
+    },
+    {
+      "key": "Message.Components.Editor.WriteAnAnswer",
+      "fullMatch": "$t('Message.Components.Editor.WriteAnAnswer'"
+    },
+    {
+      "key": "Message.Components.Account.YouMustLoginToUseThisFeature",
+      "fullMatch": "$t('Message.Components.Account.YouMustLoginToUseThisFeature'"
+    },
+    {
+      "key": "Message.Components.Account.YouNeedAdminPermissionToUseThisFeature",
+      "fullMatch": "$t('Message.Components.Account.YouNeedAdminPermissionToUseThisFeature'"
+    }
+  ],
+  "src\\components\\answers\\answers-page.vue": [
+    {
+      "key": "Message.Client.Question.NAnswers",
+      "fullMatch": "$t('Message.Client.Question.NAnswers'"
+    },
+    {
+      "key": "Message.Client.Question.LookAllNAnswers",
+      "fullMatch": "$t('Message.Client.Question.LookAllNAnswers'"
+    }
+  ],
+  "src\\components\\answers\\components\\item\\index.vue": [
+    {
+      "key": "Message.Client.Article.NComment",
+      "fullMatch": "$t('Message.Client.Article.NComment'"
+    }
+  ],
+  "src\\components\\appbar\\GuestMenu.vue": [
+    {
+      "key": "Message.Components.Account.Login",
+      "fullMatch": "$t('Message.Components.Account.Login'"
+    },
+    {
+      "key": "Message.Components.Account.Register",
+      "fullMatch": "$t('Message.Components.Account.Register'"
+    },
+    {
+      "key": "Message.Components.Account.Reset",
+      "fullMatch": "$t('Message.Components.Account.Reset'"
+    }
+  ],
+  "src\\components\\appbar\\index.vue": [
+    {
+      "key": "Message.Components.Account.Login",
+      "fullMatch": "$t('Message.Components.Account.Login'"
+    },
+    {
+      "key": "Message.Components.Account.Register",
+      "fullMatch": "$t('Message.Components.Account.Register'"
+    }
+  ],
+  "src\\components\\appbar\\UserMenu.vue": [
+    {
+      "key": "Message.Components.Avatar.Mailbox",
+      "fullMatch": "$t('Message.Components.Avatar.Mailbox'"
+    },
+    {
+      "key": "Message.Components.Avatar.PersonalData",
+      "fullMatch": "$t('Message.Components.Avatar.PersonalData'"
+    },
+    {
+      "key": "Message.Components.Avatar.ManagementPanel",
+      "fullMatch": "$t('Message.Components.Avatar.ManagementPanel'"
+    },
+    {
+      "key": "Message.Components.Avatar.Logout",
+      "fullMatch": "$t('Message.Components.Avatar.Logout'"
+    }
+  ],
+  "src\\components\\bottom-navigation\\index.vue": [
+    {
+      "key": "Message.Components.DrawerNavigation.Home",
+      "fullMatch": "'Message.Components.DrawerNavigation.Home'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Topics",
+      "fullMatch": "'Message.Components.DrawerNavigation.Topics'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Questions",
+      "fullMatch": "'Message.Components.DrawerNavigation.Questions'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Users",
+      "fullMatch": "'Message.Components.DrawerNavigation.Users'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.PersonalData",
+      "fullMatch": "'Message.Components.DrawerNavigation.PersonalData'"
+    }
+  ],
+  "src\\components\\comments\\components\\item\\index.vue": [
+    {
+      "key": "Message.Components.Comments.Item.Reply",
+      "fullMatch": "$t('Message.Components.Comments.Item.Reply'"
+    },
+    {
+      "key": "Message.Components.Comments.NewCommentOrReply.WriteYourReply",
+      "fullMatch": "$t('Message.Components.Comments.NewCommentOrReply.WriteYourReply'"
+    },
+    {
+      "key": "Message.Components.Comments.Item.CollapseReply",
+      "fullMatch": "$t('Message.Components.Comments.Item.CollapseReply'"
+    },
+    {
+      "key": "Message.Components.Comments.Item.ViewNReplies",
+      "fullMatch": "$t('Message.Components.Comments.Item.ViewNReplies'"
+    },
+    {
+      "key": "Message.Components.Comments.Item.ShowMoreReplies",
+      "fullMatch": "$t('Message.Components.Comments.Item.ShowMoreReplies'"
+    }
+  ],
+  "src\\components\\comments\\components\\new-comment\\index.vue": [
+    {
+      "key": "Message.Components.Comments.NewCommentOrReply.WriteYourComment",
+      "fullMatch": "$t('Message.Components.Comments.NewCommentOrReply.WriteYourComment'"
+    },
+    {
+      "key": "Message.Components.Comments.NewCommentOrReply.Publlishing",
+      "fullMatch": "$t('Message.Components.Comments.NewCommentOrReply.Publlishing'"
+    },
+    {
+      "key": "Message.Components.Comments.NewCommentOrReply.Publish",
+      "fullMatch": "$t('Message.Components.Comments.NewCommentOrReply.Publish'"
+    },
+    {
+      "key": "Message.Components.Account.YouMustLoginToUseThisFeature",
+      "fullMatch": "$t('Message.Components.Account.YouMustLoginToUseThisFeature'"
+    }
+  ],
+  "src\\components\\comments\\components\\reply\\index.vue": [
+    {
+      "key": "Message.Components.Comments.Item.Reply",
+      "fullMatch": "$t('Message.Components.Comments.Item.Reply'"
+    },
+    {
+      "key": "Message.Components.Comments.Item.ReplyTo",
+      "fullMatch": "$t('Message.Components.Comments.Item.ReplyTo'"
+    }
+  ],
+  "src\\components\\comments\\dialog.vue": [
+    {
+      "key": "Message.Client.Topic.Contexts.UpdateTimeFromLateToEarly",
+      "fullMatch": "'Message.Client.Topic.Contexts.UpdateTimeFromLateToEarly'"
+    },
+    {
+      "key": "Message.Client.Topic.Contexts.UpdateTimeFromEarlyToLate",
+      "fullMatch": "'Message.Client.Topic.Contexts.UpdateTimeFromEarlyToLate'"
+    },
+    {
+      "key": "Message.Client.Topic.Contexts.Hottest",
+      "fullMatch": "'Message.Client.Topic.Contexts.Hottest'"
+    }
+  ],
+  "src\\components\\comments\\page.vue": [
+    {
+      "key": "Message.Components.Comments.NewCommentOrReply.WriteYourComment",
+      "fullMatch": "$t(\r\n            'Message.Components.Comments.NewCommentOrReply.WriteYourComment'"
+    }
+  ],
+  "src\\components\\data-table\\components\\sensitive-data-text\\index.vue": [
+    {
+      "key": "Message.App.InsufficientPermissions",
+      "fullMatch": "$t('Message.App.InsufficientPermissions'"
+    }
+  ],
+  "src\\components\\data-table\\index.vue": [
+    {
+      "key": "Message.Components.Loaded.Loading",
+      "fullMatch": "$t('Message.Components.Loaded.Loading'"
+    },
+    {
+      "key": "Message.Components.DataTable.NoDataText",
+      "fullMatch": "$t('Message.Components.DataTable.NoDataText'"
+    },
+    {
+      "key": "Message.Components.DataTable.NoDataTextForSearch",
+      "fullMatch": "$t('Message.Components.DataTable.NoDataTextForSearch'"
+    },
+    {
+      "key": "Message.Components.DataTable.SortBy",
+      "fullMatch": "$t('Message.Components.DataTable.SortBy'"
+    },
+    {
+      "key": "Message.Components.DataTable.BatchDeleteSelectedItems",
+      "fullMatch": "$t('Message.Components.DataTable.BatchDeleteSelectedItems'"
+    },
+    {
+      "key": "Message.Components.DataTable.DisableSelectedUser",
+      "fullMatch": "$t('Message.Components.DataTable.DisableSelectedUser'"
+    },
+    {
+      "key": "Message.Components.DataTable.UnDisableSelectedUser",
+      "fullMatch": "$t('Message.Components.DataTable.UnDisableSelectedUser'"
+    },
+    {
+      "key": "Message.Components.DataTable.EditSelectedItems",
+      "fullMatch": "$t('Message.Components.DataTable.EditSelectedItems'"
+    },
+    {
+      "key": "Message.Components.DataTable.ChangeSelectedItemsUserGroup",
+      "fullMatch": "$t('Message.Components.DataTable.ChangeSelectedItemsUserGroup'"
+    },
+    {
+      "key": "Message.Components.UserGroupSwitchDialog.UserGroupUserMove",
+      "fullMatch": "$t('Message.Components.UserGroupSwitchDialog.UserGroupUserMove'"
+    },
+    {
+      "key": "Message.Components.DataTable.SearchFromDatabase",
+      "fullMatch": "$t('Message.Components.DataTable.SearchFromDatabase'"
+    },
+    {
+      "key": "Message.Components.DataTable.PreviousPage",
+      "fullMatch": "$t('Message.Components.DataTable.PreviousPage'"
+    },
+    {
+      "key": "Message.Components.DataTable.NextPage",
+      "fullMatch": "$t('Message.Components.DataTable.NextPage'"
+    },
+    {
+      "key": "Message.Components.DataTable.PullQuantityPerPage",
+      "fullMatch": "$t('Message.Components.DataTable.PullQuantityPerPage'"
+    },
+    {
+      "key": "Message.Components.DataTable.MoreScreeningOptions",
+      "fullMatch": "$t('Message.Components.DataTable.MoreScreeningOptions'"
+    },
+    {
+      "key": "Message.Components.DataTable.Edit",
+      "fullMatch": "$t('Message.Components.DataTable.Edit'"
+    },
+    {
+      "key": "Message.Components.DataTable.Delete",
+      "fullMatch": "$t('Message.Components.DataTable.Delete'"
+    },
+    {
+      "key": "Message.Components.DataTable.DisableUser",
+      "fullMatch": "$t('Message.Components.DataTable.DisableUser'"
+    },
+    {
+      "key": "Message.Components.DataTable.UnDisableUser",
+      "fullMatch": "$t('Message.Components.DataTable.UnDisableUser'"
+    },
+    {
+      "key": "Message.Components.DataTable.FrontDeskViewing",
+      "fullMatch": "$t('Message.Components.DataTable.FrontDeskViewing'"
+    },
+    {
+      "key": "Message.Components.DataTable.NotDisabled",
+      "fullMatch": "$t('Message.Components.DataTable.NotDisabled'"
+    },
+    {
+      "key": "Message.Components.DataTable.Disabled",
+      "fullMatch": "$t('Message.Components.DataTable.Disabled'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Questions",
+      "fullMatch": "$t('Message.Components.DrawerNavigation.Questions'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Articles",
+      "fullMatch": "$t('Message.Components.DrawerNavigation.Articles'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Answers",
+      "fullMatch": "$t('Message.Components.DrawerNavigation.Answers'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Comments",
+      "fullMatch": "$t('Message.Components.DrawerNavigation.Comments'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Replts",
+      "fullMatch": "$t('Message.Components.DrawerNavigation.Replts'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.Question",
+      "fullMatch": "$t('Message.Components.NewDataStats.Question'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.Article",
+      "fullMatch": "$t('Message.Components.NewDataStats.Article'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.Answer",
+      "fullMatch": "$t('Message.Components.NewDataStats.Answer'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.Comment",
+      "fullMatch": "$t('Message.Components.NewDataStats.Comment'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.Reply",
+      "fullMatch": "$t('Message.Components.NewDataStats.Reply'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.User",
+      "fullMatch": "$t('Message.Components.NewDataStats.User'"
+    },
+    {
+      "key": "Message.Components.DataTable.AreYouSureYouWantToDeleteIt",
+      "fullMatch": "$t('Message.Components.DataTable.AreYouSureYouWantToDeleteIt'"
+    },
+    {
+      "key": "Message.Components.DataTable.Cancel",
+      "fullMatch": "$t('Message.Components.DataTable.Cancel'"
+    },
+    {
+      "key": "Message.Components.DataTable.Confirm",
+      "fullMatch": "$t('Message.Components.DataTable.Confirm'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.EditComment",
+      "fullMatch": "$t('Message.Components.OptionsButton.EditComment'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.EditReply",
+      "fullMatch": "$t('Message.Components.OptionsButton.EditReply'"
+    },
+    {
+      "key": "Message.Components.DataTable.DeletedSuccessfully",
+      "fullMatch": "$t('Message.Components.DataTable.DeletedSuccessfully'"
+    },
+    {
+      "key": "Message.Components.DataTable.FailedToDelete",
+      "fullMatch": "$t('Message.Components.DataTable.FailedToDelete'"
+    },
+    {
+      "key": "Message.Components.Account.RequestFailure",
+      "fullMatch": "$t('Message.Components.Account.RequestFailure'"
+    },
+    {
+      "key": "Message.Components.DataTable.TopicsDataTables",
+      "fullMatch": "$t('Message.Components.DataTable.TopicsDataTables'"
+    },
+    {
+      "key": "Message.Components.DataTable.ArticlesDataTables",
+      "fullMatch": "$t('Message.Components.DataTable.ArticlesDataTables'"
+    },
+    {
+      "key": "Message.Components.DataTable.QuestionsDataTables",
+      "fullMatch": "$t('Message.Components.DataTable.QuestionsDataTables'"
+    },
+    {
+      "key": "Message.Components.DataTable.AnswersDataTables",
+      "fullMatch": "$t('Message.Components.DataTable.AnswersDataTables'"
+    },
+    {
+      "key": "Message.Components.DataTable.CommentsDataTables",
+      "fullMatch": "$t('Message.Components.DataTable.CommentsDataTables'"
+    },
+    {
+      "key": "Message.Components.DataTable.UsersDataTables",
+      "fullMatch": "$t('Message.Components.DataTable.UsersDataTables'"
+    },
+    {
+      "key": "Message.Components.DataTable.ReplysDataTables",
+      "fullMatch": "$t('Message.Components.DataTable.ReplysDataTables'"
+    },
+    {
+      "key": "Message.Components.DataTable.ReportsDataTables",
+      "fullMatch": "$t('Message.Components.DataTable.ReportsDataTables'"
+    },
+    {
+      "key": "Message.Components.DataTable.UserGroupsDataTables",
+      "fullMatch": "$t('Message.Components.DataTable.UserGroupsDataTables'"
+    },
+    {
+      "key": "Actions",
+      "fullMatch": "$t('Actions'"
+    },
+    {
+      "key": "Message.Components.DataTable.Actions",
+      "fullMatch": "$t('Message.Components.DataTable.Actions'"
+    }
+  ],
+  "src\\components\\dialog\\comment-reply-edit-dialog\\index.vue": [
+    {
+      "key": "Message.Components.EditInfoDialog.Cancel",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.Cancel'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.Save",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.Save'"
+    },
+    {
+      "key": "Message.Components.DataTable.Edit",
+      "fullMatch": "'Message.Components.DataTable.Edit'"
+    }
+  ],
+  "src\\components\\dialog\\delete-dialog\\index.vue": [
+    {
+      "key": "Message.Components.DataTable.Delete",
+      "fullMatch": "$t('Message.Components.DataTable.Delete'"
+    },
+    {
+      "key": "Message.Components.DataTable.AreYouSureYouWantToDeleteIt",
+      "fullMatch": "$t('Message.Components.DataTable.AreYouSureYouWantToDeleteIt'"
+    },
+    {
+      "key": "Message.Components.DataTable.Cancel",
+      "fullMatch": "$t('Message.Components.DataTable.Cancel'"
+    },
+    {
+      "key": "Message.Components.DataTable.Confirm",
+      "fullMatch": "$t('Message.Components.DataTable.Confirm'"
+    }
+  ],
+  "src\\components\\dialog\\edit-info-dialog\\edit-info-button.vue": [
+    {
+      "key": "Message.Client.User.User.EditProfile",
+      "fullMatch": "$t('Message.Client.User.User.EditProfile'"
+    }
+  ],
+  "src\\components\\dialog\\edit-info-dialog\\index copy.vue": [
+    {
+      "key": "Message.Components.EditInfoDialog.EditInfo",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.EditInfo'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.Email",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.Email'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.CannotBeEmpty",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.CannotBeEmpty'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.LengthCannotExceedNCharacters",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.LengthCannotExceedNCharacters'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.UserName",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.UserName'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.UserGroup",
+      "fullMatch": "$t('Message.Components.DrawerNavigation.UserGroup'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.UserGroupID",
+      "fullMatch": "$t('Message.Admin.UserGroups.UserGroupID'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.OneSentenceIntroduction",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.OneSentenceIntroduction'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.PersonalHomepage",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.PersonalHomepage'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.AffiliatedSchoolOrEnterprise",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.AffiliatedSchoolOrEnterprise'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.Location",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.Location'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.PersonalIntroduction",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.PersonalIntroduction'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.Cancel",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.Cancel'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.Save",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.Save'"
+    }
+  ],
+  "src\\components\\dialog\\edit-info-dialog\\index.vue": [
+    {
+      "key": "Message.Components.EditInfoDialog.EditInfo",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.EditInfo'"
+    },
+    {
+      "key": "Message.Admin.Options.Save",
+      "fullMatch": "$t('Message.Admin.Options.Save'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.Email",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.Email'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.CannotBeEmpty",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.CannotBeEmpty'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.LengthCannotExceedNCharacters",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.LengthCannotExceedNCharacters'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.UserName",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.UserName'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.UserGroup",
+      "fullMatch": "$t('Message.Components.DrawerNavigation.UserGroup'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.OneSentenceIntroduction",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.OneSentenceIntroduction'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.PersonalHomepage",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.PersonalHomepage'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.AffiliatedSchoolOrEnterprise",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.AffiliatedSchoolOrEnterprise'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.Location",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.Location'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.PersonalIntroduction",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.PersonalIntroduction'"
+    }
+  ],
+  "src\\components\\dialog\\new-data-stats-dialog\\index.vue": [
+    {
+      "key": "Message.Components.NewDataStats.DetailedDataes",
+      "fullMatch": "$t('Message.Components.NewDataStats.DetailedDataes'"
+    },
+    {
+      "key": "Message.Components.DataTable.Cancel",
+      "fullMatch": "$t('Message.Components.DataTable.Cancel'"
+    },
+    {
+      "key": "Message.Components.DataTable.Confirm",
+      "fullMatch": "$t('Message.Components.DataTable.Confirm'"
+    }
+  ],
+  "src\\components\\dialog\\report-dialog\\index.vue": [
+    {
+      "key": "Message.Components.OptionsButton.Report",
+      "fullMatch": "$t('Message.Components.OptionsButton.Report'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.OtherReasons",
+      "fullMatch": "$t('Message.Components.OptionsButton.OtherReasons'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.Cancel",
+      "fullMatch": "$t('Message.Components.OptionsButton.Cancel'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.Submit",
+      "fullMatch": "$t('Message.Components.OptionsButton.Submit'"
+    },
+    {
+      "key": "Message.Components.Account.YouMustLoginToUseThisFeature",
+      "fullMatch": "$t('Message.Components.Account.YouMustLoginToUseThisFeature'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.GarbageAdvertisingInformation",
+      "fullMatch": "'Message.Components.OptionsButton.GarbageAdvertisingInformation'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.UnfriendlyBehavior",
+      "fullMatch": "'Message.Components.OptionsButton.UnfriendlyBehavior'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.HarmfulInformation",
+      "fullMatch": "'Message.Components.OptionsButton.HarmfulInformation'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.SuspectedInfringement",
+      "fullMatch": "'Message.Components.OptionsButton.SuspectedInfringement'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.InducingApprovalAndAttention",
+      "fullMatch": "'Message.Components.OptionsButton.InducingApprovalAndAttention'"
+    }
+  ],
+  "src\\components\\dialog\\topic-dialog\\index.vue": [
+    {
+      "key": "Message.Components.TopicsDialog.NewTopic",
+      "fullMatch": "$t('Message.Components.TopicsDialog.NewTopic'"
+    },
+    {
+      "key": "Message.Components.TopicsDialog.EditTopic",
+      "fullMatch": "$t('Message.Components.TopicsDialog.EditTopic'"
+    },
+    {
+      "key": "Message.Components.TopicsDialog.TopicName",
+      "fullMatch": "$t('Message.Components.TopicsDialog.TopicName'"
+    },
+    {
+      "key": "Message.Components.TopicsDialog.TopicNameCannotBeEmpty",
+      "fullMatch": "$t('Message.Components.TopicsDialog.TopicNameCannotBeEmpty'"
+    },
+    {
+      "key": "Message.Components.TopicsDialog.LengthCannotExceedNCharacters",
+      "fullMatch": "$t('Message.Components.TopicsDialog.LengthCannotExceedNCharacters'"
+    },
+    {
+      "key": "Message.Components.TopicsDialog.TopicDescription",
+      "fullMatch": "$t('Message.Components.TopicsDialog.TopicDescription'"
+    },
+    {
+      "key": "Message.Components.TopicsDialog.TopicDescriptionCannotBeEmpty",
+      "fullMatch": "$t('Message.Components.TopicsDialog.TopicDescriptionCannotBeEmpty'"
+    },
+    {
+      "key": "Message.Components.TopicsDialog.TopicImage",
+      "fullMatch": "$t('Message.Components.TopicsDialog.TopicImage'"
+    },
+    {
+      "key": "Message.Components.TopicsDialog.ClickToUploadTopicImage",
+      "fullMatch": "$t('Message.Components.TopicsDialog.ClickToUploadTopicImage'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.Cancel",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.Cancel'"
+    },
+    {
+      "key": "Message.Components.EditInfoDialog.Save",
+      "fullMatch": "$t('Message.Components.EditInfoDialog.Save'"
+    },
+    {
+      "key": "Message.Admin.Options.Save",
+      "fullMatch": "$t('Message.Admin.Options.Save'"
+    }
+  ],
+  "src\\components\\dialog\\use-cookie-dialog\\index.vue": [
+    {
+      "key": "Message.Components.UseCookieDialog.cookieConsent.description",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieConsent.description'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieConsent.accept",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieConsent.accept'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieConsent.reject",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieConsent.reject'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieConsent.manage",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieConsent.manage'"
+    },
+    {
+      "key": "Message.langInfo.langname",
+      "fullMatch": "$t('Message.langInfo.langname'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieConsent.dialogTitle",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieConsent.dialogTitle'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieConsent.dialogIntro",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieConsent.dialogIntro'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieConsent.requiredTitle",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieConsent.requiredTitle'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieConsent.requiredDesc",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieConsent.requiredDesc'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieConsent.requiredCookies",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieConsent.requiredCookies'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieFields.field_name",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieFields.field_name'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieFields.field_desc",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieFields.field_desc'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieFields.field_source",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieFields.field_source'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieFields.theme",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieFields.theme'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieFields.self_site",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieFields.self_site'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieFields.user_token",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieFields.user_token'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieFields.lang",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieFields.lang'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieFields.cf_clearance",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieFields.cf_clearance'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieFields.cloudflare",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieFields.cloudflare'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieFields._clsk",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieFields._clsk'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieFields._clck",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieFields._clck'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieConsent.analyticsTitle",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieConsent.analyticsTitle'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieConsent.analyticsDesc",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieConsent.analyticsDesc'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieConsent.analyticsCookies",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieConsent.analyticsCookies'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieConsent.exampleCookies",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieConsent.exampleCookies'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieFields.MUID",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieFields.MUID'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieFields.microsoft",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieFields.microsoft'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieConsent.save",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieConsent.save'"
+    },
+    {
+      "key": "Message.Components.UseCookieDialog.cookieConsent.close",
+      "fullMatch": "$t('Message.Components.UseCookieDialog.cookieConsent.close'"
+    }
+  ],
+  "src\\components\\dialog\\user-group-edit-dialog\\index.vue": [
+    {
+      "key": "Message.Admin.UserGroups.UserGroupEditN",
+      "fullMatch": "$t('Message.Admin.UserGroups.UserGroupEditN'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.CreateNewUserGroup",
+      "fullMatch": "$t('Message.Admin.UserGroups.CreateNewUserGroup'"
+    },
+    {
+      "key": "Message.Admin.Options.Save",
+      "fullMatch": "$t('Message.Admin.Options.Save'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.UserGroupName",
+      "fullMatch": "$t('Message.Admin.UserGroups.UserGroupName'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TextOrMessageDotText",
+      "fullMatch": "$t('Message.Admin.UserGroups.TextOrMessageDotText'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.UserGroupDescription",
+      "fullMatch": "$t('Message.Admin.UserGroups.UserGroupDescription'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.UserGroupIcon",
+      "fullMatch": "$t('Message.Admin.UserGroups.UserGroupIcon'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.UserGroupColor",
+      "fullMatch": "$t('Message.Admin.UserGroups.UserGroupColor'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.UserGroupIconShow",
+      "fullMatch": "$t('Message.Admin.UserGroups.UserGroupIconShow'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.IsAdmin",
+      "fullMatch": "$t('Message.Admin.UserGroups.IsAdmin'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityNormalLogin",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityNormalLogin'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminLogin",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminLogin'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageTopic",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageTopic'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageQuestion",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageQuestion'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageArticle",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageArticle'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageAnswer",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageAnswer'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageReport",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageReport'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageUserGroup",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageUserGroup'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageUser",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageUser'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageSetting",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageSetting'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityCreateTopic",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityCreateTopic'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityCreateArticle",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityCreateArticle'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityCreateQuestion",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityCreateQuestion'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityCreateAnswer",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityCreateAnswer'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityCreateComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityCreateComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityCreateReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityCreateReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditOwnTopic",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditOwnTopic'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditOwnArticle",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditOwnArticle'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditOwnQuestion",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditOwnQuestion'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditOwnAnswer",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditOwnAnswer'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditOwnComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditOwnComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditOwnReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditOwnReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteOwnTopic",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteOwnTopic'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteOwnArticle",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteOwnArticle'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteOwnQuestion",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteOwnQuestion'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteOwnAnswer",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteOwnAnswer'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteOwnComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteOwnComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteOwnReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteOwnReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditTopicOnlyNoArticleOrQuestion",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditTopicOnlyNoArticleOrQuestion'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditArticleOnlyNoComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditArticleOnlyNoComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditQuestionOnlyNoAnswer",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditQuestionOnlyNoAnswer'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditAnswerOnlyNoComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditAnswerOnlyNoComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditQuestionOnlyNoComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditQuestionOnlyNoComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditCommentOnlyNoReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditCommentOnlyNoReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditReplyOnlyNoReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditReplyOnlyNoReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteTopicOnlyNoArticleOrQuestion",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteTopicOnlyNoArticleOrQuestion'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteArticleOnlyNoComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteArticleOnlyNoComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteQuestionOnlyNoAnswer",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteQuestionOnlyNoAnswer'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteAnswerOnlyNoComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteAnswerOnlyNoComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteQuestionOnlyNoComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteQuestionOnlyNoComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteCommentOnlyNoReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteCommentOnlyNoReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteReplyOnlyNoReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteReplyOnlyNoReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditOwnInfo",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditOwnInfo'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityVote",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityVote'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeEditArticle",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeEditArticle'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeEditQuestion",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeEditQuestion'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeEditAnswer",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeEditAnswer'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeEditComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeEditComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeEditReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeEditReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeEditTopic",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeEditTopic'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeDeleteArticle",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeDeleteArticle'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeDeleteQuestion",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeDeleteQuestion'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeDeleteAnswer",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeDeleteAnswer'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeDeleteComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeDeleteComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeDeleteReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeDeleteReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeDeleteTopic",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeDeleteTopic'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.User",
+      "fullMatch": "'Message.Admin.UserGroups.User'"
+    }
+  ],
+  "src\\components\\dialog\\usergroup-selector-dialog\\index.vue": [
+    {
+      "key": "Message.Components.DrawerNavigation.UserGroup",
+      "fullMatch": "$t('Message.Components.DrawerNavigation.UserGroup'"
+    },
+    {
+      "key": "Message.Components.Search.Search",
+      "fullMatch": "$t('Message.Components.Search.Search'"
+    },
+    {
+      "key": "Message.Components.TopicSelectDialog.Cancel",
+      "fullMatch": "$t('Message.Components.TopicSelectDialog.Cancel'"
+    },
+    {
+      "key": "Message.Components.TopicSelectDialog.Confirm",
+      "fullMatch": "$t('Message.Components.TopicSelectDialog.Confirm'"
+    }
+  ],
+  "src\\components\\dialog\\usergroup-switch-dialog\\index.vue": [
+    {
+      "key": "Message.Components.UserGroupSwitchDialog.UserGroupUserMove",
+      "fullMatch": "$t('Message.Components.UserGroupSwitchDialog.UserGroupUserMove'"
+    },
+    {
+      "key": "Message.Components.UserGroupSwitchDialog.UserGroupSwitchDescriptionN",
+      "fullMatch": "$t('Message.Components.UserGroupSwitchDialog.UserGroupSwitchDescriptionN'"
+    },
+    {
+      "key": "Message.Components.TopicSelectDialog.SetSuccess",
+      "fullMatch": "$t('Message.Components.TopicSelectDialog.SetSuccess'"
+    },
+    {
+      "key": "Message.Components.TopicSelectDialog.SetFailed",
+      "fullMatch": "$t('Message.Components.TopicSelectDialog.SetFailed'"
+    }
+  ],
+  "src\\components\\empty\\index.vue": [
+    {
+      "key": "Message.Components.Empty.Title",
+      "fullMatch": "$t('Message.Components.Empty.Title'"
+    },
+    {
+      "key": "Message.Components.Empty.Description",
+      "fullMatch": "$t('Message.Components.Empty.Description'"
+    }
+  ],
+  "src\\components\\fab-dialog\\common-fab-dialog\\index.vue": [
+    {
+      "key": "Message.Components.Editor.Minimize",
+      "fullMatch": "$t('Message.Components.Editor.Minimize'"
+    },
+    {
+      "key": "Message.Components.Editor.Maximize",
+      "fullMatch": "$t('Message.Components.Editor.Maximize'"
+    },
+    {
+      "key": "Message.Components.Editor.Close",
+      "fullMatch": "$t('Message.Components.Editor.Close'"
+    }
+  ],
+  "src\\components\\fab-dialog\\search-fab-dialog\\new-index.vue": [
+    {
+      "key": "Message.Components.Search.SearchTooltop",
+      "fullMatch": "$t('Message.Components.Search.SearchTooltop'"
+    },
+    {
+      "key": "Message.Admin.Options.Save",
+      "fullMatch": "$t('Message.Admin.Options.Save'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Topics",
+      "fullMatch": "$t('Message.Components.DrawerNavigation.Topics'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Questions",
+      "fullMatch": "$t('Message.Components.DrawerNavigation.Questions'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Articles",
+      "fullMatch": "$t('Message.Components.DrawerNavigation.Articles'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Answers",
+      "fullMatch": "$t('Message.Components.DrawerNavigation.Answers'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Comments",
+      "fullMatch": "$t('Message.Components.DrawerNavigation.Comments'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Replts",
+      "fullMatch": "$t('Message.Components.DrawerNavigation.Replts'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.User",
+      "fullMatch": "$t('Message.Components.DrawerNavigation.User'"
+    }
+  ],
+  "src\\components\\follow-button\\index.vue": [
+    {
+      "key": "Message.Components.Account.YouMustLoginToUseThisFeature",
+      "fullMatch": "$t('Message.Components.Account.YouMustLoginToUseThisFeature'"
+    }
+  ],
+  "src\\components\\language-button\\index.vue": [
+    {
+      "key": "Message.langInfo.langname",
+      "fullMatch": "$t('Message.langInfo.langname'"
+    }
+  ],
+  "src\\components\\list-header\\index.vue": [
+    {
+      "key": "Message.Client.Topic.Contexts.UpdateTimeFromLateToEarly",
+      "fullMatch": "'Message.Client.Topic.Contexts.UpdateTimeFromLateToEarly'"
+    },
+    {
+      "key": "Message.Client.Topic.Contexts.UpdateTimeFromEarlyToLate",
+      "fullMatch": "'Message.Client.Topic.Contexts.UpdateTimeFromEarlyToLate'"
+    },
+    {
+      "key": "Message.Client.Topic.Contexts.Hottest",
+      "fullMatch": "'Message.Client.Topic.Contexts.Hottest'"
+    },
+    {
+      "key": "Message.Client.User.Contexts.UpdateTimeFromLateToEarly",
+      "fullMatch": "'Message.Client.User.Contexts.UpdateTimeFromLateToEarly'"
+    },
+    {
+      "key": "Message.Client.User.Contexts.UpdateTimeFromEarlyToLate",
+      "fullMatch": "'Message.Client.User.Contexts.UpdateTimeFromEarlyToLate'"
+    },
+    {
+      "key": "Message.Client.User.Contexts.ReleaseTimeFromLateToEarly",
+      "fullMatch": "'Message.Client.User.Contexts.ReleaseTimeFromLateToEarly'"
+    },
+    {
+      "key": "Message.Client.User.Contexts.ReleaseTimeFromEarlyToLate",
+      "fullMatch": "'Message.Client.User.Contexts.ReleaseTimeFromEarlyToLate'"
+    },
+    {
+      "key": "Message.Client.User.Contexts.MostPopular",
+      "fullMatch": "'Message.Client.User.Contexts.MostPopular'"
+    }
+  ],
+  "src\\components\\loaded\\index.vue": [
+    {
+      "key": "Message.Components.Loaded.AllDataHasBeenLoaded",
+      "fullMatch": "$t('Message.Components.Loaded.AllDataHasBeenLoaded'"
+    }
+  ],
+  "src\\components\\md-editor\\components\\color-select\\index.vue": [
+    {
+      "key": "Message.Components.Editor.Color",
+      "fullMatch": "$t('Message.Components.Editor.Color'"
+    },
+    {
+      "key": "Message.Components.Editor.ClearColor",
+      "fullMatch": "$t('Message.Components.Editor.ClearColor'"
+    }
+  ],
+  "src\\components\\md-editor\\components\\topic-selector-dialog\\index.vue": [
+    {
+      "key": "Message.Components.TopicSelectDialog.TopicSelect",
+      "fullMatch": "$t('Message.Components.TopicSelectDialog.TopicSelect'"
+    },
+    {
+      "key": "Message.Components.Search.Search",
+      "fullMatch": "$t('Message.Components.Search.Search'"
+    }
+  ],
+  "src\\components\\md-editor\\index.vue": [
+    {
+      "key": "Message.Components.Editor.PleaseEnterATitle",
+      "fullMatch": "$t('Message.Components.Editor.PleaseEnterATitle'"
+    },
+    {
+      "key": "Message.Components.Account.CannotBeEmpty",
+      "fullMatch": "$t('Message.Components.Account.CannotBeEmpty'"
+    },
+    {
+      "key": "Message.Components.Account.MaxLengthExceeded",
+      "fullMatch": "$t('Message.Components.Account.MaxLengthExceeded'"
+    },
+    {
+      "key": "Message.Components.Editor.ClickToAddATopic",
+      "fullMatch": "$t('Message.Components.Editor.ClickToAddATopic'"
+    },
+    {
+      "key": "Message.Components.Editor.PleaseSelectAtLeast1Topic",
+      "fullMatch": "$t('Message.Components.Editor.PleaseSelectAtLeast1Topic'"
+    },
+    {
+      "key": "Message.Components.Editor.More",
+      "fullMatch": "$t('Message.Components.Editor.More'"
+    },
+    {
+      "key": "Message.Components.Editor.Table",
+      "fullMatch": "$t('Message.Components.Editor.Table'"
+    },
+    {
+      "key": "Message.Components.Editor.AddImage",
+      "fullMatch": "$t('Message.Components.Editor.AddImage'"
+    },
+    {
+      "key": "Message.Components.Editor.AddLink",
+      "fullMatch": "$t('Message.Components.Editor.AddLink'"
+    },
+    {
+      "key": "Message.Components.Editor.UnsetLink",
+      "fullMatch": "$t('Message.Components.Editor.UnsetLink'"
+    },
+    {
+      "key": "Message.Components.Editor.HorizontalRule",
+      "fullMatch": "$t('Message.Components.Editor.HorizontalRule'"
+    },
+    {
+      "key": "Message.Components.Editor.HardBreak",
+      "fullMatch": "$t('Message.Components.Editor.HardBreak'"
+    },
+    {
+      "key": "Message.Components.Editor.ClearMarks",
+      "fullMatch": "$t('Message.Components.Editor.ClearMarks'"
+    },
+    {
+      "key": "Message.Components.Editor.ClearNodes",
+      "fullMatch": "$t('Message.Components.Editor.ClearNodes'"
+    },
+    {
+      "key": "Message.Components.Editor.SetDetails",
+      "fullMatch": "$t('Message.Components.Editor.SetDetails'"
+    },
+    {
+      "key": "Message.Components.Editor.UnsetDetails",
+      "fullMatch": "$t('Message.Components.Editor.UnsetDetails'"
+    },
+    {
+      "key": "Message.Components.Editor.HTitleGroup",
+      "fullMatch": "$t('Message.Components.Editor.HTitleGroup'"
+    },
+    {
+      "key": "Message.Components.Editor.H1",
+      "fullMatch": "$t('Message.Components.Editor.H1'"
+    },
+    {
+      "key": "Message.Components.Editor.H2",
+      "fullMatch": "$t('Message.Components.Editor.H2'"
+    },
+    {
+      "key": "Message.Components.Editor.H3",
+      "fullMatch": "$t('Message.Components.Editor.H3'"
+    },
+    {
+      "key": "Message.Components.Editor.H4",
+      "fullMatch": "$t('Message.Components.Editor.H4'"
+    },
+    {
+      "key": "Message.Components.Editor.H5",
+      "fullMatch": "$t('Message.Components.Editor.H5'"
+    },
+    {
+      "key": "Message.Components.Editor.H6",
+      "fullMatch": "$t('Message.Components.Editor.H6'"
+    },
+    {
+      "key": "Message.Components.Editor.BulletList",
+      "fullMatch": "$t('Message.Components.Editor.BulletList'"
+    },
+    {
+      "key": "Message.Components.Editor.OrderedList",
+      "fullMatch": "$t('Message.Components.Editor.OrderedList'"
+    },
+    {
+      "key": "Message.Components.Editor.TextAlign",
+      "fullMatch": "$t('Message.Components.Editor.TextAlign'"
+    },
+    {
+      "key": "Message.Components.Editor.LeftAlign",
+      "fullMatch": "$t('Message.Components.Editor.LeftAlign'"
+    },
+    {
+      "key": "Message.Components.Editor.CenterAlign",
+      "fullMatch": "$t('Message.Components.Editor.CenterAlign'"
+    },
+    {
+      "key": "Message.Components.Editor.RightAlign",
+      "fullMatch": "$t('Message.Components.Editor.RightAlign'"
+    },
+    {
+      "key": "Message.Components.Editor.JustifyAlign",
+      "fullMatch": "$t('Message.Components.Editor.JustifyAlign'"
+    },
+    {
+      "key": "Message.Components.Editor.ToggleRightAlign",
+      "fullMatch": "$t('Message.Components.Editor.ToggleRightAlign'"
+    },
+    {
+      "key": "Message.Components.Editor.UnsetAlign",
+      "fullMatch": "$t('Message.Components.Editor.UnsetAlign'"
+    },
+    {
+      "key": "Message.Components.Editor.Undo",
+      "fullMatch": "$t('Message.Components.Editor.Undo'"
+    },
+    {
+      "key": "Message.Components.Editor.Redo",
+      "fullMatch": "$t('Message.Components.Editor.Redo'"
+    },
+    {
+      "key": "Message.Components.Editor.ExitTable",
+      "fullMatch": "$t('Message.Components.Editor.ExitTable'"
+    },
+    {
+      "key": "Message.Components.Editor.InsertTable",
+      "fullMatch": "$t('Message.Components.Editor.InsertTable'"
+    },
+    {
+      "key": "Message.Components.Editor.InsertHTMLTable",
+      "fullMatch": "$t('Message.Components.Editor.InsertHTMLTable'"
+    },
+    {
+      "key": "Message.Components.Editor.AddColumnLeft",
+      "fullMatch": "$t('Message.Components.Editor.AddColumnLeft'"
+    },
+    {
+      "key": "Message.Components.Editor.AddColumnRight",
+      "fullMatch": "$t('Message.Components.Editor.AddColumnRight'"
+    },
+    {
+      "key": "Message.Components.Editor.AddRowAbove",
+      "fullMatch": "$t('Message.Components.Editor.AddRowAbove'"
+    },
+    {
+      "key": "Message.Components.Editor.AddRowBelow",
+      "fullMatch": "$t('Message.Components.Editor.AddRowBelow'"
+    },
+    {
+      "key": "Message.Components.Editor.MergeCells",
+      "fullMatch": "$t('Message.Components.Editor.MergeCells'"
+    },
+    {
+      "key": "Message.Components.Editor.SplitCell",
+      "fullMatch": "$t('Message.Components.Editor.SplitCell'"
+    },
+    {
+      "key": "Message.Components.Editor.MergeOrSplitCell",
+      "fullMatch": "$t('Message.Components.Editor.MergeOrSplitCell'"
+    },
+    {
+      "key": "Message.Components.Editor.Release",
+      "fullMatch": "$t('Message.Components.Editor.Release'"
+    },
+    {
+      "key": "Message.Components.Editor.Bold",
+      "fullMatch": "$t('Message.Components.Editor.Bold'"
+    },
+    {
+      "key": "Message.Components.Editor.Italic",
+      "fullMatch": "$t('Message.Components.Editor.Italic'"
+    },
+    {
+      "key": "Message.Components.Editor.Strike",
+      "fullMatch": "$t('Message.Components.Editor.Strike'"
+    },
+    {
+      "key": "Message.Components.Editor.Code",
+      "fullMatch": "$t('Message.Components.Editor.Code'"
+    },
+    {
+      "key": "Message.Components.Editor.Paragraph",
+      "fullMatch": "$t('Message.Components.Editor.Paragraph'"
+    },
+    {
+      "key": "Message.Components.Editor.CodeBlock",
+      "fullMatch": "$t('Message.Components.Editor.CodeBlock'"
+    },
+    {
+      "key": "Message.Components.Editor.Blockquote",
+      "fullMatch": "$t('Message.Components.Editor.Blockquote'"
+    },
+    {
+      "key": "Message.Components.Editor.Delete",
+      "fullMatch": "$t('Message.Components.Editor.Delete'"
+    },
+    {
+      "key": "Message.Components.Editor.ToggleHeaderColumn",
+      "fullMatch": "$t('Message.Components.Editor.ToggleHeaderColumn'"
+    },
+    {
+      "key": "Message.Components.Editor.ToggleHeaderRow",
+      "fullMatch": "$t('Message.Components.Editor.ToggleHeaderRow'"
+    },
+    {
+      "key": "Message.Components.Editor.ToggleHeaderCell",
+      "fullMatch": "$t('Message.Components.Editor.ToggleHeaderCell'"
+    },
+    {
+      "key": "Message.Components.Editor.SetCellProperties",
+      "fullMatch": "$t('Message.Components.Editor.SetCellProperties'"
+    },
+    {
+      "key": "Message.Components.Editor.FixTable",
+      "fullMatch": "$t('Message.Components.Editor.FixTable'"
+    },
+    {
+      "key": "Message.Components.Editor.MoveToNextCell",
+      "fullMatch": "$t('Message.Components.Editor.MoveToNextCell'"
+    },
+    {
+      "key": "Message.Components.Editor.MoveToPreviousCell",
+      "fullMatch": "$t('Message.Components.Editor.MoveToPreviousCell'"
+    },
+    {
+      "key": "Message.Components.Editor.DeleteColumn",
+      "fullMatch": "$t('Message.Components.Editor.DeleteColumn'"
+    },
+    {
+      "key": "Message.Components.Editor.DeleteRow",
+      "fullMatch": "$t('Message.Components.Editor.DeleteRow'"
+    },
+    {
+      "key": "Message.Components.Editor.DeleteTable",
+      "fullMatch": "$t('Message.Components.Editor.DeleteTable'"
+    },
+    {
+      "key": "Message.Components.Editor.PleaseAbideByTheLawsAndRegulationsOfYourLocationWhenPostingContent",
+      "fullMatch": "$t('Message.Components.Editor.PleaseAbideByTheLawsAndRegulationsOfYourLocationWhenPostingContent'"
+    }
+  ],
+  "src\\components\\navigation-drawer\\index.vue": [
+    {
+      "key": "Message.Components.DrawerNavigation.Home",
+      "fullMatch": "'Message.Components.DrawerNavigation.Home'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Topics",
+      "fullMatch": "'Message.Components.DrawerNavigation.Topics'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Questions",
+      "fullMatch": "'Message.Components.DrawerNavigation.Questions'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Articles",
+      "fullMatch": "'Message.Components.DrawerNavigation.Articles'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.PersonalData",
+      "fullMatch": "'Message.Components.DrawerNavigation.PersonalData'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Users",
+      "fullMatch": "'Message.Components.DrawerNavigation.Users'"
+    },
+    {
+      "key": "Message.Components.DrawerNavigation.Notice",
+      "fullMatch": "'Message.Components.DrawerNavigation.Notice'"
+    }
+  ],
+  "src\\components\\new-data-stats\\index.vue": [
+    {
+      "key": "Message.Components.NewDataStats.Increase",
+      "fullMatch": "$t('Message.Components.NewDataStats.Increase'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.User",
+      "fullMatch": "$t('Message.Components.NewDataStats.User'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.UserGroup",
+      "fullMatch": "$t('Message.Components.NewDataStats.UserGroup'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.Report",
+      "fullMatch": "$t('Message.Components.NewDataStats.Report'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.Topic",
+      "fullMatch": "$t('Message.Components.NewDataStats.Topic'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.Question",
+      "fullMatch": "$t('Message.Components.NewDataStats.Question'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.Answer",
+      "fullMatch": "$t('Message.Components.NewDataStats.Answer'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.Article",
+      "fullMatch": "$t('Message.Components.NewDataStats.Article'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.Comment",
+      "fullMatch": "$t('Message.Components.NewDataStats.Comment'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.Reply",
+      "fullMatch": "$t('Message.Components.NewDataStats.Reply'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.Last7Days",
+      "fullMatch": "$t('Message.Components.NewDataStats.Last7Days'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.ThisMonth",
+      "fullMatch": "$t('Message.Components.NewDataStats.ThisMonth'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.LastMonth",
+      "fullMatch": "$t('Message.Components.NewDataStats.LastMonth'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.Last30Days",
+      "fullMatch": "$t('Message.Components.NewDataStats.Last30Days'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.ThisYear",
+      "fullMatch": "$t('Message.Components.NewDataStats.ThisYear'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.LastYear",
+      "fullMatch": "$t('Message.Components.NewDataStats.LastYear'"
+    },
+    {
+      "key": "Message.Components.NewDataStats.Last1Year",
+      "fullMatch": "$t('Message.Components.NewDataStats.Last1Year'"
+    }
+  ],
+  "src\\components\\no-allow-use\\index.vue": [
+    {
+      "key": "Message.App.TheCurrentDomainNameIsNotAvailable",
+      "fullMatch": "$t('Message.App.TheCurrentDomainNameIsNotAvailable'"
+    },
+    {
+      "key": "Message.App.PleaseContactYourApplicationServiceProvider",
+      "fullMatch": "$t('Message.App.PleaseContactYourApplicationServiceProvider'"
+    },
+    {
+      "key": "Message.App.InTheManagementPanelSettingsAbout",
+      "fullMatch": "$t('Message.App.InTheManagementPanelSettingsAbout'"
+    }
+  ],
+  "src\\components\\no-permissions\\index.vue": [
+    {
+      "key": "Message.App.InsufficientPermissions",
+      "fullMatch": "$t('Message.App.InsufficientPermissions'"
+    }
+  ],
+  "src\\components\\notification-button\\index.vue": [
+    {
+      "key": "Message.Components.NoticeButton.Notice",
+      "fullMatch": "$t('Message.Components.NoticeButton.Notice'"
+    }
+  ],
+  "src\\components\\options-button\\index.vue": [
+    {
+      "key": "Message.Client.Topic.Topic.CopyLink",
+      "fullMatch": "$t('Message.Client.Topic.Topic.CopyLink'"
+    },
+    {
+      "key": "Message.Client.Topic.Topic.LookFollowers",
+      "fullMatch": "$t('Message.Client.Topic.Topic.LookFollowers'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.Report",
+      "fullMatch": "$t('Message.Components.OptionsButton.Report'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.ResetCover",
+      "fullMatch": "$t('Message.Components.OptionsButton.ResetCover'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.ResetAvatar",
+      "fullMatch": "$t('Message.Components.OptionsButton.ResetAvatar'"
+    },
+    {
+      "key": "Message.Client.Topic.Topic.Copied",
+      "fullMatch": "$t('Message.Client.Topic.Topic.Copied'"
+    },
+    {
+      "key": "Message.Components.Account.YouMustLoginToUseThisFeature",
+      "fullMatch": "$t('Message.Components.Account.YouMustLoginToUseThisFeature'"
+    },
+    {
+      "key": "Message.Components.Editor.EditAnswer",
+      "fullMatch": "$t('Message.Components.Editor.EditAnswer'"
+    },
+    {
+      "key": "Message.Components.Editor.Release",
+      "fullMatch": "$t('Message.Components.Editor.Release'"
+    },
+    {
+      "key": "Message.Components.Editor.EditQuestion",
+      "fullMatch": "$t('Message.Components.Editor.EditQuestion'"
+    },
+    {
+      "key": "Message.Components.Editor.EditArticle",
+      "fullMatch": "$t('Message.Components.Editor.EditArticle'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.EditComment",
+      "fullMatch": "$t('Message.Components.OptionsButton.EditComment'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.EditReply",
+      "fullMatch": "$t('Message.Components.OptionsButton.EditReply'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.EditTopic",
+      "fullMatch": "$t('Message.Components.OptionsButton.EditTopic'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.EditQuestion",
+      "fullMatch": "$t('Message.Components.OptionsButton.EditQuestion'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.EditArticle",
+      "fullMatch": "$t('Message.Components.OptionsButton.EditArticle'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.EditAnswer",
+      "fullMatch": "$t('Message.Components.OptionsButton.EditAnswer'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.DeleteTopic",
+      "fullMatch": "$t('Message.Components.OptionsButton.DeleteTopic'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.DeleteQuestion",
+      "fullMatch": "$t('Message.Components.OptionsButton.DeleteQuestion'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.DeleteArticle",
+      "fullMatch": "$t('Message.Components.OptionsButton.DeleteArticle'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.DeleteAnswer",
+      "fullMatch": "$t('Message.Components.OptionsButton.DeleteAnswer'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.DeleteComment",
+      "fullMatch": "$t('Message.Components.OptionsButton.DeleteComment'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.DeleteReply",
+      "fullMatch": "$t('Message.Components.OptionsButton.DeleteReply'"
+    }
+  ],
+  "src\\components\\server-info-data-stats\\index.vue": [
+    {
+      "key": "Message.Components.ServerInfoDtatStats.SystemInfo",
+      "fullMatch": "$t('Message.Components.ServerInfoDtatStats.SystemInfo'"
+    },
+    {
+      "key": "Message.Components.ServerInfoDtatStats.ServerInfo",
+      "fullMatch": "$t('Message.Components.ServerInfoDtatStats.ServerInfo'"
+    },
+    {
+      "key": "Message.Components.ServerInfoDtatStats.MDF_VERSION",
+      "fullMatch": "$t('Message.Components.ServerInfoDtatStats.MDF_VERSION'"
+    },
+    {
+      "key": "Message.Components.ServerInfoDtatStats.OS",
+      "fullMatch": "$t('Message.Components.ServerInfoDtatStats.OS'"
+    },
+    {
+      "key": "Message.Components.ServerInfoDtatStats.PHP_VERSION",
+      "fullMatch": "$t('Message.Components.ServerInfoDtatStats.PHP_VERSION'"
+    },
+    {
+      "key": "Message.Components.ServerInfoDtatStats.WEB_SERVER",
+      "fullMatch": "$t('Message.Components.ServerInfoDtatStats.WEB_SERVER'"
+    },
+    {
+      "key": "Message.Components.ServerInfoDtatStats.DB_VERSION",
+      "fullMatch": "$t('Message.Components.ServerInfoDtatStats.DB_VERSION'"
+    },
+    {
+      "key": "Message.Components.ServerInfoDtatStats.UPLOAD_MAX_FILESIZE",
+      "fullMatch": "$t('Message.Components.ServerInfoDtatStats.UPLOAD_MAX_FILESIZE'"
+    },
+    {
+      "key": "Message.Components.ServerInfoDtatStats.MAX_EXECUTION_TIME",
+      "fullMatch": "$t('Message.Components.ServerInfoDtatStats.MAX_EXECUTION_TIME'"
+    },
+    {
+      "key": "Message.Components.ServerInfoDtatStats.DISK_FREE_SPACE",
+      "fullMatch": "$t('Message.Components.ServerInfoDtatStats.DISK_FREE_SPACE'"
+    },
+    {
+      "key": "Message.Components.ServerInfoDtatStats.DB_SIZE",
+      "fullMatch": "$t('Message.Components.ServerInfoDtatStats.DB_SIZE'"
+    }
+  ],
+  "src\\components\\setting-navigation-drawer\\components\\language-item.vue": [
+    {
+      "key": "Message.langInfo.langname",
+      "fullMatch": "$t('Message.langInfo.langname'"
+    },
+    {
+      "key": "Message.langInfo.bcp47",
+      "fullMatch": "$t('Message.langInfo.bcp47'"
+    },
+    {
+      "key": "Message.langInfo.flagicon",
+      "fullMatch": "$t('Message.langInfo.flagicon'"
+    },
+    {
+      "key": "Message.langInfo.hello",
+      "fullMatch": "$t('Message.langInfo.hello'"
+    },
+    {
+      "key": "Message.langInfo.langcode",
+      "fullMatch": "$t('Message.langInfo.langcode'"
+    },
+    {
+      "key": "Message.langInfo.LanguageMaker",
+      "fullMatch": "$t('Message.langInfo.LanguageMaker'"
+    },
+    {
+      "key": "Message.langInfo.show",
+      "fullMatch": "$t('Message.langInfo.show'"
+    },
+    {
+      "key": "Message.langInfo.usability",
+      "fullMatch": "$t('Message.langInfo.usability'"
+    }
+  ],
+  "src\\components\\setting-navigation-drawer\\index.vue": [
+    {
+      "key": "Message.Components.DevDialog.Setting",
+      "fullMatch": "$t('Message.Components.DevDialog.Setting'"
+    }
+  ],
+  "src\\components\\theme-button\\index.vue": [
+    {
+      "key": "Message.Components.ThemeButton.LightTheme",
+      "fullMatch": "$t('Message.Components.ThemeButton.LightTheme'"
+    },
+    {
+      "key": "Message.Components.ThemeButton.DarkTheme",
+      "fullMatch": "$t('Message.Components.ThemeButton.DarkTheme'"
+    }
+  ],
+  "src\\components\\to-top-fab\\index.vue": [
+    {
+      "key": "Message.Components.ToTopButton.ToTop",
+      "fullMatch": "$t('Message.Components.ToTopButton.ToTop'"
+    }
+  ],
+  "src\\components\\topic-item\\index.vue": [
+    {
+      "key": "Message.Components.TpoicItem.Followers",
+      "fullMatch": "$t('Message.Components.TpoicItem.Followers'"
+    }
+  ],
+  "src\\components\\user-line\\index.vue": [
+    {
+      "key": "Message.Components.Comments.Item.Reply",
+      "fullMatch": "$t('Message.Components.Comments.Item.Reply'"
+    }
+  ],
+  "src\\components\\user-popover\\index.vue": [
+    {
+      "key": "Message.Components.UserPopover.Answer",
+      "fullMatch": "$t('Message.Components.UserPopover.Answer'"
+    },
+    {
+      "key": "Message.Components.UserPopover.Article",
+      "fullMatch": "$t('Message.Components.UserPopover.Article'"
+    },
+    {
+      "key": "Message.Components.UserPopover.Followers",
+      "fullMatch": "$t('Message.Components.UserPopover.Followers'"
+    }
+  ],
+  "src\\components\\users-dialog\\index.vue": [
+    {
+      "key": "Message.Components.UsersDialog.FollowersN",
+      "fullMatch": "$t('Message.Components.UsersDialog.FollowersN'"
+    },
+    {
+      "key": "Message.Components.UsersDialog.FolloweesN",
+      "fullMatch": "$t('Message.Components.UsersDialog.FolloweesN'"
+    },
+    {
+      "key": "Message.Admin.Options.Save",
+      "fullMatch": "$t('Message.Admin.Options.Save'"
+    }
+  ],
+  "src\\components\\vote-button\\index.vue": [
+    {
+      "key": "Message.Components.VoteButton.Up",
+      "fullMatch": "$t('Message.Components.VoteButton.Up'"
+    },
+    {
+      "key": "Message.Components.VoteButton.Down",
+      "fullMatch": "$t('Message.Components.VoteButton.Down'"
+    },
+    {
+      "key": "Message.Components.Account.YouMustLoginToUseThisFeature",
+      "fullMatch": "$t('Message.Components.Account.YouMustLoginToUseThisFeature'"
+    }
+  ],
+  "src\\pages\\admin\\answers\\index.vue": [
+    {
+      "key": "Message.Admin.Answers.AnswerID",
+      "fullMatch": "$t('Message.Admin.Answers.AnswerID'"
+    },
+    {
+      "key": "Message.Admin.Answers.QuestionID",
+      "fullMatch": "$t('Message.Admin.Answers.QuestionID'"
+    },
+    {
+      "key": "Message.Admin.Answers.UserID",
+      "fullMatch": "$t('Message.Admin.Answers.UserID'"
+    },
+    {
+      "key": "Message.Admin.Answers.User",
+      "fullMatch": "$t('Message.Admin.Answers.User'"
+    },
+    {
+      "key": "Message.Admin.Answers.ContentMarkdown",
+      "fullMatch": "$t('Message.Admin.Answers.ContentMarkdown'"
+    },
+    {
+      "key": "Message.Admin.Answers.ContentRendered",
+      "fullMatch": "$t('Message.Admin.Answers.ContentRendered'"
+    },
+    {
+      "key": "Message.Admin.Answers.CommentCount",
+      "fullMatch": "$t('Message.Admin.Answers.CommentCount'"
+    },
+    {
+      "key": "Message.Admin.Answers.VoteCount",
+      "fullMatch": "$t('Message.Admin.Answers.VoteCount'"
+    },
+    {
+      "key": "Message.Admin.Answers.VoteUpCount",
+      "fullMatch": "$t('Message.Admin.Answers.VoteUpCount'"
+    },
+    {
+      "key": "Message.Admin.Answers.VoteDownCount",
+      "fullMatch": "$t('Message.Admin.Answers.VoteDownCount'"
+    },
+    {
+      "key": "Message.Admin.Answers.CreateTime",
+      "fullMatch": "$t('Message.Admin.Answers.CreateTime'"
+    },
+    {
+      "key": "Message.Admin.Answers.UpdateTime",
+      "fullMatch": "$t('Message.Admin.Answers.UpdateTime'"
+    },
+    {
+      "key": "Message.Admin.Answers.DeleteTime",
+      "fullMatch": "$t('Message.Admin.Answers.DeleteTime'"
+    },
+    {
+      "key": "Message.Components.Editor.EditAnswer",
+      "fullMatch": "$t('Message.Components.Editor.EditAnswer'"
+    },
+    {
+      "key": "Message.Components.Editor.Release",
+      "fullMatch": "$t('Message.Components.Editor.Release'"
+    }
+  ],
+  "src\\pages\\admin\\articles\\index.vue": [
+    {
+      "key": "Message.Admin.Articles.ArticleID",
+      "fullMatch": "$t('Message.Admin.Articles.ArticleID'"
+    },
+    {
+      "key": "Message.Admin.Articles.UserID",
+      "fullMatch": "$t('Message.Admin.Articles.UserID'"
+    },
+    {
+      "key": "Message.Admin.Articles.User",
+      "fullMatch": "$t('Message.Admin.Articles.User'"
+    },
+    {
+      "key": "Message.Admin.Articles.Title",
+      "fullMatch": "$t('Message.Admin.Articles.Title'"
+    },
+    {
+      "key": "Message.Admin.Articles.ContentMarkdown",
+      "fullMatch": "$t('Message.Admin.Articles.ContentMarkdown'"
+    },
+    {
+      "key": "Message.Admin.Articles.ContentRendered",
+      "fullMatch": "$t('Message.Admin.Articles.ContentRendered'"
+    },
+    {
+      "key": "Message.Admin.Articles.CommentCount",
+      "fullMatch": "$t('Message.Admin.Articles.CommentCount'"
+    },
+    {
+      "key": "Message.Admin.Articles.FollowerCount",
+      "fullMatch": "$t('Message.Admin.Articles.FollowerCount'"
+    },
+    {
+      "key": "Message.Admin.Articles.VoteCount",
+      "fullMatch": "$t('Message.Admin.Articles.VoteCount'"
+    },
+    {
+      "key": "Message.Admin.Articles.VoteUpCount",
+      "fullMatch": "$t('Message.Admin.Articles.VoteUpCount'"
+    },
+    {
+      "key": "Message.Admin.Articles.VoteDownCount",
+      "fullMatch": "$t('Message.Admin.Articles.VoteDownCount'"
+    },
+    {
+      "key": "Message.Admin.Articles.CreateTime",
+      "fullMatch": "$t('Message.Admin.Articles.CreateTime'"
+    },
+    {
+      "key": "Message.Admin.Articles.UpdateTime",
+      "fullMatch": "$t('Message.Admin.Articles.UpdateTime'"
+    },
+    {
+      "key": "Message.Admin.Articles.DeleteTime",
+      "fullMatch": "$t('Message.Admin.Articles.DeleteTime'"
+    },
+    {
+      "key": "Message.Components.Editor.EditArticle",
+      "fullMatch": "$t('Message.Components.Editor.EditArticle'"
+    },
+    {
+      "key": "Message.Components.Editor.Release",
+      "fullMatch": "$t('Message.Components.Editor.Release'"
+    }
+  ],
+  "src\\pages\\admin\\comments\\index.vue": [
+    {
+      "key": "Message.Admin.Comments.CommentID",
+      "fullMatch": "$t('Message.Admin.Comments.CommentID'"
+    },
+    {
+      "key": "Message.Admin.Comments.CommentableID",
+      "fullMatch": "$t('Message.Admin.Comments.CommentableID'"
+    },
+    {
+      "key": "Message.Admin.Comments.CommentableType",
+      "fullMatch": "$t('Message.Admin.Comments.CommentableType'"
+    },
+    {
+      "key": "Message.Admin.Comments.UserID",
+      "fullMatch": "$t('Message.Admin.Comments.UserID'"
+    },
+    {
+      "key": "Message.Admin.Comments.User",
+      "fullMatch": "$t('Message.Admin.Comments.User'"
+    },
+    {
+      "key": "Message.Admin.Comments.Content",
+      "fullMatch": "$t('Message.Admin.Comments.Content'"
+    },
+    {
+      "key": "Message.Admin.Comments.ReplyCount",
+      "fullMatch": "$t('Message.Admin.Comments.ReplyCount'"
+    },
+    {
+      "key": "Message.Admin.Comments.VoteCount",
+      "fullMatch": "$t('Message.Admin.Comments.VoteCount'"
+    },
+    {
+      "key": "Message.Admin.Comments.VoteUpCount",
+      "fullMatch": "$t('Message.Admin.Comments.VoteUpCount'"
+    },
+    {
+      "key": "Message.Admin.Comments.VoteDownCount",
+      "fullMatch": "$t('Message.Admin.Comments.VoteDownCount'"
+    },
+    {
+      "key": "Message.Admin.Comments.CreateTime",
+      "fullMatch": "$t('Message.Admin.Comments.CreateTime'"
+    },
+    {
+      "key": "Message.Admin.Comments.UpdateTime",
+      "fullMatch": "$t('Message.Admin.Comments.UpdateTime'"
+    },
+    {
+      "key": "Message.Admin.Comments.DeleteTime",
+      "fullMatch": "$t('Message.Admin.Comments.DeleteTime'"
+    }
+  ],
+  "src\\pages\\admin\\index\\index.vue": [
+    {
+      "key": "Message.Admin.Index.DataCount",
+      "fullMatch": "$t('Message.Admin.Index.DataCount'"
+    },
+    {
+      "key": "Message.Admin.Index.UserCount",
+      "fullMatch": "$t('Message.Admin.Index.UserCount'"
+    },
+    {
+      "key": "Message.Admin.Index.UserGroupCount",
+      "fullMatch": "$t('Message.Admin.Index.UserGroupCount'"
+    },
+    {
+      "key": "Message.Admin.Index.ReportCount",
+      "fullMatch": "$t('Message.Admin.Index.ReportCount'"
+    },
+    {
+      "key": "Message.Admin.Index.TopicCount",
+      "fullMatch": "$t('Message.Admin.Index.TopicCount'"
+    },
+    {
+      "key": "Message.Admin.Index.QuestionCount",
+      "fullMatch": "$t('Message.Admin.Index.QuestionCount'"
+    },
+    {
+      "key": "Message.Admin.Index.AnswerCount",
+      "fullMatch": "$t('Message.Admin.Index.AnswerCount'"
+    },
+    {
+      "key": "Message.Admin.Index.ArticleCount",
+      "fullMatch": "$t('Message.Admin.Index.ArticleCount'"
+    },
+    {
+      "key": "Message.Admin.Index.CommentCount",
+      "fullMatch": "$t('Message.Admin.Index.CommentCount'"
+    },
+    {
+      "key": "Message.Admin.Index.ReplyCount",
+      "fullMatch": "$t('Message.Admin.Index.ReplyCount'"
+    }
+  ],
+  "src\\pages\\admin\\options\\components\\carousel.vue": [
+    {
+      "key": "Message.Admin.Options.Carousel.CarouselManage",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.CarouselManage'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.AddCarousel",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.AddCarousel'"
+    },
+    {
+      "key": "Message.Components.DataTable.NoDataText",
+      "fullMatch": "$t('Message.Components.DataTable.NoDataText'"
+    },
+    {
+      "key": "Message.Components.DataTable.NoDataTextForSearch",
+      "fullMatch": "$t('Message.Components.DataTable.NoDataTextForSearch'"
+    },
+    {
+      "key": "Message.Components.DataTable.SortBy",
+      "fullMatch": "$t('Message.Components.DataTable.SortBy'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.Edit",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.Edit'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.Delete",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.Delete'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.MoveUp",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.MoveUp'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.MoveDown",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.MoveDown'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.Add",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.Add'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.ImageUrl",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.ImageUrl'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.ImageUrlNotNull",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.ImageUrlNotNull'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.ImageUrlNotValid",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.ImageUrlNotValid'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.Title",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.Title'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.TitleNotNull",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.TitleNotNull'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.Description",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.Description'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.DescriptionNotNull",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.DescriptionNotNull'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.Href",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.Href'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.HrefNotNull",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.HrefNotNull'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.HrefNotValid",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.HrefNotValid'"
+    },
+    {
+      "key": "Message.Components.DataTable.Cancel",
+      "fullMatch": "$t('Message.Components.DataTable.Cancel'"
+    },
+    {
+      "key": "Message.Components.DataTable.Confirm",
+      "fullMatch": "$t('Message.Components.DataTable.Confirm'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.ConfirmDelete",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.ConfirmDelete'"
+    },
+    {
+      "key": "Message.Admin.Options.Save",
+      "fullMatch": "$t('Message.Admin.Options.Save'"
+    },
+    {
+      "key": "Message.Components.Account.Reset",
+      "fullMatch": "$t('Message.Components.Account.Reset'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.Image",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.Image'"
+    },
+    {
+      "key": "Message.Admin.Options.Carousel.Actions",
+      "fullMatch": "$t('Message.Admin.Options.Carousel.Actions'"
+    }
+  ],
+  "src\\pages\\admin\\options\\components\\theme.vue": [
+    {
+      "key": "Message.Admin.Options.ApplicationThemeColorParameter",
+      "fullMatch": "$t('Message.Admin.Options.ApplicationThemeColorParameter'"
+    },
+    {
+      "key": "Message.Admin.Options.LightThemeParameter",
+      "fullMatch": "$t('Message.Admin.Options.LightThemeParameter'"
+    },
+    {
+      "key": "Message.Admin.Options.ThemeColor",
+      "fullMatch": "$t('Message.Admin.Options.ThemeColor'"
+    },
+    {
+      "key": "Message.Admin.Options.NeutralColor",
+      "fullMatch": "$t('Message.Admin.Options.NeutralColor'"
+    },
+    {
+      "key": "Message.Admin.Options.SecondaryColor",
+      "fullMatch": "$t('Message.Admin.Options.SecondaryColor'"
+    },
+    {
+      "key": "Message.Admin.Options.DarkThemeParameter",
+      "fullMatch": "$t('Message.Admin.Options.DarkThemeParameter'"
+    },
+    {
+      "key": "Message.Admin.Options.Save",
+      "fullMatch": "$t('Message.Admin.Options.Save'"
+    },
+    {
+      "key": "Message.Components.Account.Reset",
+      "fullMatch": "$t('Message.Components.Account.Reset'"
+    },
+    {
+      "key": "Message.Admin.Options.ExmpleABCMustBeSeparatedByCommasInEnglish",
+      "fullMatch": "$t('Message.Admin.Options.ExmpleABCMustBeSeparatedByCommasInEnglish'"
+    }
+  ],
+  "src\\pages\\admin\\options\\components\\typed.vue": [
+    {
+      "key": "Message.Admin.Options.IndexTypewriterParameters",
+      "fullMatch": "$t('Message.Admin.Options.IndexTypewriterParameters'"
+    },
+    {
+      "key": "Message.Admin.Options.ExmpleABCMustBeSeparatedByCommasInEnglish",
+      "fullMatch": "$t('Message.Admin.Options.ExmpleABCMustBeSeparatedByCommasInEnglish'"
+    },
+    {
+      "key": "Message.Admin.Options.Save",
+      "fullMatch": "$t('Message.Admin.Options.Save'"
+    },
+    {
+      "key": "Message.Components.Account.Reset",
+      "fullMatch": "$t('Message.Components.Account.Reset'"
+    },
+    {
+      "key": "Message.Components.TextPlay.With",
+      "fullMatch": "\"Message.Components.TextPlay.With\""
+    },
+    {
+      "key": "Message.Components.TextPlay.MaterialDesign",
+      "fullMatch": "\"Message.Components.TextPlay.MaterialDesign\""
+    },
+    {
+      "key": "Message.Components.TextPlay.VueAsTheCore",
+      "fullMatch": "\"Message.Components.TextPlay.VueAsTheCore\""
+    },
+    {
+      "key": "Message.Components.TextPlay.ImplementedByVuetify",
+      "fullMatch": "\"Message.Components.TextPlay.ImplementedByVuetify\""
+    },
+    {
+      "key": "Message.Components.TextPlay.MoreElegant",
+      "fullMatch": "\"Message.Components.TextPlay.MoreElegant\""
+    },
+    {
+      "key": "Message.Components.TextPlay.UnlimitedDistance",
+      "fullMatch": "\"Message.Components.TextPlay.UnlimitedDistance\""
+    },
+    {
+      "key": "Message.Components.TextPlay.CrossPlatform",
+      "fullMatch": "\"Message.Components.TextPlay.CrossPlatform\""
+    },
+    {
+      "key": "Message.Components.TextPlay.DynamicResponsive",
+      "fullMatch": "\"Message.Components.TextPlay.DynamicResponsive\""
+    },
+    {
+      "key": "Message.Components.TextPlay.TheWay",
+      "fullMatch": "\"Message.Components.TextPlay.TheWay\""
+    },
+    {
+      "key": "Message.Components.TextPlay.EnjoyCommunication",
+      "fullMatch": "\"Message.Components.TextPlay.EnjoyCommunication\""
+    }
+  ],
+  "src\\pages\\admin\\options\\index copy.vue": [
+    {
+      "key": "Message.Admin.Options.SystemSettings",
+      "fullMatch": "$t('Message.Admin.Options.SystemSettings'"
+    },
+    {
+      "key": "Message.Admin.Options.SiteInfo",
+      "fullMatch": "$t('Message.Admin.Options.SiteInfo'"
+    },
+    {
+      "key": "Message.Admin.Options.SiteName",
+      "fullMatch": "$t('Message.Admin.Options.SiteName'"
+    },
+    {
+      "key": "Message.Admin.Options.SiteDescription",
+      "fullMatch": "$t('Message.Admin.Options.SiteDescription'"
+    },
+    {
+      "key": "Message.Admin.Options.SiteKeywords",
+      "fullMatch": "$t('Message.Admin.Options.SiteKeywords'"
+    },
+    {
+      "key": "Message.Admin.Options.SiteICP",
+      "fullMatch": "$t('Message.Admin.Options.SiteICP'"
+    },
+    {
+      "key": "Message.Admin.Options.SitePolice",
+      "fullMatch": "$t('Message.Admin.Options.SitePolice'"
+    },
+    {
+      "key": "Message.Admin.Options.DefaultLanguage",
+      "fullMatch": "$t('Message.Admin.Options.DefaultLanguage'"
+    },
+    {
+      "key": "Message.Admin.Options.Theme",
+      "fullMatch": "$t('Message.Admin.Options.Theme'"
+    },
+    {
+      "key": "Message.Admin.Options.EnableFrontEndPageToDisplayThemesWithDifferentStylesAndStylesDefaultToMaterialDesign",
+      "fullMatch": "$t(\r\n              'Message.Admin.Options.EnableFrontEndPageToDisplayThemesWithDifferentStylesAndStylesDefaultToMaterialDesign'"
+    },
+    {
+      "key": "Message.Admin.Options.Mail",
+      "fullMatch": "$t('Message.Admin.Options.Mail'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpHost",
+      "fullMatch": "$t('Message.Admin.Options.SmtpHost'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpUserName",
+      "fullMatch": "$t('Message.Admin.Options.SmtpUserName'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpPassword",
+      "fullMatch": "$t('Message.Admin.Options.SmtpPassword'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpProt",
+      "fullMatch": "$t('Message.Admin.Options.SmtpProt'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpSecure",
+      "fullMatch": "$t('Message.Admin.Options.SmtpSecure'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpReplyTo",
+      "fullMatch": "$t('Message.Admin.Options.SmtpReplyTo'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpSendName",
+      "fullMatch": "$t('Message.Admin.Options.SmtpSendName'"
+    },
+    {
+      "key": "Message.Admin.Options.AboutWebApplications",
+      "fullMatch": "$t('Message.Admin.Options.AboutWebApplications'"
+    },
+    {
+      "key": "Message.Admin.Options.Activation",
+      "fullMatch": "$t('Message.Admin.Options.Activation'"
+    },
+    {
+      "key": "Message.Admin.Options.ActivationAndRenewalOfProductAvailabilityTime",
+      "fullMatch": "$t('Message.Admin.Options.ActivationAndRenewalOfProductAvailabilityTime'"
+    },
+    {
+      "key": "Message.App.TheCurrentDomainNameIsNotAvailable",
+      "fullMatch": "$t('Message.App.TheCurrentDomainNameIsNotAvailable'"
+    },
+    {
+      "key": "Message.App.PleaseContactYourApplicationServiceProvider",
+      "fullMatch": "$t('Message.App.PleaseContactYourApplicationServiceProvider'"
+    },
+    {
+      "key": "Message.App.Version.DevelopmentVersion",
+      "fullMatch": "$t('Message.App.Version.DevelopmentVersion'"
+    },
+    {
+      "key": "Message.App.Version.UltimateVersion",
+      "fullMatch": "$t('Message.App.Version.UltimateVersion'"
+    },
+    {
+      "key": "Message.App.Version.ProVersion",
+      "fullMatch": "$t('Message.App.Version.ProVersion'"
+    },
+    {
+      "key": "Message.App.Version.BaseVersion",
+      "fullMatch": "$t('Message.App.Version.BaseVersion'"
+    },
+    {
+      "key": "Message.App.Version.PersonalVersion",
+      "fullMatch": "$t('Message.App.Version.PersonalVersion'"
+    },
+    {
+      "key": "Message.App.Version.NoActivation",
+      "fullMatch": "$t('Message.App.Version.NoActivation'"
+    },
+    {
+      "key": "Message.Admin.Options.VaildUntilN",
+      "fullMatch": "$t('Message.Admin.Options.VaildUntilN'"
+    },
+    {
+      "key": "Message.Admin.Options.PleasePurchaseTheProductSerialNumberAndEnterTheSerialNumberToActivateAfterActivationYouCanEnjoyMoreFunctions",
+      "fullMatch": "$t('Message.Admin.Options.PleasePurchaseTheProductSerialNumberAndEnterTheSerialNumberToActivateAfterActivationYouCanEnjoyMoreFunctions'"
+    },
+    {
+      "key": "Message.Admin.Options.DifferentSerialNumbersWillBeOverlaidWithTimeEfficiency",
+      "fullMatch": "$t('Message.Admin.Options.DifferentSerialNumbersWillBeOverlaidWithTimeEfficiency'"
+    },
+    {
+      "key": "Message.App.Version.ProductSerialNumberKeyFormatDescription",
+      "fullMatch": "$t('Message.App.Version.ProductSerialNumberKeyFormatDescription'"
+    },
+    {
+      "key": "Message.App.Version.ProductSerialNumberKey",
+      "fullMatch": "$t('Message.App.Version.ProductSerialNumberKey'"
+    },
+    {
+      "key": "Message.Admin.Options.PurchaseProductSerialNumber",
+      "fullMatch": "$t('Message.Admin.Options.PurchaseProductSerialNumber'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.Cancel",
+      "fullMatch": "$t('Message.Components.OptionsButton.Cancel'"
+    },
+    {
+      "key": "Message.Components.OptionsButton.Submit",
+      "fullMatch": "$t('Message.Components.OptionsButton.Submit'"
+    },
+    {
+      "key": "Message.Admin.Options.About",
+      "fullMatch": "$t('Message.Admin.Options.About'"
+    },
+    {
+      "key": "Message.Admin.Options.AboutContent",
+      "fullMatch": "$t('Message.Admin.Options.AboutContent'"
+    }
+  ],
+  "src\\pages\\admin\\options\\index.vue": [
+    {
+      "key": "Message.Admin.Options.SystemSettings",
+      "fullMatch": "$t('Message.Admin.Options.SystemSettings'"
+    },
+    {
+      "key": "Message.Admin.Options.SiteInfo",
+      "fullMatch": "$t('Message.Admin.Options.SiteInfo'"
+    },
+    {
+      "key": "Message.Admin.Options.SiteName",
+      "fullMatch": "$t('Message.Admin.Options.SiteName'"
+    },
+    {
+      "key": "Message.Admin.Options.SiteDescription",
+      "fullMatch": "$t('Message.Admin.Options.SiteDescription'"
+    },
+    {
+      "key": "Message.Admin.Options.SiteKeywords",
+      "fullMatch": "$t('Message.Admin.Options.SiteKeywords'"
+    },
+    {
+      "key": "Message.Admin.Options.SiteICP",
+      "fullMatch": "$t('Message.Admin.Options.SiteICP'"
+    },
+    {
+      "key": "Message.Admin.Options.SitePolice",
+      "fullMatch": "$t('Message.Admin.Options.SitePolice'"
+    },
+    {
+      "key": "Message.Admin.Options.DefaultLanguage",
+      "fullMatch": "$t('Message.Admin.Options.DefaultLanguage'"
+    },
+    {
+      "key": "Message.Admin.Options.Theme",
+      "fullMatch": "$t('Message.Admin.Options.Theme'"
+    },
+    {
+      "key": "Message.Admin.Options.EnableFrontEndPageToDisplayThemesWithDifferentStylesAndStylesDefaultToMaterialDesign",
+      "fullMatch": "$t(\r\n              'Message.Admin.Options.EnableFrontEndPageToDisplayThemesWithDifferentStylesAndStylesDefaultToMaterialDesign'"
+    },
+    {
+      "key": "Message.Admin.Options.Mail",
+      "fullMatch": "$t('Message.Admin.Options.Mail'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpHost",
+      "fullMatch": "$t('Message.Admin.Options.SmtpHost'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpUserName",
+      "fullMatch": "$t('Message.Admin.Options.SmtpUserName'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpPassword",
+      "fullMatch": "$t('Message.Admin.Options.SmtpPassword'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpProt",
+      "fullMatch": "$t('Message.Admin.Options.SmtpProt'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpSecure",
+      "fullMatch": "$t('Message.Admin.Options.SmtpSecure'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpReplyTo",
+      "fullMatch": "$t('Message.Admin.Options.SmtpReplyTo'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpSendName",
+      "fullMatch": "$t('Message.Admin.Options.SmtpSendName'"
+    },
+    {
+      "key": "Message.Admin.Options.Oauth",
+      "fullMatch": "$t('Message.Admin.Options.Oauth'"
+    },
+    {
+      "key": "Message.Admin.Options.ThirdPartyLoginSettings",
+      "fullMatch": "$t('Message.Admin.Options.ThirdPartyLoginSettings'"
+    },
+    {
+      "key": "Message.Admin.Options.AboutWebApplications",
+      "fullMatch": "$t('Message.Admin.Options.AboutWebApplications'"
+    },
+    {
+      "key": "Message.Admin.Options.About",
+      "fullMatch": "$t('Message.Admin.Options.About'"
+    },
+    {
+      "key": "Message.Admin.Options.AboutContent",
+      "fullMatch": "$t('Message.Admin.Options.AboutContent'"
+    },
+    {
+      "key": "Message.App.Version.CheckForUpdates",
+      "fullMatch": "$t('Message.App.Version.CheckForUpdates'"
+    },
+    {
+      "key": "Message.App.Version.CurrentVersion",
+      "fullMatch": "$t('Message.App.Version.CurrentVersion'"
+    },
+    {
+      "key": "Message.App.Version.LatestVersion",
+      "fullMatch": "$t('Message.App.Version.LatestVersion'"
+    },
+    {
+      "key": "Message.App.Version.DownLoadLastestVersion",
+      "fullMatch": "$t('Message.App.Version.DownLoadLastestVersion'"
+    },
+    {
+      "key": "Message.App.Version.OnlineUpdate",
+      "fullMatch": "$t('Message.App.Version.OnlineUpdate'"
+    },
+    {
+      "key": "Message.App.Version.NoDownloadLink",
+      "fullMatch": "$t('Message.App.Version.NoDownloadLink'"
+    }
+  ],
+  "src\\pages\\admin\\options\\info.vue": [
+    {
+      "key": "Message.Components.BackButton.Back",
+      "fullMatch": "$t('Message.Components.BackButton.Back'"
+    },
+    {
+      "key": "Message.Admin.Options.SiteInfo",
+      "fullMatch": "$t('Message.Admin.Options.SiteInfo'"
+    },
+    {
+      "key": "Message.Admin.Options.Save",
+      "fullMatch": "$t('Message.Admin.Options.Save'"
+    },
+    {
+      "key": "Message.Admin.Options.SiteName",
+      "fullMatch": "$t('Message.Admin.Options.SiteName'"
+    },
+    {
+      "key": "Message.Admin.Options.SiteDescription",
+      "fullMatch": "$t('Message.Admin.Options.SiteDescription'"
+    },
+    {
+      "key": "Message.Admin.Options.SiteKeywords",
+      "fullMatch": "$t('Message.Admin.Options.SiteKeywords'"
+    },
+    {
+      "key": "Message.Admin.Options.SiteKeywordsHint",
+      "fullMatch": "$t('Message.Admin.Options.SiteKeywordsHint'"
+    },
+    {
+      "key": "Message.Admin.Options.SiteICP",
+      "fullMatch": "$t('Message.Admin.Options.SiteICP'"
+    },
+    {
+      "key": "Message.Admin.Options.SiteICPHint",
+      "fullMatch": "$t('Message.Admin.Options.SiteICPHint'"
+    },
+    {
+      "key": "Message.Admin.Options.SitePolice",
+      "fullMatch": "$t('Message.Admin.Options.SitePolice'"
+    },
+    {
+      "key": "Message.Admin.Options.SitePoliceHint",
+      "fullMatch": "$t('Message.Admin.Options.SitePoliceHint'"
+    },
+    {
+      "key": "Message.Admin.Options.DefaultLanguage",
+      "fullMatch": "$t('Message.Admin.Options.DefaultLanguage'"
+    }
+  ],
+  "src\\pages\\admin\\options\\mail.vue": [
+    {
+      "key": "Message.Components.BackButton.Back",
+      "fullMatch": "$t('Message.Components.BackButton.Back'"
+    },
+    {
+      "key": "Message.Admin.Options.Mail",
+      "fullMatch": "$t('Message.Admin.Options.Mail'"
+    },
+    {
+      "key": "Message.Admin.Options.Save",
+      "fullMatch": "$t('Message.Admin.Options.Save'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpHost",
+      "fullMatch": "$t('Message.Admin.Options.SmtpHost'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpUserName",
+      "fullMatch": "$t('Message.Admin.Options.SmtpUserName'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpPassword",
+      "fullMatch": "$t('Message.Admin.Options.SmtpPassword'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpProt",
+      "fullMatch": "$t('Message.Admin.Options.SmtpProt'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpSecure",
+      "fullMatch": "$t('Message.Admin.Options.SmtpSecure'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpReplyTo",
+      "fullMatch": "$t('Message.Admin.Options.SmtpReplyTo'"
+    },
+    {
+      "key": "Message.Admin.Options.SmtpSendName",
+      "fullMatch": "$t('Message.Admin.Options.SmtpSendName'"
+    }
+  ],
+  "src\\pages\\admin\\options\\oauth.vue": [
+    {
+      "key": "Message.Components.BackButton.Back",
+      "fullMatch": "$t('Message.Components.BackButton.Back'"
+    },
+    {
+      "key": "Message.Admin.Options.ThirdPartyLoginSettings",
+      "fullMatch": "$t('Message.Admin.Options.ThirdPartyLoginSettings'"
+    },
+    {
+      "key": "Message.Admin.Options.Save",
+      "fullMatch": "$t('Message.Admin.Options.Save'"
+    },
+    {
+      "key": "Message.Components.Account.GithubAccount",
+      "fullMatch": "$t('Message.Components.Account.GithubAccount'"
+    },
+    {
+      "key": "Message.Admin.Options.ClientID",
+      "fullMatch": "$t('Message.Admin.Options.ClientID'"
+    },
+    {
+      "key": "Message.Admin.Options.ClientSecret",
+      "fullMatch": "$t('Message.Admin.Options.ClientSecret'"
+    },
+    {
+      "key": "Message.Components.Account.GoogleAccount",
+      "fullMatch": "$t('Message.Components.Account.GoogleAccount'"
+    },
+    {
+      "key": "Message.Components.Account.MicrosoftAccount",
+      "fullMatch": "$t('Message.Components.Account.MicrosoftAccount'"
+    },
+    {
+      "key": "Message.Components.Account.SSOAccount",
+      "fullMatch": "$t('Message.Components.Account.SSOAccount'"
+    },
+    {
+      "key": "Message.Admin.Options.SSOMainURL",
+      "fullMatch": "$t('Message.Admin.Options.SSOMainURL'"
+    },
+    {
+      "key": "Message.Admin.Options.SSOMainName",
+      "fullMatch": "$t('Message.Admin.Options.SSOMainName'"
+    }
+  ],
+  "src\\pages\\admin\\options\\theme.vue": [
+    {
+      "key": "Message.Components.BackButton.Back",
+      "fullMatch": "$t('Message.Components.BackButton.Back'"
+    },
+    {
+      "key": "Message.Admin.Options.Theme",
+      "fullMatch": "$t('Message.Admin.Options.Theme'"
+    },
+    {
+      "key": "Message.Admin.Options.Save",
+      "fullMatch": "$t('Message.Admin.Options.Save'"
+    },
+    {
+      "key": "Message.Admin.Options.ClientThemeSelection",
+      "fullMatch": "$t('Message.Admin.Options.ClientThemeSelection'"
+    },
+    {
+      "key": "Message.Admin.Options.ExmpleABCMustBeSeparatedByCommasInEnglish",
+      "fullMatch": "$t('Message.Admin.Options.ExmpleABCMustBeSeparatedByCommasInEnglish'"
+    }
+  ],
+  "src\\pages\\admin\\questions\\index.vue": [
+    {
+      "key": "Message.Admin.Questions.QuestionID",
+      "fullMatch": "$t('Message.Admin.Questions.QuestionID'"
+    },
+    {
+      "key": "Message.Admin.Questions.UserID",
+      "fullMatch": "$t('Message.Admin.Questions.UserID'"
+    },
+    {
+      "key": "Message.Admin.Questions.User",
+      "fullMatch": "$t('Message.Admin.Questions.User'"
+    },
+    {
+      "key": "Message.Admin.Questions.Title",
+      "fullMatch": "$t('Message.Admin.Questions.Title'"
+    },
+    {
+      "key": "Message.Admin.Questions.ContentMarkdown",
+      "fullMatch": "$t('Message.Admin.Questions.ContentMarkdown'"
+    },
+    {
+      "key": "Message.Admin.Questions.ContentRendered",
+      "fullMatch": "$t('Message.Admin.Questions.ContentRendered'"
+    },
+    {
+      "key": "Message.Admin.Questions.CommentCount",
+      "fullMatch": "$t('Message.Admin.Questions.CommentCount'"
+    },
+    {
+      "key": "Message.Admin.Questions.AnswerCount",
+      "fullMatch": "$t('Message.Admin.Questions.AnswerCount'"
+    },
+    {
+      "key": "Message.Admin.Questions.FollowerCount",
+      "fullMatch": "$t('Message.Admin.Questions.FollowerCount'"
+    },
+    {
+      "key": "Message.Admin.Questions.VoteCount",
+      "fullMatch": "$t('Message.Admin.Questions.VoteCount'"
+    },
+    {
+      "key": "Message.Admin.Questions.VoteUpCount",
+      "fullMatch": "$t('Message.Admin.Questions.VoteUpCount'"
+    },
+    {
+      "key": "Message.Admin.Questions.VoteDownCount",
+      "fullMatch": "$t('Message.Admin.Questions.VoteDownCount'"
+    },
+    {
+      "key": "Message.Admin.Questions.CreateTime",
+      "fullMatch": "$t('Message.Admin.Questions.CreateTime'"
+    },
+    {
+      "key": "Message.Admin.Questions.UpdateTime",
+      "fullMatch": "$t('Message.Admin.Questions.UpdateTime'"
+    },
+    {
+      "key": "Message.Admin.Questions.DeleteTime",
+      "fullMatch": "$t('Message.Admin.Questions.DeleteTime'"
+    },
+    {
+      "key": "Message.Components.Editor.EditQuestion",
+      "fullMatch": "$t('Message.Components.Editor.EditQuestion'"
+    },
+    {
+      "key": "Message.Components.Editor.Release",
+      "fullMatch": "$t('Message.Components.Editor.Release'"
+    }
+  ],
+  "src\\pages\\admin\\replys\\index.vue": [
+    {
+      "key": "Message.Admin.Replys.ReplyID",
+      "fullMatch": "$t('Message.Admin.Replys.ReplyID'"
+    },
+    {
+      "key": "Message.Admin.Replys.ReplyableID",
+      "fullMatch": "$t('Message.Admin.Replys.ReplyableID'"
+    },
+    {
+      "key": "Message.Admin.Replys.ReplyableType",
+      "fullMatch": "$t('Message.Admin.Replys.ReplyableType'"
+    },
+    {
+      "key": "Message.Admin.Replys.ReplyableUserID",
+      "fullMatch": "$t('Message.Admin.Replys.ReplyableUserID'"
+    },
+    {
+      "key": "Message.Admin.Replys.ReplyableUser",
+      "fullMatch": "$t('Message.Admin.Replys.ReplyableUser'"
+    },
+    {
+      "key": "Message.Admin.Replys.ReplyableCommentID",
+      "fullMatch": "$t('Message.Admin.Replys.ReplyableCommentID'"
+    },
+    {
+      "key": "Message.Admin.Replys.UserID",
+      "fullMatch": "$t('Message.Admin.Replys.UserID'"
+    },
+    {
+      "key": "Message.Admin.Replys.User",
+      "fullMatch": "$t('Message.Admin.Replys.User'"
+    },
+    {
+      "key": "Message.Admin.Replys.Content",
+      "fullMatch": "$t('Message.Admin.Replys.Content'"
+    },
+    {
+      "key": "Message.Admin.Replys.ReplyCount",
+      "fullMatch": "$t('Message.Admin.Replys.ReplyCount'"
+    },
+    {
+      "key": "Message.Admin.Replys.VoteCount",
+      "fullMatch": "$t('Message.Admin.Replys.VoteCount'"
+    },
+    {
+      "key": "Message.Admin.Replys.VoteUpCount",
+      "fullMatch": "$t('Message.Admin.Replys.VoteUpCount'"
+    },
+    {
+      "key": "Message.Admin.Replys.VoteDownCount",
+      "fullMatch": "$t('Message.Admin.Replys.VoteDownCount'"
+    },
+    {
+      "key": "Message.Admin.Replys.CreateTime",
+      "fullMatch": "$t('Message.Admin.Replys.CreateTime'"
+    },
+    {
+      "key": "Message.Admin.Replys.UpdateTime",
+      "fullMatch": "$t('Message.Admin.Replys.UpdateTime'"
+    },
+    {
+      "key": "Message.Admin.Replys.DeleteTime",
+      "fullMatch": "$t('Message.Admin.Replys.DeleteTime'"
+    }
+  ],
+  "src\\pages\\admin\\reports\\index.vue": [
+    {
+      "key": "Message.Admin.Reports.ReportID",
+      "fullMatch": "$t('Message.Admin.Reports.ReportID'"
+    },
+    {
+      "key": "Message.Admin.Reports.ReportableID",
+      "fullMatch": "$t('Message.Admin.Reports.ReportableID'"
+    },
+    {
+      "key": "Message.Admin.Reports.ReportableType",
+      "fullMatch": "$t('Message.Admin.Reports.ReportableType'"
+    },
+    {
+      "key": "Message.Admin.Reports.UserID",
+      "fullMatch": "$t('Message.Admin.Reports.UserID'"
+    },
+    {
+      "key": "Message.Admin.Reports.Reason",
+      "fullMatch": "$t('Message.Admin.Reports.Reason'"
+    },
+    {
+      "key": "Message.Admin.Reports.ReportHandleState",
+      "fullMatch": "$t('Message.Admin.Reports.ReportHandleState'"
+    },
+    {
+      "key": "Message.Admin.Reports.CreateTime",
+      "fullMatch": "$t('Message.Admin.Reports.CreateTime'"
+    }
+  ],
+  "src\\pages\\admin\\topics\\index.vue": [
+    {
+      "key": "Message.Admin.Topics.TopicID",
+      "fullMatch": "$t('Message.Admin.Topics.TopicID'"
+    },
+    {
+      "key": "Message.Admin.Topics.User",
+      "fullMatch": "$t('Message.Admin.Topics.User'"
+    },
+    {
+      "key": "Message.Admin.Topics.Name",
+      "fullMatch": "$t('Message.Admin.Topics.Name'"
+    },
+    {
+      "key": "Message.Admin.Topics.Description",
+      "fullMatch": "$t('Message.Admin.Topics.Description'"
+    },
+    {
+      "key": "Message.Admin.Topics.ArticleCount",
+      "fullMatch": "$t('Message.Admin.Topics.ArticleCount'"
+    },
+    {
+      "key": "Message.Admin.Topics.QuestionCount",
+      "fullMatch": "$t('Message.Admin.Topics.QuestionCount'"
+    },
+    {
+      "key": "Message.Admin.Topics.FollowerCount",
+      "fullMatch": "$t('Message.Admin.Topics.FollowerCount'"
+    },
+    {
+      "key": "Message.Admin.Topics.CreateTime",
+      "fullMatch": "$t('Message.Admin.Topics.CreateTime'"
+    },
+    {
+      "key": "Message.Admin.Topics.UpdateTime",
+      "fullMatch": "$t('Message.Admin.Topics.UpdateTime'"
+    },
+    {
+      "key": "Message.Admin.Topics.DeleteTime",
+      "fullMatch": "$t('Message.Admin.Topics.DeleteTime'"
+    }
+  ],
+  "src\\pages\\admin\\users\\index.vue": [
+    {
+      "key": "Message.Admin.Users.UserID",
+      "fullMatch": "$t('Message.Admin.Users.UserID'"
+    },
+    {
+      "key": "Message.Admin.Users.UserGroupID",
+      "fullMatch": "$t('Message.Admin.Users.UserGroupID'"
+    },
+    {
+      "key": "Message.Admin.Users.User",
+      "fullMatch": "$t('Message.Admin.Users.User'"
+    },
+    {
+      "key": "Message.Admin.Users.Username",
+      "fullMatch": "$t('Message.Admin.Users.Username'"
+    },
+    {
+      "key": "Message.Admin.Users.Email",
+      "fullMatch": "$t('Message.Admin.Users.Email'"
+    },
+    {
+      "key": "Message.Admin.Users.Avatar",
+      "fullMatch": "$t('Message.Admin.Users.Avatar'"
+    },
+    {
+      "key": "Message.Admin.Users.Cover",
+      "fullMatch": "$t('Message.Admin.Users.Cover'"
+    },
+    {
+      "key": "Message.Admin.Users.Password",
+      "fullMatch": "$t('Message.Admin.Users.Password'"
+    },
+    {
+      "key": "Message.Admin.Users.CreateIP",
+      "fullMatch": "$t('Message.Admin.Users.CreateIP'"
+    },
+    {
+      "key": "Message.Admin.Users.CreateLocation",
+      "fullMatch": "$t('Message.Admin.Users.CreateLocation'"
+    },
+    {
+      "key": "Message.Admin.Users.LastLoginTime",
+      "fullMatch": "$t('Message.Admin.Users.LastLoginTime'"
+    },
+    {
+      "key": "Message.Admin.Users.LastLoginIP",
+      "fullMatch": "$t('Message.Admin.Users.LastLoginIP'"
+    },
+    {
+      "key": "Message.Admin.Users.LastLoginLocation",
+      "fullMatch": "$t('Message.Admin.Users.LastLoginLocation'"
+    },
+    {
+      "key": "Message.Admin.Users.FollowerCount",
+      "fullMatch": "$t('Message.Admin.Users.FollowerCount'"
+    },
+    {
+      "key": "Message.Admin.Users.FolloweeCount",
+      "fullMatch": "$t('Message.Admin.Users.FolloweeCount'"
+    },
+    {
+      "key": "Message.Admin.Users.FollowingTopicCount",
+      "fullMatch": "$t('Message.Admin.Users.FollowingTopicCount'"
+    },
+    {
+      "key": "Message.Admin.Users.FollowingArticleCount",
+      "fullMatch": "$t('Message.Admin.Users.FollowingArticleCount'"
+    },
+    {
+      "key": "Message.Admin.Users.FollowingQuestionCount",
+      "fullMatch": "$t('Message.Admin.Users.FollowingQuestionCount'"
+    },
+    {
+      "key": "Message.Admin.Users.ArticleCount",
+      "fullMatch": "$t('Message.Admin.Users.ArticleCount'"
+    },
+    {
+      "key": "Message.Admin.Users.QuestionCount",
+      "fullMatch": "$t('Message.Admin.Users.QuestionCount'"
+    },
+    {
+      "key": "Message.Admin.Users.AnswerCount",
+      "fullMatch": "$t('Message.Admin.Users.AnswerCount'"
+    },
+    {
+      "key": "Message.Admin.Users.CommentCount",
+      "fullMatch": "$t('Message.Admin.Users.CommentCount'"
+    },
+    {
+      "key": "Message.Admin.Users.ReplyCount",
+      "fullMatch": "$t('Message.Admin.Users.ReplyCount'"
+    },
+    {
+      "key": "Message.Admin.Users.NotificationUnread",
+      "fullMatch": "$t('Message.Admin.Users.NotificationUnread'"
+    },
+    {
+      "key": "Message.Admin.Users.InboxSystem",
+      "fullMatch": "$t('Message.Admin.Users.InboxSystem'"
+    },
+    {
+      "key": "Message.Admin.Users.InboxUserGroup",
+      "fullMatch": "$t('Message.Admin.Users.InboxUserGroup'"
+    },
+    {
+      "key": "Message.Admin.Users.InboxPrivateMessage",
+      "fullMatch": "$t('Message.Admin.Users.InboxPrivateMessage'"
+    },
+    {
+      "key": "Message.Admin.Users.Headline",
+      "fullMatch": "$t('Message.Admin.Users.Headline'"
+    },
+    {
+      "key": "Message.Admin.Users.Bio",
+      "fullMatch": "$t('Message.Admin.Users.Bio'"
+    },
+    {
+      "key": "Message.Admin.Users.Blog",
+      "fullMatch": "$t('Message.Admin.Users.Blog'"
+    },
+    {
+      "key": "Message.Client.User.User.AffiliatedSchoolOrEnterprise",
+      "fullMatch": "$t('Message.Client.User.User.AffiliatedSchoolOrEnterprise'"
+    },
+    {
+      "key": "Message.Admin.Users.Location",
+      "fullMatch": "$t('Message.Admin.Users.Location'"
+    },
+    {
+      "key": "Message.Admin.Users.CreateTime",
+      "fullMatch": "$t('Message.Admin.Users.CreateTime'"
+    },
+    {
+      "key": "Message.Admin.Users.UpdateTime",
+      "fullMatch": "$t('Message.Admin.Users.UpdateTime'"
+    },
+    {
+      "key": "Message.Admin.Users.DisableTime",
+      "fullMatch": "$t('Message.Admin.Users.DisableTime'"
+    }
+  ],
+  "src\\pages\\admin\\user_groups\\index.vue": [
+    {
+      "key": "Message.Admin.UserGroups.UserGroupID",
+      "fullMatch": "$t('Message.Admin.UserGroups.UserGroupID'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.UserGroupName",
+      "fullMatch": "$t('Message.Admin.UserGroups.UserGroupName'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.UserGroupDescription",
+      "fullMatch": "$t('Message.Admin.UserGroups.UserGroupDescription'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.UserGroupIcon",
+      "fullMatch": "$t('Message.Admin.UserGroups.UserGroupIcon'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.UserGroupIconShow",
+      "fullMatch": "$t('Message.Admin.UserGroups.UserGroupIconShow'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.UserGroupColor",
+      "fullMatch": "$t('Message.Admin.UserGroups.UserGroupColor'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.UserGroupUserCount",
+      "fullMatch": "$t('Message.Admin.UserGroups.UserGroupUserCount'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.CreateTime",
+      "fullMatch": "$t('Message.Admin.UserGroups.CreateTime'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.UpdateTime",
+      "fullMatch": "$t('Message.Admin.UserGroups.UpdateTime'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.DeleteTime",
+      "fullMatch": "$t('Message.Admin.UserGroups.DeleteTime'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.IsAdmin",
+      "fullMatch": "$t('Message.Admin.UserGroups.IsAdmin'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityNormalLogin",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityNormalLogin'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminLogin",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminLogin'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageUserGroup",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageUserGroup'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageUser",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageUser'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageTopic",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageTopic'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageQuestion",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageQuestion'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageArticle",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageArticle'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageAnswer",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageAnswer'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageReport",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageReport'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityAdminManageSetting",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityAdminManageSetting'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityCreateArticle",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityCreateArticle'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityCreateQuestion",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityCreateQuestion'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityCreateAnswer",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityCreateAnswer'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityCreateComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityCreateComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityCreateReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityCreateReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityCreateTopic",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityCreateTopic'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditOwnArticle",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditOwnArticle'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditOwnQuestion",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditOwnQuestion'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditOwnAnswer",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditOwnAnswer'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditOwnComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditOwnComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditOwnReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditOwnReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditOwnTopic",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditOwnTopic'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteOwnArticle",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteOwnArticle'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteOwnQuestion",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteOwnQuestion'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteOwnAnswer",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteOwnAnswer'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteOwnComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteOwnComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteOwnReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteOwnReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteOwnTopic",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteOwnTopic'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeEditArticle",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeEditArticle'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeEditQuestion",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeEditQuestion'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeEditAnswer",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeEditAnswer'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeEditComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeEditComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeEditReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeEditReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeEditTopic",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeEditTopic'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeDeleteArticle",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeDeleteArticle'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeDeleteQuestion",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeDeleteQuestion'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeDeleteAnswer",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeDeleteAnswer'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeDeleteComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeDeleteComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeDeleteReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeDeleteReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.TimeBeforeDeleteTopic",
+      "fullMatch": "$t('Message.Admin.UserGroups.TimeBeforeDeleteTopic'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditArticleOnlyNoComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditArticleOnlyNoComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditQuestionOnlyNoAnswer",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditQuestionOnlyNoAnswer'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditAnswerOnlyNoComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditAnswerOnlyNoComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditQuestionOnlyNoComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditQuestionOnlyNoComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditCommentOnlyNoReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditCommentOnlyNoReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditReplyOnlyNoReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditReplyOnlyNoReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditTopicOnlyNoArticleOrQuestion",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditTopicOnlyNoArticleOrQuestion'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteArticleOnlyNoComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteArticleOnlyNoComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteQuestionOnlyNoAnswer",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteQuestionOnlyNoAnswer'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteAnswerOnlyNoComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteAnswerOnlyNoComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteQuestionOnlyNoComment",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteQuestionOnlyNoComment'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteCommentOnlyNoReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteCommentOnlyNoReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteReplyOnlyNoReply",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteReplyOnlyNoReply'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityDeleteTopicOnlyNoArticleOrQuestion",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityDeleteTopicOnlyNoArticleOrQuestion'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityEditOwnInfo",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityEditOwnInfo'"
+    },
+    {
+      "key": "Message.Admin.UserGroups.AbilityVote",
+      "fullMatch": "$t('Message.Admin.UserGroups.AbilityVote'"
+    }
+  ],
+  "src\\pages\\client\\article\\index.vue": [
+    {
+      "key": "Message.Client.Article.NComment",
+      "fullMatch": "$t('Message.Client.Article.NComment'"
+    },
+    {
+      "key": "Message.Client.Article.WebSubTitle",
+      "fullMatch": "$t('Message.Client.Article.WebSubTitle'"
+    }
+  ],
+  "src\\pages\\client\\articles\\index.vue": [
+    {
+      "key": "Message.Client.Article.NComment",
+      "fullMatch": "$t('Message.Client.Article.NComment'"
+    },
+    {
+      "key": "Message.Client.Articles.LastestArticles",
+      "fullMatch": "$t('Message.Client.Articles.LastestArticles'"
+    },
+    {
+      "key": "Message.Client.Articles.WebSubTitle",
+      "fullMatch": "$t('Message.Client.Articles.WebSubTitle'"
+    },
+    {
+      "key": "Message.Client.Articles.RecentlyPopularArticles",
+      "fullMatch": "$t('Message.Client.Articles.RecentlyPopularArticles'"
+    },
+    {
+      "key": "Message.Client.Articles.ArticlesIAmFollowing",
+      "fullMatch": "$t('Message.Client.Articles.ArticlesIAmFollowing'"
+    }
+  ],
+  "src\\pages\\client\\home\\components\\items\\index.vue": [
+    {
+      "key": "Message.Components.UsersDialog.FollowersN",
+      "fullMatch": "$t('Message.Components.UsersDialog.FollowersN'"
+    },
+    {
+      "key": "Message.Components.ListItem.NComment",
+      "fullMatch": "$t('Message.Components.ListItem.NComment'"
+    },
+    {
+      "key": "Message.Components.ListItem.NAnswers",
+      "fullMatch": "$t('Message.Components.ListItem.NAnswers'"
+    },
+    {
+      "key": "Message.Components.ListItem.JoinN",
+      "fullMatch": "$t('Message.Components.ListItem.JoinN'"
+    }
+  ],
+  "src\\pages\\client\\home\\index.vue": [
+    {
+      "key": "Message.Client.Index.LatestQuestions",
+      "fullMatch": "$t('Message.Client.Index.LatestQuestions'"
+    },
+    {
+      "key": "Message.Client.Index.RecentlyPopularQuestions",
+      "fullMatch": "$t('Message.Client.Index.RecentlyPopularQuestions'"
+    },
+    {
+      "key": "Message.Client.Index.LatestArticles",
+      "fullMatch": "$t('Message.Client.Index.LatestArticles'"
+    },
+    {
+      "key": "Message.Client.Index.RecentlyPopularArticles",
+      "fullMatch": "$t('Message.Client.Index.RecentlyPopularArticles'"
+    },
+    {
+      "key": "Message.Client.Index.NewlyJoinedPeople",
+      "fullMatch": "$t('Message.Client.Index.NewlyJoinedPeople'"
+    },
+    {
+      "key": "Message.Client.Index.TheMostPopularPerson",
+      "fullMatch": "$t('Message.Client.Index.TheMostPopularPerson'"
+    }
+  ],
+  "src\\pages\\client\\notifications\\index.vue": [
+    {
+      "key": "Message.Components.BackButton.Back",
+      "fullMatch": "$t('Message.Components.BackButton.Back'"
+    },
+    {
+      "key": "Message.Components.NoticeButton.Notice",
+      "fullMatch": "$t('Message.Components.NoticeButton.Notice'"
+    },
+    {
+      "key": "Message.Client.Notifications.SystemNotifications",
+      "fullMatch": "$t('Message.Client.Notifications.SystemNotifications'"
+    },
+    {
+      "key": "Message.Client.Notifications.WebSubTitle",
+      "fullMatch": "$t('Message.Client.Notifications.WebSubTitle'"
+    },
+    {
+      "key": "Message.Client.Notifications.UserGroupNotifications",
+      "fullMatch": "$t('Message.Client.Notifications.UserGroupNotifications'"
+    },
+    {
+      "key": "Message.Client.Notifications.PrivateMessageNotifications",
+      "fullMatch": "$t('Message.Client.Notifications.PrivateMessageNotifications'"
+    },
+    {
+      "key": "Message.Client.Notifications.DeleteSuccess",
+      "fullMatch": "$t('Message.Client.Notifications.DeleteSuccess'"
+    },
+    {
+      "key": "Message.Client.Notifications.DeleteFailed",
+      "fullMatch": "$t('Message.Client.Notifications.DeleteFailed'"
+    },
+    {
+      "key": "Message.Client.Notifications.DeleteAllSuccess",
+      "fullMatch": "$t('Message.Client.Notifications.DeleteAllSuccess'"
+    },
+    {
+      "key": "Message.Client.Notifications.DeleteAllFailed",
+      "fullMatch": "$t('Message.Client.Notifications.DeleteAllFailed'"
+    }
+  ],
+  "src\\pages\\client\\notifications\\setting\\index.vue": [
+    {
+      "key": "Message.Client.Notification.NotificationSetting",
+      "fullMatch": "$t('Message.Client.Notification.NotificationSetting'"
+    },
+    {
+      "key": "Message.Components.BackButton.Back",
+      "fullMatch": "$t('Message.Components.BackButton.Back'"
+    },
+    {
+      "key": "Message.Admin.Options.Save",
+      "fullMatch": "$t('Message.Admin.Options.Save'"
+    },
+    {
+      "key": "Message.Client.Notification.YouCanManageYourNotificationSettingsHere",
+      "fullMatch": "$t('Message.Client.Notification.YouCanManageYourNotificationSettingsHere'"
+    },
+    {
+      "key": "Message.Client.Notification.NotificationItem",
+      "fullMatch": "$t('Message.Client.Notification.NotificationItem'"
+    },
+    {
+      "key": "Message.Client.Notification.SiteNotification",
+      "fullMatch": "$t('Message.Client.Notification.SiteNotification'"
+    },
+    {
+      "key": "Message.Client.Notification.EmailNotification",
+      "fullMatch": "$t('Message.Client.Notification.EmailNotification'"
+    }
+  ],
+  "src\\pages\\client\\question\\components\\comment-button\\index.vue": [
+    {
+      "key": "Message.Client.Question.CommentButton.Comment",
+      "fullMatch": "$t('Message.Client.Question.CommentButton.Comment'"
+    }
+  ],
+  "src\\pages\\client\\question\\index.vue": [
+    {
+      "key": "Message.Client.Article.NComment",
+      "fullMatch": "$t('Message.Client.Article.NComment'"
+    },
+    {
+      "key": "Message.Client.Question.WebSubTitle",
+      "fullMatch": "$t('Message.Client.Question.WebSubTitle'"
+    }
+  ],
+  "src\\pages\\client\\questions\\index.vue": [
+    {
+      "key": "Message.Client.Question.NAnswers",
+      "fullMatch": "$t('Message.Client.Question.NAnswers'"
+    },
+    {
+      "key": "Message.Client.Questions.QuestionsIAmFollowing",
+      "fullMatch": "$t('Message.Client.Questions.QuestionsIAmFollowing'"
+    },
+    {
+      "key": "Message.Client.Questions.WebSubTitle",
+      "fullMatch": "$t('Message.Client.Questions.WebSubTitle'"
+    },
+    {
+      "key": "Message.Client.Questions.LatestQuestions",
+      "fullMatch": "$t('Message.Client.Questions.LatestQuestions'"
+    },
+    {
+      "key": "Message.Client.Questions.RecentlyPopularQuestions",
+      "fullMatch": "$t('Message.Client.Questions.RecentlyPopularQuestions'"
+    }
+  ],
+  "src\\pages\\client\\settings\\index.vue": [
+    {
+      "key": "Message.Components.DevDialog.Setting",
+      "fullMatch": "$t('Message.Components.DevDialog.Setting'"
+    },
+    {
+      "key": "Message.Components.DevDialog.Client",
+      "fullMatch": "$t('Message.Components.DevDialog.Client'"
+    },
+    {
+      "key": "Message.Components.DevDialog.GlobalFrostedGlassEffect",
+      "fullMatch": "$t('Message.Components.DevDialog.GlobalFrostedGlassEffect'"
+    },
+    {
+      "key": "Message.Components.DevDialog.OnlyForUseOnMidToHighEndDevices",
+      "fullMatch": "$t('Message.Components.DevDialog.OnlyForUseOnMidToHighEndDevices'"
+    },
+    {
+      "key": "Message.Components.DevDialog.AppbarFrostedGlassEffect",
+      "fullMatch": "$t('Message.Components.DevDialog.AppbarFrostedGlassEffect'"
+    },
+    {
+      "key": "Message.Components.DevDialog.BottomNavigationFrostedGlassEffect",
+      "fullMatch": "$t('Message.Components.DevDialog.BottomNavigationFrostedGlassEffect'"
+    },
+    {
+      "key": "Message.Admin.Options.Theme",
+      "fullMatch": "$t('Message.Admin.Options.Theme'"
+    },
+    {
+      "key": "Message.App.TheCurrentEnvironmentIsUnavailable",
+      "fullMatch": "$t('Message.App.TheCurrentEnvironmentIsUnavailable'"
+    },
+    {
+      "key": "Message.Components.Account.ThirdPartyAccounts",
+      "fullMatch": "$t('Message.Components.Account.ThirdPartyAccounts'"
+    },
+    {
+      "key": "Message.Components.Account.GithubAccount",
+      "fullMatch": "$t('Message.Components.Account.GithubAccount'"
+    },
+    {
+      "key": "Message.Components.Account.SssociatedNLogin",
+      "fullMatch": "$t('Message.Components.Account.SssociatedNLogin'"
+    },
+    {
+      "key": "Message.Components.Account.AlreadySssociated",
+      "fullMatch": "$t('Message.Components.Account.AlreadySssociated'"
+    },
+    {
+      "key": "Message.Components.Account.Disassociation",
+      "fullMatch": "$t('Message.Components.Account.Disassociation'"
+    },
+    {
+      "key": "Message.Components.Account.GoogleAccount",
+      "fullMatch": "$t('Message.Components.Account.GoogleAccount'"
+    },
+    {
+      "key": "Message.Components.Account.MicrosoftAccount",
+      "fullMatch": "$t('Message.Components.Account.MicrosoftAccount'"
+    },
+    {
+      "key": "Message.Components.Account.ValueAccount",
+      "fullMatch": "$t('Message.Components.Account.ValueAccount'"
+    },
+    {
+      "key": "Message.Components.Account.SSOAccount",
+      "fullMatch": "$t('Message.Components.Account.SSOAccount'"
+    }
+  ],
+  "src\\pages\\client\\topic\\components\\contexts\\index.vue": [
+    {
+      "key": "Message.Client.Topic.Contexts.Questions",
+      "fullMatch": "$t('Message.Client.Topic.Contexts.Questions'"
+    },
+    {
+      "key": "Message.Client.Topic.Contexts.Articles",
+      "fullMatch": "$t('Message.Client.Topic.Contexts.Articles'"
+    },
+    {
+      "key": "Message.Client.Topic.Contexts.FollowingQuestions",
+      "fullMatch": "$t('Message.Client.Topic.Contexts.FollowingQuestions'"
+    },
+    {
+      "key": "Message.Client.Topic.Contexts.FollowingArticles",
+      "fullMatch": "$t('Message.Client.Topic.Contexts.FollowingArticles'"
+    },
+    {
+      "key": "Message.Client.Question.NAnswers",
+      "fullMatch": "$t('Message.Client.Question.NAnswers'"
+    },
+    {
+      "key": "Message.Client.Article.NComment",
+      "fullMatch": "$t('Message.Client.Article.NComment'"
+    }
+  ],
+  "src\\pages\\client\\user\\components\\contexts\\index.vue": [
+    {
+      "key": "Message.Client.User.Contexts.TabNAskingQuestions",
+      "fullMatch": "$t('Message.Client.User.Contexts.TabNAskingQuestions'"
+    },
+    {
+      "key": "Message.Client.User.Contexts.TabNAnswer",
+      "fullMatch": "$t('Message.Client.User.Contexts.TabNAnswer'"
+    },
+    {
+      "key": "Message.Client.User.Contexts.TabNArticle",
+      "fullMatch": "$t('Message.Client.User.Contexts.TabNArticle'"
+    },
+    {
+      "key": "Message.Client.Question.NAnswers",
+      "fullMatch": "$t('Message.Client.Question.NAnswers'"
+    },
+    {
+      "key": "Message.Client.Article.NComment",
+      "fullMatch": "$t('Message.Client.Article.NComment'"
+    }
+  ],
+  "src\\pages\\client\\user\\components\\user\\index.vue": [
+    {
+      "key": "Message.Client.User.User.OneSentenceIntroduction",
+      "fullMatch": "$t('Message.Client.User.User.OneSentenceIntroduction'"
+    },
+    {
+      "key": "Message.Client.User.User.PersonalHomepage",
+      "fullMatch": "$t('Message.Client.User.User.PersonalHomepage'"
+    },
+    {
+      "key": "Message.Client.User.User.AffiliatedSchoolOrEnterprise",
+      "fullMatch": "$t('Message.Client.User.User.AffiliatedSchoolOrEnterprise'"
+    },
+    {
+      "key": "Message.Client.User.User.Location",
+      "fullMatch": "$t('Message.Client.User.User.Location'"
+    },
+    {
+      "key": "Message.Client.User.User.PersonalIntroduction",
+      "fullMatch": "$t('Message.Client.User.User.PersonalIntroduction'"
+    },
+    {
+      "key": "Message.Client.User.User.ShowDetail",
+      "fullMatch": "$t('Message.Client.User.User.ShowDetail'"
+    },
+    {
+      "key": "Message.Client.User.User.CollapseDetails",
+      "fullMatch": "$t('Message.Client.User.User.CollapseDetails'"
+    },
+    {
+      "key": "Message.Client.User.User.NPeopleFollowing",
+      "fullMatch": "$t('Message.Client.User.User.NPeopleFollowing'"
+    },
+    {
+      "key": "Message.Client.User.User.FollowNPeople",
+      "fullMatch": "$t('Message.Client.User.User.FollowNPeople'"
+    }
+  ],
+  "src\\pages\\client\\user\\index.vue": [
+    {
+      "key": "Message.Client.User.NPersonalHomepage",
+      "fullMatch": "$t('Message.Client.User.NPersonalHomepage'"
+    }
+  ],
+  "src\\pages\\client\\users\\index.vue": [
+    {
+      "key": "Message.Client.Users.PeopleIFollow",
+      "fullMatch": "$t('Message.Client.Users.PeopleIFollow'"
+    },
+    {
+      "key": "Message.Client.Users.WebSubTitle",
+      "fullMatch": "$t('Message.Client.Users.WebSubTitle'"
+    },
+    {
+      "key": "Message.Client.Users.MyFollowers",
+      "fullMatch": "$t('Message.Client.Users.MyFollowers'"
+    },
+    {
+      "key": "Message.Client.Users.RecommendedHeaderTitle",
+      "fullMatch": "$t('Message.Client.Users.RecommendedHeaderTitle'"
+    }
+  ],
+  "src\\pages\\install\\index\\1\\index.vue": [
+    {
+      "key": "Message.Install.PleaseEnsureThatYouHaveImportedTheDatabaseDemotableSQLFileToMySQL",
+      "fullMatch": "$t('Message.Install.PleaseEnsureThatYouHaveImportedTheDatabaseDemotableSQLFileToMySQL'"
+    },
+    {
+      "key": "Message.Install.DatabaseName",
+      "fullMatch": "$t('Message.Install.DatabaseName'"
+    },
+    {
+      "key": "Message.Install.DatabaseUserName",
+      "fullMatch": "$t('Message.Install.DatabaseUserName'"
+    },
+    {
+      "key": "Message.Install.DatabasePassword",
+      "fullMatch": "$t('Message.Install.DatabasePassword'"
+    },
+    {
+      "key": "Message.Install.DatabaseAddress",
+      "fullMatch": "$t('Message.Install.DatabaseAddress'"
+    },
+    {
+      "key": "Message.Install.DatabasePrefix",
+      "fullMatch": "$t('Message.Install.DatabasePrefix'"
+    },
+    {
+      "key": "Message.Install.Continue",
+      "fullMatch": "$t('Message.Install.Continue'"
+    },
+    {
+      "key": "Message.Install.IfTheFormSettingsAreUnsuccessfulItIsRecommendedToManuallyConfigureYourDatabaseInformationInConfigConfigPhp",
+      "fullMatch": "$t('Message.Install.IfTheFormSettingsAreUnsuccessfulItIsRecommendedToManuallyConfigureYourDatabaseInformationInConfigConfigPhp'"
+    }
+  ],
+  "src\\pages\\install\\index\\2\\index.vue": [
+    {
+      "key": "Message.Install.SMTPServerAddress",
+      "fullMatch": "$t('Message.Install.SMTPServerAddress'"
+    },
+    {
+      "key": "Message.Install.SMTPServerPort",
+      "fullMatch": "$t('Message.Install.SMTPServerPort'"
+    },
+    {
+      "key": "Message.Install.SMTPServerSecurity",
+      "fullMatch": "$t('Message.Install.SMTPServerSecurity'"
+    },
+    {
+      "key": "Message.Install.SMTPServerSendName",
+      "fullMatch": "$t('Message.Install.SMTPServerSendName'"
+    },
+    {
+      "key": "Message.Install.SMTPServerUsername",
+      "fullMatch": "$t('Message.Install.SMTPServerUsername'"
+    },
+    {
+      "key": "Message.Install.SMTPServerPassword",
+      "fullMatch": "$t('Message.Install.SMTPServerPassword'"
+    },
+    {
+      "key": "Message.Install.TestEMail",
+      "fullMatch": "$t('Message.Install.TestEMail'"
+    },
+    {
+      "key": "Message.Install.SMTPServerConnectionTest",
+      "fullMatch": "$t('Message.Install.SMTPServerConnectionTest'"
+    },
+    {
+      "key": "Message.Install.Continue",
+      "fullMatch": "$t('Message.Install.Continue'"
+    }
+  ],
+  "src\\pages\\install\\index\\3\\index.vue": [
+    {
+      "key": "Message.Install.WebName",
+      "fullMatch": "$t('Message.Install.WebName'"
+    },
+    {
+      "key": "Message.Admin.Options.DefaultLanguage",
+      "fullMatch": "$t('Message.Admin.Options.DefaultLanguage'"
+    },
+    {
+      "key": "Message.Install.Continue",
+      "fullMatch": "$t('Message.Install.Continue'"
+    }
+  ],
+  "src\\pages\\install\\index\\4\\index.vue": [
+    {
+      "key": "Message.Install.Start",
+      "fullMatch": "$t('Message.Install.Start'"
+    },
+    {
+      "key": "Message.Install.TheFirstRegisteredUserInTheStepWillBecomeAnAdministrator",
+      "fullMatch": "$t('Message.Install.TheFirstRegisteredUserInTheStepWillBecomeAnAdministrator'"
+    }
+  ],
+  "src\\pages\\install\\index\\index.vue": [
+    {
+      "key": "Message.Install.DatabaseInformation",
+      "fullMatch": "$t('Message.Install.DatabaseInformation'"
+    },
+    {
+      "key": "Message.Install.SetSystemEmailInformation",
+      "fullMatch": "$t('Message.Install.SetSystemEmailInformation'"
+    },
+    {
+      "key": "Message.Install.SetWebsiteInformation",
+      "fullMatch": "$t('Message.Install.SetWebsiteInformation'"
+    },
+    {
+      "key": "Message.Install.Start",
+      "fullMatch": "$t('Message.Install.Start'"
+    }
+  ]
+}

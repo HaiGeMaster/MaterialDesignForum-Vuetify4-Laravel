@@ -1,0 +1,11 @@
+{
+  "name": "MaterialDesignForum-Vuetify4",
+  "version": "2026.08.04",
+  "description": "[NEW Reset Theme!!!]Material Design MaterialDesignForum for Vuetify4",
+  "author": "HaiGeMaster",
+  "icon": "mdi-vuetify",
+  "icon_color": "#3a68c1",
+  "disabled": false,
+  "language_routes": true,
+  "support_ie": false
+}

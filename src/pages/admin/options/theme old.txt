@@ -1,0 +1,170 @@
+<template>
+  <v-container style="max-width: 830px;margin-bottom: 180px;" v-if="userStore.getUser.user_group.ability_admin_manage_option">
+    <v-card  rounded="lg" outlined>
+      <v-app-bar flat >
+
+        <v-btn rounded="lg"  depressed rounded outlined color="primary" @click="$router.go(-1)">
+          <v-icon left>
+            mdi-arrow-left
+          </v-icon>
+          {{ $t('Message.Components.BackButton.Back') }}
+        </v-btn>
+        <v-spacer></v-spacer>
+
+        <v-toolbar-title>
+          {{ $t('Message.Admin.Options.Theme') }}
+        </v-toolbar-title>
+
+        <v-spacer></v-spacer>
+
+
+        <v-btn rounded="lg"  depressed rounded :loading="is_loading" >
+          <!-- {{
+            $t('Message.Admin.Options.Save')
+          }}
+          <v-icon right>
+            mdi-send
+          </v-icon> -->
+        </v-btn>
+      </v-app-bar>
+
+      <v-divider></v-divider>
+      <v-card-text>
+
+        <v-card  rounded="lg" elevation="0">
+          <v-card-title>
+            <span>{{ $t('Message.Admin.Options.ClientThemeSelection') }}</span>
+          </v-card-title>
+          <v-card-text>
+
+            <v-select v-model="theme" :items="form_data" :label="$t('Message.Admin.Options.Theme')"
+              item-disabled="disabled" item-value="name" item-text="name"
+              outlined
+              >
+
+              <!-- <template v-slot:prepend-icon>
+            <v-avatar>
+              111
+              <v-img :src="require(`${form_data[theme].path}/favicon.png`)" width="24" height="24"></v-img>
+            </v-avatar>
+          </template> -->
+
+            </v-select>
+
+          </v-card-text>
+
+          <v-card-text>
+            <v-card-actions>
+              <v-btn rounded="lg"  depressed :loading="is_loading" color="primary" @click="SetData">{{ $t('Message.Admin.Options.Save')
+              }}</v-btn>
+            </v-card-actions>
+          </v-card-text>
+
+        </v-card>
+
+        <v-divider></v-divider>
+
+        <Theme />
+
+        <v-divider></v-divider>
+
+        <Typed />
+
+        <v-divider></v-divider>
+
+        <Carousel />
+
+      </v-card-text>
+    </v-card>
+  </v-container>
+</template>
+<script>
+// import ReturnButton from '@/components/return-button/index.vue'
+import ColorSelect from '@/components/md-editor/components/color-select/index.vue'
+import Theme from './components/theme.vue'
+import Typed from './components/typed.vue'
+import Carousel from './components/carousel.vue'
+import {
+  GetThemeData,
+  GetCurrentTheme,
+  SetCurrentTheme,
+  // SetThemeColorParamJson,
+  // GetThemeColorParamJson,
+  // SetThemeTypedParamJson,
+  // GetThemeTypedParamJson,
+} from '@/api/global.js'
+import { useUserStore } from '@/stores/user'
+export default {
+  name: 'admin-page-options-theme',
+  components: {
+    // ReturnButton,
+    ColorSelect,
+    Theme,//: () => import('./components/vuetify2.vue'),
+    Typed,//: () => import('./components/typed.vue'),
+    Carousel,
+  },
+  data: () => ({
+    userStore: useUserStore(),
+    form_data: null,
+    theme: '',
+    is_loading: false,
+    expansion_panel: null,
+  }),
+  computed: {
+    commaSeparatedRule() {
+      return (value) => {
+        // 使用正则表达式验证输入是否符合要求
+        if (!/^[\s\S]+(,[\s\S]+)*$/.test(value)) {
+          return this.$t('Message.Admin.Options.ExmpleABCMustBeSeparatedByCommasInEnglish');
+        } else {
+          return true;  // 返回true表示验证通过
+        }
+      };
+    },
+    is_dev_localhost() {
+      // console.log(window.location.host)
+      return window.location.host == 'localhost:8080'
+    }
+  },
+  methods: {
+    OpenLink(url) {
+      window.open(url, '_blank')
+    },
+    async GetListData() {
+      var user_token = this.$G_GetUserToken()
+      const res = await GetThemeData({
+        user_token: user_token
+      })
+      if (res.data.is_get) {
+        this.form_data = res.data.form_data
+        this.$forceUpdate()
+      }
+    },
+    async GetCurrentTheme() {
+      const res = await GetCurrentTheme()
+      if (res.data.is_get) {
+        this.theme = res.data.theme
+        this.$forceUpdate()
+      }
+    },
+    async SetData() {
+      this.is_loading = true
+      var user_token = this.$G_GetUserToken()
+      const res = await SetCurrentTheme({
+        theme_name: this.theme,
+        user_token: user_token
+      })
+      if (res.data.is_set) {
+        this.is_loading = false
+        this.GetListData()
+      } else {
+        this.is_loading = false
+      }
+    },
+  },
+  created() {
+    this.GetListData()
+    this.GetCurrentTheme()
+  },
+}
+</script>

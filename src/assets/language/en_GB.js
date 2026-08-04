@@ -1,0 +1,1 @@
+export default {"Message":{"langInfo":{"bcp47":"en-GB","flagicon":"gb","hello":"Hello World!","langcode":"en_GB","langname":"English (United Kingdom)","LanguageMaker":"Language Maker:HaiGeMaster","show":true,"usability":true,"vuetifyLangcode":"en"}}};

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="{lang}">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <link rel="manifest" href="/webmanifest.json" />
+    <meta name="keywords" content="{keywords}" />
+    <meta name="description" content="{description}" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="{og_title}" />
+    <meta property="og:description" content="{og_description}" />
+    <meta property="og:image" content="{og_image}" />
+    <meta property="og:url" content="{og_url}" />
+    <meta property="og:type" content="{og_type}" />
+    <meta property="og:site_name" content="{og_title}" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{og_title}" />
+    <meta name="twitter:description" content="{og_description}" />
+    <meta name="twitter:image" content="{og_image}" />
+
+    <!-- Canonical -->
+    <meta name="canonical" />
+
+    <!-- Structured Data (JSON-LD)  -->
+    <meta name="structured_data" />
+    
+    <!-- <script type="text/javascript">
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "rgskmt7i7n");
+    </script> -->
+  </head>
+
+  <style>
+    .loading-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      z-index: 9999;
+    }
+
+    .loading-text {
+      font-size: 5em;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+      animation: fade 1.5s infinite alternate;
+    }
+
+    .loading-image {
+      animation: fade 1.5s infinite alternate;
+    }
+
+    .loading-text-transparent {
+      color: transparent;
+    }
+
+    @keyframes fade {
+      0% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0.01;
+      }
+    }
+  </style>
+
+  <body>
+    <div id="client">
+      <div id="app">
+        <div class="loading-screen">
+          <div id="upcoming"></div>
+          <div id="content"></div>
+          <div class="loading-image">
+            <img src="/favicon.png" alt="loading" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+    <script>
+      if (
+        window.matchMedia("(prefers-color-scheme: dark)").matches ||
+        new Date().getHours() >= 20 ||
+        new Date().getHours() <= 8
+      ) {
+        document.querySelector(".loading-screen").style.backgroundColor =
+          "black";
+        document.querySelector(".loading-text").style.color = "white";
+      } else {
+        document.querySelector(".loading-screen").style.backgroundColor =
+          "white";
+        document.querySelector(".loading-text").style.color = "black";
+      }
+    </script>
+    <script id="seo"></script>
+  </body>
+</html>

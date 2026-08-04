@@ -1,0 +1,1 @@
+export default {"Message":{"langInfo":{"bcp47":"ja","flagicon":"jp","hello":"こんにちは、世界！","langcode":"ja_JP","langname":"日本語 (日本)","LanguageMaker":"言語作成者：HaiGeMaster","show":true,"usability":true,"vuetifyLangcode":"ja"}}};

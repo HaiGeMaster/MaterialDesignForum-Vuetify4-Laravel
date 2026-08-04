@@ -1,0 +1,1 @@
+export default {"Message":{"langInfo":{"bcp47":"de","flagicon":"de","hello":"Hallo Welt!","langcode":"de_DE","langname":"Deutsch (Deutschland)","LanguageMaker":"Sprachersteller: HaiGeMaster","show":true,"usability":true,"vuetifyLangcode":"de"}}};

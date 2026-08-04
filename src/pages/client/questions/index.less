@@ -1,0 +1,84 @@
+/* */
+@import "../../../vendor/variable.less";
+
+// .tab-item{
+//   padding: 16px;
+  
+//   @media (min-width: @screen-sm-min) {
+//     padding: 0;
+//   }
+// }
+
+#page-questions,
+#page-articles {
+
+  // .v-window__container {
+  //   padding: 16px;
+  // }
+
+  // padding: 0;
+  // padding: 16px;
+
+  
+  max-width: 830px;
+  padding: 0;
+
+  @media (min-width: @screen-sm-min) {
+    // padding: 16px;
+  }
+  @media (max-width: @screen-xs-max) {
+    // padding: 16px;
+    .tab-content{
+      padding: 0;
+    }
+  }
+
+  // &#page-articles,
+  // &#page-questions{
+  //   padding: 0;
+  // }
+
+  // max-width: 800px;
+
+  .item-list {
+    @media (max-width: @screen-xs-max) {
+      border-top: 1px solid rgba(0, 0, 0, .12);
+      border-right: none;
+      border-bottom: 1px solid rgba(0, 0, 0, .12);
+      border-left: none;
+      border-radius: 0;
+      box-shadow: none;
+
+      .theme--dark & {
+        border-top-color: rgba(255, 255, 255, .12);
+        border-bottom-color: rgba(255, 255, 255, .12);
+      }
+    }
+  }
+
+  // .mc-loading {
+  //   margin-bottom: -62px;
+  // }
+
+  ::v-deep(.v-list-item:before) {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    background: rgb(var(--v-theme-primary));
+    transition: width 0.3s ease;
+  }
+
+  ::v-deep(.v-list-item.v-list-item--active:before) {
+    width: 5px;
+  }
+}
+
+
+// #page-notifications{
+//   padding: 0 8px 0 8px;
+
+// }

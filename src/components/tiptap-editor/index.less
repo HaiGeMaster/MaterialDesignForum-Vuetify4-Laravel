@@ -1,0 +1,151 @@
+@import './style/details.less';
+@import './style/table.less';
+@import './style/mention.less';
+@import './style/placeholder.less';
+@import './style/drag-handle.less';
+
+// #page-question,
+// #page-article {
+//   .tiptap {
+//     a {
+//       text-decoration: none;
+//       outline: 0;
+//       color: rgb(var(--mdui-color-primary));
+//     }
+
+//     a:hover {
+//       text-decoration: underline;
+//     }
+//   }
+// }
+
+.ProseMirror {
+  height: 100%;
+  outline: none;
+  box-shadow: none;
+
+  a {
+    text-decoration: none;
+    outline: 0;
+    color: rgb(var(--mdui-color-primary));
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  ol,
+  ui,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 4px 0 4px 0;
+  }
+
+  blockquote {
+    // margin: 1em 3em 1em 2em;
+    // margin: 1em 3em 1em 1em;
+    margin: 1em 0 1em 0;
+    padding: .3em .3em .3em 1em;
+    font-weight: 400;
+    border-left: 4px solid rgb(128 128 128 / 40%);
+  }
+
+  img {
+    // max-width: 100%;
+    max-width: 97%;
+    margin: 8px;
+    height: auto;
+    border-radius: 8px;
+
+    &.ProseMirror-selectednode {
+      outline: 3px solid rgb(var(--mdui-color-primary));
+    }
+  }
+
+
+  code {
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 85%;
+
+    background-color: rgba(223, 223, 223, 0.5);
+
+    .mdui-theme-dark & {
+      background-color: rgba(66, 66, 66, 0.7);
+    }
+  }
+
+  pre {
+    outline: none;
+    box-shadow: none;
+    font-family: 'JetBrainsMono', monospace;
+
+    code {
+      background-color: rgba(247, 247, 249, 0) !important;
+      padding-left: 6px;
+      padding-right: 6px;
+      background: none;
+      font-size: 0.8rem;
+    }
+
+    .hljs-comment,
+    .hljs-quote {
+      color: #616161;
+    }
+
+    .hljs-variable,
+    .hljs-template-variable,
+    .hljs-attribute,
+    .hljs-tag,
+    .hljs-name,
+    .hljs-regexp,
+    .hljs-link,
+    .hljs-name,
+    .hljs-selector-id,
+    .hljs-selector-class {
+      color: #F98181;
+    }
+
+    .hljs-number,
+    .hljs-meta,
+    .hljs-built_in,
+    .hljs-builtin-name,
+    .hljs-literal,
+    .hljs-type,
+    .hljs-params {
+      color: #FBBC88;
+    }
+
+    .hljs-string,
+    .hljs-symbol,
+    .hljs-bullet {
+      color: #B9F18D;
+    }
+
+    .hljs-keyword,
+    .hljs-selector-tag {
+      color: #70CFF8;
+    }
+
+    .hljs-emphasis {
+      font-style: italic;
+    }
+
+    .hljs-strong {
+      font-weight: 700;
+    }
+  }
+
+
+
+}
+
+.ProseMirror:focus {
+  outline: none;
+  box-shadow: none;
+}
