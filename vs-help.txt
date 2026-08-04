@@ -2,7 +2,7 @@
 
 npx tauri icon 源图.png
 npx tauri icon 源图.png
-npx tauri icon tauri_app_icon1.png
+npx tauri icon tauri_app_icon.png
 
 删除// /*类注释
 \/\*[\s\S]*\*\/|\/\/.*
