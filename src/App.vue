@@ -320,51 +320,48 @@ import BottomNavigation from "@/components/bottom-navigation/index.vue";
 
 // import MdEditor from '@/components/md-editor/index.vue'
 
-import ResetDialog from "@/components/account/reset.vue";
-import LoginDialog from "@/components/account/login.vue";
-import RegisterDialog from "@/components/account/register.vue";
-import UpdateBanner from "@/components/update-banner/index.vue";
-import NoAllowUse from "@/components/no-allow-use/index.vue";
-import UsersDialog from "@/components/users-dialog/index.vue";
 import AddFabButton from "@/components/add-fab-button/index.vue";
-import ToTopFabButton from "@/components/to-top-fab/index.vue";
-import DeleteDialog from "@/components/dialog/delete-dialog/index.vue";
-import SnackbarQueue from "@/components/snackbar-queue/index.vue";
-import CommentsDialogV1 from "@/components/comments-v1/dialog.vue";
-import TopicDialog from "@/components/dialog/topic-dialog/index.vue";
-import ReportDialog from "@/components/dialog/report-dialog/index.vue";
-import UseCookieDialog from "@/components/dialog/use-cookie-dialog/index.vue";
-import EditInfoDialog from "@/components/dialog/edit-info-dialog/index.vue";
+import CommentReplyBottomSheetV1 from "@/components/comments-v1/components/comment-reply-bottom-sheet/sheet.vue";
+import NoAllowUse from "@/components/no-allow-use/index.vue";
+import SettingNavigationDrawer from "@/components/setting-navigation-drawer/index.vue";
 import ShareBottomSheet from "@/components/share-bottom-sheet/index.vue";
+import SnackbarQueue from "@/components/snackbar-queue/index.vue";
+import ToTopFabButton from "@/components/to-top-fab/index.vue";
+import UpdateBanner from "@/components/update-banner/index.vue";
+
+import CommentsDialogV1 from "@/components/comments-v1/dialog.vue";
+import CommentReplyEditDialog from "@/components/dialog/comment-reply-edit-dialog/index.vue";
+import DeleteDialog from "@/components/dialog/delete-dialog/index.vue";
+import EditInfoDialog from "@/components/dialog/edit-info-dialog/index.vue";
+import ReportDialog from "@/components/dialog/report-dialog/index.vue";
+import TopicDialog from "@/components/dialog/topic-dialog/index.vue";
+import UseCookieDialog from "@/components/dialog/use-cookie-dialog/index.vue";
 import UserGroupEditDialog from "@/components/dialog/user-group-edit-dialog/index.vue";
 import UserGroupSwitchDialog from "@/components/dialog/usergroup-switch-dialog/index.vue";
-import SearchFabDialog from "@/components/fab-dialog/search-fab-dialog/new-index.vue";
-import SettingNavigationDrawer from "@/components/setting-navigation-drawer/index.vue";
-import CommentReplyEditDialog from "@/components/dialog/comment-reply-edit-dialog/index.vue";
-import TopicSelectorDialog from "@/components/md-editor/components/topic-selector-dialog/index.vue";
-import CommentReplyBottomSheetV1 from "@/components/comments-v1/components/comment-reply-bottom-sheet/sheet.vue";
 import NewEditorFabDialog from "@/components/fab-dialog/editor-fab-dialog/index.vue";
+import SearchFabDialog from "@/components/fab-dialog/search-fab-dialog/new-index.vue";
+import TopicSelectorDialog from "@/components/md-editor/components/topic-selector-dialog/index.vue";
+import UsersDialog from "@/components/users-dialog/index.vue";
+import LoginDialog from "@/components/account/login.vue";
+import RegisterDialog from "@/components/account/register.vue";
+import ResetDialog from "@/components/account/reset.vue";
 
-// const RegisterDialog = () => import('@/components/account/register.vue')
-// const LoginDialog = () => import('@/components/account/login.vue')
-// const ResetDialog = () => import('@/components/account/reset.vue')
-// const UsersDialog = () => import('@/components/users-dialog/index.vue')
-// const ReportDialog = () => import('@/components/dialog/report-dialog/index.vue')
-// const TopicDialog = () => import('@/components/dialog/topic-dialog/index.vue')
-// const CommentsDialogV1 = () => import('@/components/comments-dialog-v1/index.vue')
-// const EditInfoDialog = () => import('@/components/dialog/edit-info-dialog/index.vue')
-// const CommentReplyEditDialog = () => import('@/components/dialog/comment-reply-edit-dialog/index.vue')
-// const TopicSelectorDialog = () => import('@/components/md-editor/components/topic-selector-dialog/index.vue')
-// const UserGroupEditDialog = () => import('@/components/dialog/user-group-edit-dialog/index.vue')
-// const UserGroupSwitchDialog = () => import('@/components/dialog/usergroup-switch-dialog/index.vue')
-// const DeleteDialog = () => import('@/components/dialog/delete-dialog/index.vue')
-// const UseCookieDialog = () => import('@/components/dialog/use-cookie-dialog/index.vue')
-// const AddFabButton = () => import('@/components/add-fab-button/index.vue')
-// const ToTopFabButton = () => import('@/components/to-top-fab/index.vue')
-// const SearchFabDialog = () => import('@/components/fab-dialog/search-fab-dialog/new-index.vue')
-// const SettingNavigationDrawer = () => import('@/components/setting-navigation-drawer/index.vue')
-// const CommentReplyBottomSheetV1 = () => import('@/components/comments-v1/components/comment-reply-bottom-sheet/sheet/index.vue')
-// const NewEditorFabDialog = () => import('@/components/fab-dialog/editor-fab-dialog/index.vue')
+// const CommentsDialogV1 = defineAsyncComponent(() => import("@/components/comments-v1/dialog.vue"));
+// const CommentReplyEditDialog = defineAsyncComponent(() => import("@/components/dialog/comment-reply-edit-dialog/index.vue"));
+// const DeleteDialog = defineAsyncComponent(() => import("@/components/dialog/delete-dialog/index.vue"));
+// const EditInfoDialog = defineAsyncComponent(() => import("@/components/dialog/edit-info-dialog/index.vue"));
+// const ReportDialog = defineAsyncComponent(() => import("@/components/dialog/report-dialog/index.vue"));
+// const TopicDialog = defineAsyncComponent(() => import("@/components/dialog/topic-dialog/index.vue"));
+// const UseCookieDialog = defineAsyncComponent(() => import("@/components/dialog/use-cookie-dialog/index.vue"));
+// const UserGroupEditDialog = defineAsyncComponent(() => import("@/components/dialog/user-group-edit-dialog/index.vue"));
+// const UserGroupSwitchDialog = defineAsyncComponent(() => import("@/components/dialog/usergroup-switch-dialog/index.vue"));
+// const NewEditorFabDialog = defineAsyncComponent(() => import("@/components/fab-dialog/editor-fab-dialog/index.vue"));
+// const SearchFabDialog = defineAsyncComponent(() => import("@/components/fab-dialog/search-fab-dialog/new-index.vue"));
+// const TopicSelectorDialog = defineAsyncComponent(() => import("@/components/md-editor/components/topic-selector-dialog/index.vue"));
+// const UsersDialog = defineAsyncComponent(() => import("@/components/users-dialog/index.vue"));
+// const LoginDialog = defineAsyncComponent(() => import("@/components/account/login.vue"));
+// const RegisterDialog = defineAsyncComponent(() => import("@/components/account/register.vue"));
+// const ResetDialog = defineAsyncComponent(() => import("@/components/account/reset.vue"));
 
 import { useMainStore } from "@/stores/main";
 import { useUserStore } from "@/stores/user";
@@ -378,33 +375,33 @@ export default {
   name: "App",
   components: {
     // MdEditor,
-    NewEditorFabDialog,
-    LoginDialog,
-    RegisterDialog,
-    ResetDialog,
-    UsersDialog,
-    ReportDialog,
-    TopicDialog,
-    CommentsDialogV1,
-    EditInfoDialog,
+    AddFabButton,
+    AppBar,
+    BottomNavigation,
+    CommentReplyBottomSheetV1,
     CommentReplyEditDialog,
+    CommentsDialogV1,
+    DeleteDialog,
+    EditInfoDialog,
+    LoginDialog,
+    NavigationDrawer,
+    NewEditorFabDialog,
+    NoAllowUse,
+    RegisterDialog,
+    ReportDialog,
+    ResetDialog,
+    SearchFabDialog,
+    SettingNavigationDrawer,
+    ShareBottomSheet,
+    SnackbarQueue,
+    ToTopFabButton,
+    TopicDialog,
     TopicSelectorDialog,
+    UpdateBanner,
+    UseCookieDialog,
     UserGroupEditDialog,
     UserGroupSwitchDialog,
-    DeleteDialog,
-    UseCookieDialog,
-    AddFabButton,
-    ToTopFabButton,
-    AppBar,
-    NavigationDrawer,
-    SettingNavigationDrawer,
-    BottomNavigation,
-    SnackbarQueue,
-    SearchFabDialog,
-    UpdateBanner,
-    NoAllowUse,
-    ShareBottomSheet,
-    CommentReplyBottomSheetV1,
+    UsersDialog,
   },
   data() {
     return {

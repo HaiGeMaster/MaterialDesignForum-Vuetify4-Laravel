@@ -57,6 +57,7 @@ import AdminOptionsOauth from '@/pages/admin/options/oauth.vue';
 // const ClientUsers = () => import('@/pages/client/users/index.vue');
 // const ClientNotifications = () => import('@/pages/client/notifications/index.vue');
 // const ClientNotificationsSetting = () => import('@/pages/client/notifications/setting/index.vue');
+// const ClientLogin = () => import('@/pages/client/login/index.vue');
 
 // const AdminHome = () => import('@/pages/admin/index/index.vue');
 // const AdminTopics = () => import('@/pages/admin/topics/index.vue');
@@ -74,12 +75,12 @@ import AdminOptionsOauth from '@/pages/admin/options/oauth.vue';
 // const AdminOptionsMail = () => import('@/pages/admin/options/mail.vue');
 // const AdminOptionsOauth = () => import('@/pages/admin/options/oauth.vue');
 
-const Install = () => import('@/pages/new-install/index.vue')
+// const Install = () => import('@/pages/new-install/index.vue')
 
 import NotFound from '@/pages/404/index.vue';
 
-import Test from '@/pages/test/index.vue';
-import Badges from '@/pages/client/badges/index.vue';
+// import Test from '@/pages/test/index.vue';
+// import Badges from '@/pages/client/badges/index.vue';
 
 const Info = () => import('@/pages/client/info/index.vue');
 // import Xunzhang from '@/pages/test/xunzhang.vue';
@@ -94,10 +95,10 @@ const Info = () => import('@/pages/client/info/index.vue');
 
 const routes = [
   // { path: '/mc', name: 'mc', component: MC },
-  { path: '/test', name: 'test', component: Test },
-  { path: '/badges', name: 'badges', component: Badges },
+  // { path: '/test', name: 'test', component: Test },
+  // { path: '/badges', name: 'badges', component: Badges },
   { path: '/info', name: 'info', component: Info },
-  { path: '/install', name: 'install', component: Install },
+  // { path: '/install', name: 'install', component: Install },
   // { path: '/xunzhang', name: 'xunzhang', component: Xunzhang },
   { path: '/', name: 'home', component: ClientHome, },
   { path: '/topics', name: 'topics', component: ClientTopics },

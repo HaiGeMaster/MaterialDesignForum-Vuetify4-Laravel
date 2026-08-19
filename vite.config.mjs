@@ -164,6 +164,95 @@ export default defineConfig(({ mode }) => {
         outDir: '../MaterialDesignForum-Laravel/public/themes/MaterialDesignForum-Vuetify4', // 打包 web 专用
       };
     }
+
+    // 读取 src/components 和 src/pages 下的子目录，用于分包
+    function getSubDirs(dirPath) {
+      return fs.existsSync(dirPath)
+        ? fs.readdirSync(dirPath, { withFileTypes: true })
+            .filter(d => d.isDirectory())
+            .map(d => d.name)
+        : []
+    }
+    const componentNames = getSubDirs(path.resolve(__dirname, 'src/components'))
+    const pageNames = getSubDirs(path.resolve(__dirname, 'src/pages'))
+
+    // pages 二级子目录：如 admin/answers、client/home 等
+    const nestedPageNames = []
+    for (const page of pageNames) {
+      const subDirs = getSubDirs(path.resolve(__dirname, 'src/pages', page))
+      for (const sub of subDirs) {
+        nestedPageNames.push(`${page}/${sub}`)
+      }
+    }
+
+    // components 多级子目录：扫描到 3 级
+    // lv1: components/<name>/       — 单个 .vue 或子目录
+    // lv2: components/<name>/<sub>/ — 二级子目录
+    // lv3: components/<name>/<sub>/<subsub>/ — 三级子目录
+    const cmpPaths2 = []  // 如 dialog/delete-dialog
+    const cmpPaths3 = []  // 如 fab-dialog/search-fab-dialog/v1
+    for (const name of componentNames) {
+      const subs = getSubDirs(path.resolve(__dirname, 'src/components', name))
+      for (const sub of subs) {
+        cmpPaths2.push(`${name}/${sub}`)
+        const subSubs = getSubDirs(path.resolve(__dirname, 'src/components', name, sub))
+        for (const subSub of subSubs) {
+          cmpPaths3.push(`${name}/${sub}/${subSub}`)
+        }
+      }
+    }
+
+    const existingBuild = config.build ?? {}
+    existingBuild.rollupOptions = existingBuild.rollupOptions ?? {}
+    existingBuild.rollupOptions.output = existingBuild.rollupOptions.output ?? {}
+
+    // 保留已存在的 manualChunks 或创建新的
+    const prevManualChunks = existingBuild.rollupOptions.output.manualChunks
+
+    existingBuild.rollupOptions.output.manualChunks = (id, { getModuleInfo }) => {
+      // 先检查之前已有的 manualChunks 逻辑
+      if (typeof prevManualChunks === 'function') {
+        const result = prevManualChunks(id, { getModuleInfo })
+        if (result) return result
+      }
+
+      // 三级组件：components/<name>/<sub>/<subsub>/
+      for (const path of cmpPaths3) {
+        if (id.includes(`/components/${path}/`)) {
+          return `component-${path.replace(/\//g, '-')}`
+        }
+      }
+
+      // 二级组件：components/<name>/<sub>/
+      for (const path of cmpPaths2) {
+        if (id.includes(`/components/${path}/`)) {
+          return `component-${path.replace('/', '-')}`
+        }
+      }
+
+      // 一级组件：components/<name>/
+      for (const name of componentNames) {
+        if (id.includes(`/components/${name}/`)) {
+          return `component-${name}`
+        }
+      }
+
+      // 二级页面：pages/<page>/<sub>/
+      for (const name of nestedPageNames) {
+        if (id.includes(`/pages/${name}/`)) {
+          return `page-${name.replace('/', '-')}`
+        }
+      }
+
+      // 一级页面：pages/<name>/
+      for (const name of pageNames) {
+        if (id.includes(`/pages/${name}/`)) {
+          return `page-${name}`
+        }
+      }
+    }
+
+    config.build = existingBuild
   }
 
   return config;
