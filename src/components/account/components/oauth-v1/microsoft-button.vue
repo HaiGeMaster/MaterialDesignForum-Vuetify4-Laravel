@@ -26,7 +26,7 @@ export default {
   name: "common-account-components-oauth-v1-microsoft-button",
   methods: {
     Onclick() {
-      window.open(this.$G_CrossDomain() + '/auth/microsoft/redirect');
+      window.open(this.$G_CrossDomain() + '/oauth/redirect/microsoft');
     }
   },
 }

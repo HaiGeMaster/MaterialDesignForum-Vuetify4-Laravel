@@ -21,7 +21,7 @@ export default {
   name: "common-account-components-oauth-v1-github-button",
   methods: {
     Onclick() {
-      window.open(this.$G_CrossDomain() + "/auth/github/redirect");
+      window.open(this.$G_CrossDomain() + "/oauth/redirect/github");
     },
   },
 };

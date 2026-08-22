@@ -29,7 +29,7 @@ export default {
   name: "common-account-components-oauth-v1-google-button",
   methods: {
     Onclick() {
-      window.open(this.$G_CrossDomain() + '/auth/google/redirect');
+      window.open(this.$G_CrossDomain() + '/oauth/redirect/google');
     }
   },
 }

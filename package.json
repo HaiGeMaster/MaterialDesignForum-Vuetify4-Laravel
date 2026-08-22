@@ -2,7 +2,7 @@
   "name": "vuetify-project",
   "private": true,
   "type": "module",
-  "version": "2026.08.15",
+  "version": "2026.08.22",
   "author": "HaiGeMaster(https://github.com/HaiGeMaster)",
   "scripts": {
     "dev": "vite --host",
