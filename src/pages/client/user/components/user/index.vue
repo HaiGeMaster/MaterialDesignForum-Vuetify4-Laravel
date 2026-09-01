@@ -284,8 +284,6 @@ export default {
       // fileInput.accept = 'image/png,image/jpg,image/jpeg,image/gif';
       fileInput.accept = 'image/png,image/jpg,image/jpeg';
       fileInput.style.display = 'none';
-      //创建一个img
-      const previewImg = this.$refs.cover
       //将input添加到页面
       document.body.appendChild(fileInput);
 
@@ -293,27 +291,32 @@ export default {
       const _this = this;
       fileInput.onchange = function (e) {
         const file = e.target.files[0];
-        const reader = new FileReader();
-        reader.onload = function (event) {
-          previewImg.src = event.target.result;
-          cover.style['background-image'] = `url(${event.target.result})`;
-          _this.UploadCover(previewImg.src);
-        };
-        reader.readAsDataURL(file);
+        if (!file) return;
+        // 用 objectURL 预览，multipart 二进制直传
+        const url = URL.createObjectURL(file);
+        cover.style['background-image'] = `url(${url})`;
+        _this.UploadCover(file);
       };
       fileInput.click();
     },
-    async UploadCover(src) {
+    async UploadCover(file) {
       this.upload_cover_loading = true
-      const response = await UploadCover({
-        user_token: this.$G_GetUserToken(),
-        cover: src,
-      })
-      if (response.data.is_upload) {
-        this.upload_cover_loading = false
-      } else {
-        this.upload_cover_loading = false
+      try {
+        const response = await UploadCover({
+          user_token: this.$G_GetUserToken(),
+          cover: file,
+        })
+        if (response.data.is_upload && response.data.user) {
+          // 上传成功：立即用后端返回的最新用户数据更新页面与全局登录状态
+          this.$emit('update_user', response.data.user)
+          this.snackbarStore.addMessage({ text: this.$t('Message.Components.Snackbar.Updated'), color: 'success' })
+        } else {
+          this.snackbarStore.addMessage({ text: this.$t('Message.Components.Snackbar.Bad'), color: 'error' })
+        }
+      } catch (error) {
+        this.snackbarStore.addMessage({ text: this.$t('Message.Components.Snackbar.Bad'), color: 'error' })
       }
+      this.upload_cover_loading = false
     },
     handleFileSelectAvatar() {
       //创建一个input
@@ -328,28 +331,31 @@ export default {
       const _this = this;
       fileInput.onchange = function (e) {
         const file = e.target.files[0];
-        const reader = new FileReader();
-        reader.onload = function (event) {
-          avatar.src = event.target.result;
-          _this.UploadAvatar(
-            avatar.src
-          );
-        };
-        reader.readAsDataURL(file);
+        if (!file) return;
+        // 用 objectURL 预览，multipart 二进制直传
+        avatar.src = URL.createObjectURL(file);
+        _this.UploadAvatar(file);
       };
       fileInput.click();
     },
-    async UploadAvatar(src) {
+    async UploadAvatar(file) {
       this.upload_avatar_loading = true
-      const response = await UploadAvatar({
-        user_token: this.$G_GetUserToken(),
-        avatar: src,
-      })
-      if (response.data.is_upload) {
-        this.upload_avatar_loading = false
-      } else {
-        this.upload_avatar_loading = false
+      try {
+        const response = await UploadAvatar({
+          user_token: this.$G_GetUserToken(),
+          avatar: file,
+        })
+        if (response.data.is_upload && response.data.user) {
+          // 上传成功：立即用后端返回的最新用户数据更新页面与全局登录状态
+          this.$emit('update_user', response.data.user)
+          this.snackbarStore.addMessage({ text: this.$t('Message.Components.Snackbar.Updated'), color: 'success' })
+        } else {
+          this.snackbarStore.addMessage({ text: this.$t('Message.Components.Snackbar.Bad'), color: 'error' })
+        }
+      } catch (error) {
+        this.snackbarStore.addMessage({ text: this.$t('Message.Components.Snackbar.Bad'), color: 'error' })
       }
+      this.upload_avatar_loading = false
     },
   },
   watch: {

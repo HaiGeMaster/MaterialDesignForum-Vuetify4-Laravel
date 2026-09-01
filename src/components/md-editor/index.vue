@@ -1054,24 +1054,17 @@ export default {
     this.editor.destroy()
   },
   methods: {
-    // 封装单张图片上传逻辑（复用你的 UploadImage 方法）
+    // 封装单张图片上传逻辑（multipart 二进制直传）
     async uploadSingleImage(file) {
       try {
-        // 1. 读取文件为 Base64
-        const reader = new FileReader()
-        reader.readAsDataURL(file)
-        await new Promise(resolve => reader.onload = resolve) // 等待读取完成
-
-        const base64data = reader.result.split(',')[1]
-
-        // 2. 调用上传接口
+        // 调用上传接口
         const response = await UploadImage({
           user_token: this.$G_GetUserToken(),
           type: this.edit_type,
-          image: base64data,
+          image: file,
         })
 
-        // 3. 返回上传结果
+        // 返回上传结果
         if (response.data.is_upload) {
           return { success: true, url: response.data.upload_url }
         } else {
@@ -1096,51 +1089,38 @@ export default {
         const file = event.target.files[0];
         if (!file) return;
 
-        // 使用 FileReader 读取文件数据并转换为 base64
-        const reader = new FileReader();
-        reader.readAsDataURL(file);
-        reader.onload = async () => {
+        this.image_is_loading = true
 
-          this.image_is_loading = true
+        try {
+          // 使用 Axios 发送 multipart 请求直接上传文件
+          const response = await UploadImage({
+            user_token: this.$G_GetUserToken(),
+            type: this.edit_type,
+            image: file,
+          });
 
-          const base64data = reader.result.split(',')[1]; // 获取 base64 格式的图片数据
+          // console.log('Upload image response:', response.data);
 
-          try {
-            // 使用 Axios 发送 POST 请求上传图片
-            const response = await UploadImage({
-              user_token: this.$G_GetUserToken(),
-              type: this.edit_type,
-              image: base64data, // 直接发送 base64 数据
-            });
+          // //只捕获从{到}的内容
+          // const ress = response.data.match(/\{([^}]+)\}/g)
+          // console.log('ress',ress)
+          // //转换为json对象
+          // const res = JSON.parse(ress[0])
+          // console.log('res',res)
 
-            // console.log('Upload image response:', response.data);
-
-            // //只捕获从{到}的内容
-            // const ress = response.data.match(/\{([^}]+)\}/g)
-            // console.log('ress',ress)
-            // //转换为json对象
-            // const res = JSON.parse(ress[0])
-            // console.log('res',res)
-
-            // 如果成功获取到链接，则插入到编辑器中
-            if (response.data.is_upload) {
-              this.editor.chain().focus().setImage({ src: this.$G_ImgHandle(response.data.upload_url) }).run();
-              this.image_is_loading = false
-            } else {
-              alert('Failed to upload image or get image URL');
-              this.image_is_loading = false
-            }
-          } catch (error) {
-            // console.error('Error uploading image:', error);
-            alert('Error uploading image. Please try again.');
+          // 如果成功获取到链接，则插入到编辑器中
+          if (response.data.is_upload) {
+            this.editor.chain().focus().setImage({ src: this.$G_ImgHandle(response.data.upload_url) }).run();
+            this.image_is_loading = false
+          } else {
+            alert('Failed to upload image or get image URL');
             this.image_is_loading = false
           }
-        };
-        reader.onerror = error => {
-          // console.error('Error reading file:', error);
-          alert('Error reading file. Please try again.');
+        } catch (error) {
+          // console.error('Error uploading image:', error);
+          alert('Error uploading image. Please try again.');
           this.image_is_loading = false
-        };
+        }
       };
 
       // 模拟点击文件选择器

@@ -6,7 +6,7 @@ const user = userStore.getUser
 
 <template>
   <v-container id="page-user">
-    <User :user="user" />
+    <User :user="user" @update_user="OnUpdateUser" />
     <Contexts v-if="user != null" :user="user" />
   </v-container>
 </template>
@@ -64,6 +64,11 @@ export default {
       if (response.data.is_get) {
         this.user = response.data.user
       }
+    },
+    // 头像/封面上传成功后，立即用后端返回的最新用户数据更新页面，并同步全局登录用户
+    OnUpdateUser(user) {
+      this.user = user
+      this.userStore.setUser(user)
     }
   },
   created() {

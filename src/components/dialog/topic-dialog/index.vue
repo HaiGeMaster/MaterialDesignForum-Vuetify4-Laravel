@@ -119,6 +119,7 @@ export default {
     TopicTitle: '',
     TopicDescription: '',
     TopicCover: '',
+    TopicCoverFile: null,
     is_loading: false,
 
     has_new_cover: false,
@@ -149,13 +150,14 @@ export default {
       const _this = this
       fileInput.onchange = function (e) {
         const file = e.target.files[0];
-        const reader = new FileReader();
-        reader.onload = function (event) {
-          previewImg.src = event.target.result;
-          _this.TopicCover = event.target.result;
-          _this.$forceUpdate()
-        };
-        reader.readAsDataURL(file);
+        if (!file) return;
+        // 保存文件对象，提交时 multipart 二进制直传
+        _this.TopicCoverFile = file;
+        // 用 objectURL 预览，避免 base64 转换
+        const url = URL.createObjectURL(file);
+        previewImg.src = url;
+        _this.TopicCover = url;
+        _this.$forceUpdate()
       };
       fileInput.click();
     },
@@ -166,7 +168,7 @@ export default {
           const response = await AddTopic({
             name: this.TopicTitle,
             description: this.TopicDescription,
-            cover: this.$refs.topic_dialog_preview_image.src,
+            cover: this.TopicCoverFile,
             user_token: this.$G_GetUserToken(),
           })
           if (response.data.is_add == true) {
@@ -179,15 +181,12 @@ export default {
             this.is_loading = false
           }
         } else if (this.dialogStore.getTopicDialog.mode == 'edit') {
-          const img_cover_src = this.$refs.topic_dialog_preview_image.src
-          // console.log(img_cover_src)
+          // 编辑时只有选择新封面才上传；否则不传 cover 保持原封面
           const response = await EditTopic({
             topic_id: this.edit_topic.topic_id,
             name: this.TopicTitle,
             description: this.TopicDescription,
-            cover: img_cover_src.indexOf('covers') != -1 ? '' : img_cover_src,
-            // cover: this.TopicCover.indexOf('covers') != -1 ? '' : this.$refs.topic_dialog_preview_image.src,
-            // cover:this.has_new_cover?this.$refs.topic_dialog_preview_image.src:'',
+            cover: this.TopicCoverFile,
             user_token: this.$G_GetUserToken(),
           })
           if (response.data.is_edit == true) {
@@ -215,6 +214,7 @@ export default {
         this.TopicTitle = ''
         this.TopicDescription = ''
         this.TopicCover = ''
+        this.TopicCoverFile = null
         this.$emit('model', false)
       }
     },

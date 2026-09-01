@@ -67,7 +67,10 @@ console.log('window.location.href', window.location.href);
 // });
 
 axios.interceptors.request.use(function (config) {
-  config.headers['Content-Type'] = 'application/x-www-form-urlencoded; charset=UTF-8';
+  // FormData 请求由浏览器自动生成 multipart/form-data boundary，不能覆盖 Content-Type
+  if (!(config.data instanceof FormData)) {
+    config.headers['Content-Type'] = 'application/x-www-form-urlencoded; charset=UTF-8';
+  }
   // 自动附加 Authorization Bearer token
   const token = GetUserToken();
   if (token) {
@@ -1746,13 +1749,16 @@ export async function GetReports({ order, page, user_token, per_page = 20, searc
  * @param {*} cover = ''
  * @param {*} user_token
  */
-export async function AddTopic({ name, description, cover = '', user_token }) {
-  const response = await axios.post(`/api/topic/add`, {
-    name,
-    description,
-    cover,
-    user_token
-  });
+export async function AddTopic({ name, description, cover = null, user_token }) {
+  const formData = new FormData();
+  formData.append('name', name);
+  formData.append('description', description);
+  formData.append('user_token', user_token);
+  // cover 为 File 时以 multipart 文件形式上传
+  if (cover instanceof File) {
+    formData.append('cover', cover);
+  }
+  const response = await axios.post(`/api/topic/add`, formData);
   return response;
 }
 
@@ -1764,14 +1770,17 @@ export async function AddTopic({ name, description, cover = '', user_token }) {
  * @param {*} cover = ''
  * @param {*} user_token
  */
-export async function EditTopic({ topic_id, name, description, cover = '', user_token }) {
-  const response = await axios.post(`/api/topic/edit`, {
-    topic_id,
-    name,
-    description,
-    cover,
-    user_token
-  });
+export async function EditTopic({ topic_id, name, description, cover = null, user_token }) {
+  const formData = new FormData();
+  formData.append('topic_id', topic_id);
+  formData.append('name', name);
+  formData.append('description', description);
+  formData.append('user_token', user_token);
+  // cover 为 File 时以 multipart 文件形式上传；未传文件则不修改封面
+  if (cover instanceof File) {
+    formData.append('cover', cover);
+  }
+  const response = await axios.post(`/api/topic/edit`, formData);
   return response;
 }
 
@@ -1995,10 +2004,13 @@ export async function ResetAvatar({ user_id, user_token }) {
  * @param {*} avatar
  */
 export async function UploadAvatar({ user_token, avatar }) {
-  const response = await axios.post(`/api/user/avatar/upload`, {
-    user_token,
-    avatar
-  });
+  const formData = new FormData();
+  formData.append('user_token', user_token);
+  // avatar 为 File 时以 multipart 文件形式上传
+  if (avatar instanceof File) {
+    formData.append('avatar', avatar);
+  }
+  const response = await axios.post(`/api/user/avatar/upload`, formData);
   return response;
 }
 
@@ -2021,10 +2033,13 @@ export async function ResetCover({ user_id, user_token }) {
  * @param {*} cover
  */
 export async function UploadCover({ user_token, cover }) {
-  const response = await axios.post(`/api/user/cover/upload`, {
-    user_token,
-    cover
-  });
+  const formData = new FormData();
+  formData.append('user_token', user_token);
+  // cover 为 File 时以 multipart 文件形式上传
+  if (cover instanceof File) {
+    formData.append('cover', cover);
+  }
+  const response = await axios.post(`/api/user/cover/upload`, formData);
   return response;
 }
 
@@ -2296,11 +2311,14 @@ export async function SetUserLanguage({ user_token, lang }) {
  * @param {*} image
  */
 export async function UploadImage({ user_token, type, image }) {
-  const response = await axios.post(`/api/user/upload/image`, {
-    user_token,
-    type,
-    file: image
-  });
+  const formData = new FormData();
+  formData.append('user_token', user_token);
+  formData.append('type', type);
+  // image 为 File 时以 multipart 文件形式上传
+  if (image instanceof File) {
+    formData.append('file', image);
+  }
+  const response = await axios.post(`/api/user/upload/image`, formData);
   return response;
 }
 

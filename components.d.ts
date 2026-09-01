@@ -11,6 +11,7 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    2: typeof import('./src/components/button/close copy 2.vue')['default']
     AddFabButton: typeof import('./src/components/add-fab-button/index.vue')['default']
     AnswersPage: typeof import('./src/components/answers/answers-page.vue')['default']
     Appbar: typeof import('./src/components/appbar/index.vue')['default']
@@ -33,6 +34,7 @@ declare module 'vue' {
     Comments: typeof import('./src/components/comments/index.vue')['default']
     CommentsV1: typeof import('./src/components/comments-v1/index.vue')['default']
     CommonFabDialog: typeof import('./src/components/fab-dialog/common-fab-dialog/index.vue')['default']
+    copy: typeof import('./src/components/fab-dialog/template-fab-dialog/index copy.vue')['default']
     CoverUpload: typeof import('./src/components/cover-upload/index.vue')['default']
     Csd_appbar: typeof import('./src/components/csd/csd_appbar.vue')['default']
     Csd_main: typeof import('./src/components/csd/csd_main.vue')['default']
